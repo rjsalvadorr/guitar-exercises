@@ -69,25 +69,27 @@ openChordsOneTab = {
 openChordsTwo = {
   \clef "treble_8"
   \time 3/4
-  \key c \major
+  \key b \major
   
-  <g, b d'>4^"G major ( V )" g,8 b d' b
+  <fs, as cs'>4^"F♯ major ( V )" fs,8 as cs' as
   
-  <b, d' g'>4 b,8 d' g' d'
+  <as, cs' fs'>4 as,8 cs' fs' cs'
   
-  <d g' b'>4 d8 g' b' g' \break
+  <cs fs' as'>4 cs8 fs' as' fs' \break
+
   
-  <b, d' f'>4^"B diminished  ( vii° )" b,8 d' f' d'
+  <as, cs' e'>4^"A♯ diminished  ( vii° )" as,8 cs' e' cs'
   
-  <d f' b'>4 d8 f' b' f'
+  <cs e' as'>4 cs8 e' as' e'
   
-  <f b' d''>4 f8 b' d' b' \break
+  <e as' cs''>4 e8 as' cs' as' \break
+
   
-  <c e' g'>4^"C major ( I )" c8 e' g' e'
+  <b, ds' fs'>4^"B major ( I )" b,8 ds' fs' ds'
   
-  <e g' c''>4 e8 g' c'' g'
+  <ds fs' b'>4 ds8 fs' b' fs'
   
-  <g c'' e''>4 g8 c'' e'' c'' \break
+  <fs b' ds''>4 fs8 b' ds'' b' \break
   
   \bar ":|."
 }
@@ -95,23 +97,25 @@ openChordsTwo = {
 openChordsTwoTab = {
   \time 3/4
   
-  <g, b d'>4 g,8 b\3 d' b\3
+  <fs, as cs'>4 fs,8 as\3 cs' as\3
   
-  <b,\6 d'\3 g'\2>4 b,8\6 d'\3 g'\2 d'\3
+  <as,\6 cs'\3 fs'\2>4 as,8\6 cs'\3 fs'\2 cs'\3
   
-  <d\6 g'\3 b'\2>4 d8\6 g'\3 b'\2 g'\3
+  <cs\6 fs'\3 as'\2>4 cs8\6 fs'\3 as'\2 fs'\3
+
   
-  <b, d' f'>4 b,8 d' f' d'
+  <as, cs' e'>4 as,8 cs' e' cs'
   
-  <d\5 f'\2 b'\1>4 d8\5 f'\2 b'\1 f'\2
+  <cs\5 e'\2 as'\1>4 cs8\5 e'\2 as'\1 e'\2
   
-  <f\5 b'\2 d''\1>4 f8\5 b'\2 d''\1 b'\2
+  <e\5 as'\2 cs''\1>4 e8\5 as'\2 cs''\1 as'\2
+
   
-  <c e' g'>4 c8 e'\2 g' e'\2
+  <b, ds' fs'>4 b,8 ds'\2 fs' ds'\2
   
-  <e g' c''>4 e8\5 g'\2 c'' g'\2
+  <ds fs' b'>4 ds8\5 fs'\2 b' fs'\2
   
-  <g\5 c''\2 e''\1>4 g8\5 c''\2 e''\1 c''\2
+  <fs\5 b'\2 ds''\1>4 fs8\5 b'\2 ds''\1 b'\2
 }
 
 openChordsThree = {
