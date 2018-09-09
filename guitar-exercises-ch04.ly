@@ -132,128 +132,70 @@ threeStringChordsTwoTab = {
 }
 
 
-threeStringVoicingsThree = {
+threeStringChordsThree = {
   \clef "treble_8"
   \time 3/4
-  \key e \minor
+  \key d \minor
   
-  <g b e'>4^"E minor ( i )" g8 b e' b
+  <f a d'>4^"D minor ( i )" f8 a d' a
   
-  <b e' g'>4 b8 e' g' e'
+  <a d' f'>4 a8 d' f' d'
   
-  <e' g' b'>4 e'8 g' b' g' \break
+  <d' f' a'>4 d'8 f' a' f' \break
   
-  <a c' fs'>4^"F♯ diminished ( ii° )" a8 c' fs' c'
+
+  <d' f' bf'>4^"B♭ major ( VI )" d'8 f' bf' f'
   
-  <c' fs' a'>4 c'8 fs' a' fs'
+  <f' bf' d''>4 f'8 bf' d'' bf'
   
-  <fs a c'>4 fs8 a cs' a \break
+  <bf d' f'>4 bf8 d' f' d' \break
+
+
+  <g bf e'>4^"E diminished ( ii° )" g8 bf e' bf
   
-  <ds fs b>4^"B major ( V )" ds8 fs b fs
+  <bf e' g'>4 bf8 e' g' e'
   
-  <fs b ds'>4 fs8 b ds' b
+  <e' g' bf'>4 e'8 g' bf' g' \break
+
+
+  <a cs' e'>4^"A major ( V )" a8 cs' e' cs'
   
-  <b ds' fs'>4 b8 ds' fs' ds' \break
+  <cs' e' a'>4 cs'8 e' a' e'
   
-  <fs, a, ds>4^"D♯ diminished ( vii° )" fs,8 a, ds a,
-  
-  <a, ds fs>4 a,8 ds fs ds
-  
-  <ds fs a>4^"**" ds8 fs a fs \break
-  
+  <e' a' cs''>4 e'8 a' cs'' a' \break
+
   \bar ":|."
 }
 
-threeStringVoicingsThreeTab = {
+threeStringChordsThreeTab = {
   \time 3/4
   
-  <g b e'\2>4 g8\4 b\3 e'\2 b\3
+  <f a d'>4 f8 a d' a
   
-  <b\4 e'\3 g'\2>4 b8\4 e'\3 g'\2 e'\3
+  <a\4 d'\3 f'\2>4 a8\4 d'\3 f'\2 d'\3
   
-  <e' g' b'\1>4 e'8\3 g'\2 b'\1 g'\2
-  
-  <a c' fs'\2>4 a8\4 c'\3 fs'\2 c'\3
-  
-  <c' fs' a'\2>4 c'8\4 fs'\3 a'\2 fs'\3
- 
-  <fs a c'\2>4 fs8\4 a\3 cs'\2 a\3
-  
-  <ds fs b\3>4 ds8\5 fs\4 b\3 fs\4
-  
-  <fs\5 b\4 ds'\3>4 fs8\5 b\4 ds'\3 b\4
-  
-  <b ds' fs'\2>4 b8\4 ds'\3 fs'\2 ds'\3
-  
-  <fs, a, ds\4>4 fs,8\6 a,\5 ds\4 a,\5
-  
-  <a, ds fs\4>4 a,8\6 ds\5 fs\4 ds\5
-  
-  <ds\6 fs\5 a\4>4 ds8\6 fs\5 a\4 fs\5
-}
+  <d'\4 f'\3 a'\2>4 d'8\4 f'\3 a'\2 f'\3
 
 
-threeStringVoicingsFour = {
-  \clef "treble_8"
-  \time 3/4
-  \key g \major
+  <d'\3 f'\2 bf'>4 d'8\3 f'\2 bf' f'\2
   
-  <b d' g'>4^"G major ( I )" b8 d' g' d'
+  <f'\3 bf'\2 d''>4 f'8\3 bf'\2 d'' bf'\2
   
-  <d' g' b'>4 d'8 g' b' g'
-  
-  <g' b' d''>4 g'8 b' d'' b' \break
-  
-  <c' e' a'>4^"A minor ( ii )" c'8 e' a' e'
-  
-  <e' a' c''>4 e'8 a' c'' a'
-  
-  <a' c'' e''>4 a'8 c'' e'' c'' \break
-  
-  <a d' fs'>4^"D major ( V )" a8 d' fs' d'
-  
-  <d' fs' a'>4 d'8 fs' a' fs'
-  
-  <fs' a' d''>4 fs'8 a' d'' a' \break
-  
-  <a c' fs'>4^"F♯ diminished ( vii° )" a8 c' fs' c'
-  
-  <c' fs' a'>4 c'8 fs' a' fs'
-  
-  <fs' a' c''>4 fs'8 a' c'' a' \break
-  
-  \bar ":|."
-}
+  <bf\3 d'\2 f'\1>4 bf8\3 d'\2 f' d'\2
 
-threeStringVoicingsFourTab = {
-  \time 3/4
+
+  <g bf e'\2>4 g8\4 bf\3 e'\2 bf\3
   
-  <b d' g'>4 b8\3 d' g' d'
+  <bf\4 e'\3 g'\2>4 bf8\4 e'\3 g'\2 e'\3
   
-  <d' g' b'>4 d'8\3 g'\2 b' g'\2
+  <e'\4 g'\3 bf'\2>4 e'8\4 g'\3 bf'\2 g'\3
+
+
+  <a cs' e'\2>4 a8\4 cs'\3 e'\2 cs'\3
   
-  <g' b' d''>4 g'8\3 b'\2 d'' b'\2
+  <cs' e'\3 a'\2>4 cs'8\4 e'\3 a'\2 e'\3
   
-  
-  <c' e' a'>4 c'8\3 e'\2 a' e'\2
-  
-  <e' a' c''>4 e'8\3 a'\2 c'' a'\2
-  
-  <a'\3 c''\2 e''>4 a'8\3 c''\2 e'' c''\2
-  
-  
-  <a d' fs'>4 a8 d' fs' d'
-  
-  <d' fs' a'>4 d'8\3 fs'\2 a' fs'\2
-  
-  <fs'\3 a'\2 d''>4 fs'8\3 a'\2 d'' a'\2
-  
-  
-  <a c' fs'>4 a8 c' fs' c'
-  
-  <c' fs' a'>4 c'8\3 fs'\2 a' fs'\2
-  
-  <fs'\3 a'\2 c''>4 fs'8\3 a'\2 c'' a'\2
+  <e' a'\2 cs''\1>4 e'8\3 a'\2 cs'' a'\2
 }
 
 
