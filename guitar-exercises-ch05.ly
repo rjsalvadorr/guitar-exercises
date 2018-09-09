@@ -82,7 +82,7 @@ openChordsTwo = {
   
   <cs e' as'>4 cs8 e' as' e'
   
-  <e as' cs''>4 e8 as' cs' as' \break
+  <e cs' as'>4 e8 cs' as' cs' \break
 
   
   <b, ds' fs'>4^"B major ( I )" b,8 ds' fs' ds'
@@ -108,7 +108,7 @@ openChordsTwoTab = {
   
   <cs\5 e'\2 as'\1>4 cs8\5 e'\2 as'\1 e'\2
   
-  <e\5 as'\2 cs''\1>4 e8\5 as'\2 cs''\1 as'\2
+  <e\5 cs'\3 as'\1>4 e8\5 cs'\3 as'\1 cs'\3
 
   
   <b, ds' fs'>4 b,8 ds'\2 fs' ds'\2
