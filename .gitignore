@@ -1,11 +1,2 @@
-# Ignore everything
-/*
-
-# Except these files
-!.gitignore
-!readme.md
-!text.md
-!*.ly
-!build.sh
-!build.config
-!license.eps
+# PDF outputs
+*.pdf
