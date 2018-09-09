@@ -168,6 +168,17 @@
         }
         \hspace #0
         \hspace #0
+        \hspace #0
+        \fill-line {
+          \center-column {
+            \general-align #Y #DOWN {
+              \epsfile #Y #6 #"license.eps"
+            }
+            "This work is licensed under a"
+            "Creative Commons Attribution-ShareAlike 4.0 International License."
+            "For more information, go to https://creativecommons.org/licenses/by-sa/4.0/"
+          }
+        }
       }
     }
   }
