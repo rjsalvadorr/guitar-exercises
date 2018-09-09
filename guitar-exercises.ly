@@ -36,12 +36,12 @@
       title = \markup \abs-fontsize #34 {
         \center-column {
           \line { "GETTING GOOD" }
-          \line { "AT GUITAR INVERSIONS" }
+          \line { "AT" }
+          \line { "GUITAR INVERSIONS" }
           \hspace #0
         }
       }
-      subtitle = \markup { \abs-fontsize #18 \medium "by R.J. Salvador" }
-      subsubtitle = \markup { \abs-fontsize #13 \italic \medium \versionNumber }
+      subtitle = \markup { \abs-fontsize #18 \medium "Exercises for improving fluency on guitar" }
     }
     
     \paper {
@@ -55,7 +55,8 @@
         \center-column \italic {
           \hspace #0
           \hspace #0
-          "Exercises for improving fluency on guitar"
+          "by R. J. Salvador"
+          \with-color #grey \versionNumber
         }
       }
     }
