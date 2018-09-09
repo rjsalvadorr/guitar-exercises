@@ -2,6 +2,7 @@
 
 . ./build.config
 
-echo "versionNumber = \"$versionNumber\"" > config.ly
+echo "% This file is auto-generated. Do not modify!
+versionNumber = \"$versionNumber\"" > config.ly
 
 lilypond --output=getting-good-at-guitar-inversions-$versionNumber guitar-exercises.ly

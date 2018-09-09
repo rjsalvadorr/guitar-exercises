@@ -1,1 +1,2 @@
-versionNumber = "v1.8.6"
+% This file is auto-generated. Do not modify!
+versionNumber = "v1.9.0"
