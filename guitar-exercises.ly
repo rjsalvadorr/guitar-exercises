@@ -1,6 +1,7 @@
 \version "2.18.2"
 \language "english"
 
+\include "config.ly"
 \include "guitar-exercises-ch01.ly"
 \include "guitar-exercises-ch02.ly"
 \include "guitar-exercises-ch03.ly"
@@ -40,7 +41,7 @@
         }
       }
       subtitle = \markup { \abs-fontsize #18 \medium "by R.J. Salvador" }
-      subsubtitle = \markup { \abs-fontsize #13 \italic \medium "v1.8.2" }
+      subsubtitle = \markup { \abs-fontsize #13 \italic \medium \versionNumber }
     }
     
     \paper {

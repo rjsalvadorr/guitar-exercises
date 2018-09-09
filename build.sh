@@ -1,3 +1,7 @@
 #!/usr/bin/env sh
 
-lilypond --output=getting-good-at-guitar-inversions guitar-exercises.ly
+. ./build.config
+
+echo "versionNumber = \"$versionNumber\"" > config.ly
+
+lilypond --output=getting-good-at-guitar-inversions-$versionNumber guitar-exercises.ly
