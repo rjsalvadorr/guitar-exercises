@@ -33,10 +33,10 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 1A:  Major and minor chords" }
+  \tocItem \markup { "   Exercise 1:  Major and minor chords" }
   
   \header {
-    title = "Exercise 1A"
+    title = "Exercise 1"
     subtitle = "Major and minor chords"
     subsubtitle = "I − vi − ii − V"
   }
@@ -80,10 +80,10 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 1B:  Major and diminished chords" }
+  \tocItem \markup { "   Exercise 2:  Major and diminished chords" }
   
   \header {
-    title = "Exercise 1B"
+    title = "Exercise 2"
     subtitle = "Major and diminished chords"
     subsubtitle = "I − IV − V − vii°"
   }
@@ -127,10 +127,10 @@
 
 \bookpart {
 
-  \tocItem \markup { "   Exercise 1C:  Minor and diminished chords" }
+  \tocItem \markup { "   Exercise 3:  Minor and diminished chords" }
 
   \header {
-    title = "Exercise 1C"
+    title = "Exercise 3"
     subtitle = "Minor and diminished chords"
     subsubtitle = "i − iv − V − vii°"
   }

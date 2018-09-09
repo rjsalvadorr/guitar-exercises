@@ -33,10 +33,10 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 3:  Exercise variations" }
+  \tocItem \markup { "   Exercise 10:  Exercise variations" }
   
   \header {
-    title = "Exercise 3"
+    title = "Exercise 10"
     subtitle = "Exercise variations"
   }
 
