@@ -38,7 +38,7 @@
   \header {
     title = "Exercise 11"
     subtitle = "Major three-string chords"
-    subsubtitle = "I - IV - I"
+    subsubtitle = "I - V - vii° - I"
   }
   
   \paper { 
@@ -67,12 +67,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \threeStringVoicingsOne
+        \threeStringChordsOne
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \threeStringVoicingsOneTab
+        \threeStringChordsOneTab
       >>
     >>
     
@@ -86,7 +86,7 @@
   \header {
     title = "Exercise 12"
     subtitle = "Minor three-string chords"
-    subsubtitle = "i - iv - i"
+    subsubtitle = "i - ii° - v - i"
   }
   
   \paper { 
@@ -115,12 +115,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \threeStringVoicingsTwo
+        \threeStringChordsTwo
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \threeStringVoicingsTwoTab
+        \threeStringChordsTwoTab
       >>
     >>
     
