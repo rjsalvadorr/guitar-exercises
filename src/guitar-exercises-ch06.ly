@@ -170,32 +170,32 @@ fourStringChordsThree = {
 fourStringChordsThreeTab = {
   \time 4/4
 
-  e4\4 <b g'> <b g'> e\4
+  e4\4 <b\3 g'\1> <b\3 g'\1> e\4
 
-  g\4 <e' b'> <e' b'> g\4
+  g\4 <e'\2 b'\1> <e'\2 b'\1> g\4
 
-  b\4 <g' e''> <g' e''> b\4
+  b\4 <g'\3 e''\1> <g'\3 e''\1> b\4
   
 
-  c4\5 <g e'> <g e'> c\5
+  c4\5 <g\4 e'\2> <g\4 e'\2> c\5
 
-  e\5 <c' g'> <c' g'> e\5
+  e\5 <c'\3 g'\2> <c'\3 g'\2> e\5
 
-  g\5 <e' c''> <e' c''> g\5
-
-
-  fs,4\6 <c a> <c a> fs,\6
-
-  a,\6 <fs c'> <fs c'> a,\6
-
-  c\6 <a fs'> <a fs'> c\6
+  g\5 <e'\4 c''\2> <e'\4 c''\2> g\5
 
 
-  b,4\5 <fs ds'> <fs ds'> b,\5
+  fs,4\6 <c\5 a\3> <c\5 a\3> fs,\6
 
-  ds\5 <b fs'> <b fs'> ds\5
+  a,\6 <fs\4 c'\3> <fs\4 c'\3> a,\6
 
-  fs\5 <ds' b'> <ds' b'> fs\5
+  c\6 <a\5 fs'\3> <a\5 fs'\3> c\6
+
+
+  b,4\5 <fs\4 ds'\2> <fs\4 ds'\2> b,\5
+
+  ds\5 <b\3 fs'\2> <b\3 fs'\2> ds\5
+
+  fs\5 <ds'\4 b'\2> <ds'\4 b'\2> fs\5
 }
 
 fourStringChordsFour = {
@@ -234,30 +234,30 @@ fourStringChordsFour = {
 fourStringChordsFourTab = {
   \time 4/4
 
-  b,4\5 <fs d'> <fs d'> b,\5
+  b,4\5 <fs\4 d'\2> <fs\4 d'\2> b,\5
 
-  d\5 <b fs'> <b fs'> d\5
+  d\5 <b\3 fs'\2> <b\3 fs'\2> d\5
 
-  fs\5 <d' b'> <d' b'> fs\5
-
-
-  g,4\6 <d b> <d b> g,\6
-
-  b,\6 <g d'> <g d'> b,\6
-
-  d\6 <b g'> <b g'> d\6
+  fs\5 <d'\4 b'\2> <d'\4 b'\2> fs\5
 
 
-  fs,4\6 <cs as> <cs as> fs,\6
+  g,4\6 <d\5 b\3> <d\5 b\3> g,\6
 
-  as,\6 <fs cs'> <fs cs'> as,\6
+  b,\6 <g\4 d'\3> <g\4 d'\3> b,\6
 
-  cs\6 <as fs'> <as fs'> cs\6
+  d\6 <b\4 g'\3> <b\4 g'\3> d\6
 
 
-  as,4\5 <e cs'> <e cs'> as,\5
+  fs,4\6 <cs\5 as\3> <cs\5 as\3> fs,\6
 
-  cs\5 <as e'> <as e'> cs\5
+  as,\6 <fs\4 cs'\3> <fs\4 cs'\3> as,\6
 
-  e\5 <cs' as'> <cs' as'> e\5
+  cs\6 <as\4 fs'\3> <as\4 fs'\3> cs\6
+
+
+  as,4\5 <e\4 cs'\2> <e\4 cs'\2> as,\5
+
+  cs\5 <as\3 e'\2> <as\3 e'\2> cs\5
+
+  e\5 <cs'\4 as'\2> <cs'\4 as'\2> e\5
 }
