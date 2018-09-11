@@ -38,12 +38,12 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 17:  Major four-string chords" }
+  \tocItem \markup { "   Exercise 17:  Mixed four-string chords" }
   
   \header {
     title = "Exercise 17"
-    subtitle = "Major three-string chords"
-    subsubtitle = "I - V - vii° - I"
+    subtitle = "Mixed four-string chords"
+    subsubtitle = "I - vi - ii - V"
   }
   
   \paper { 
@@ -86,12 +86,12 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 18:  Minor four-string chords" }
+  \tocItem \markup { "   Exercise 18:  Mixed four-string chords" }
   
   \header {
     title = "Exercise 18"
-    subtitle = "Minor four-string chords"
-    subsubtitle = "i - ii° - v - i"
+    subtitle = "Mixed four-string chords"
+    subsubtitle = "I - ii -V - vii°"
   }
   
   \paper { 
@@ -173,7 +173,55 @@
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \fourStringChordsThree
+        \fourStringChordsThreeTab
+      >>
+    >>
+    
+  }
+}
+
+\bookpart {
+  
+  \tocItem \markup { "   Exercise 20:  Mixed four-string chords" }
+  
+  \header {
+    title = "Exercise 20"
+    subtitle = "Mixed four-string chords"
+    subsubtitle = "i - VI - V - vii°"
+  }
+  
+  \paper { 
+    system-system-spacing.basic-distance = #14
+  }
+  
+  \markup {
+    \column {
+      \hspace #0
+      \wordwrap \abs-fontsize #12 {
+        Mixed voicings, with a diminished chord on the middle strings.
+      }
+      \hspace #0
+      \hspace #0
+    }
+  }
+  
+  \score {
+     
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    
+    \new StaffGroup <<
+      
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \fourStringChordsFour
+      >>
+        
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \fourStringChordsFourTab
       >>
     >>
     

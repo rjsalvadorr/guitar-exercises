@@ -14,7 +14,7 @@ fourStringChordsOne = {
 
   bf, <g d'> <g d'> bf,
 
-  d <bf g'> <bf g'> bf \break
+  d <bf g'> <bf g'> d \break
 
 
   c4^"C minor ( ii )" <g ef'> <g ef'> c
@@ -47,7 +47,7 @@ fourStringChordsOneTab = {
 
   bf, <g d'> <g d'> bf,
 
-  d <bf g'> <bf g'> bf
+  d <bf g'> <bf g'> d
 
 
   c4 <g ef'> <g ef'> c
@@ -70,7 +70,7 @@ fourStringChordsTwo = {
   \time 4/4
   \key e \major
   
-  e4 <b gs'> <b gs'> e
+  e4^"E major ( I )" <b gs'> <b gs'> e
 
   gs <e' b'> <e' b'> gs
 
@@ -84,14 +84,14 @@ fourStringChordsTwo = {
   cs <a fs'> <a fs'> cs \break
 
 
-  b,4^"B major ( I )" <fs ds'> <fs ds'> b,
+  b,4^"B major ( V )" <fs ds'> <fs ds'> b,
 
   ds <b fs'> <b fs'> ds
 
   fs <ds' b'> <ds' b'> fs \break
 
 
-  ds4 <a fs'> <a fs'> ds
+  ds4^"D♯ diminished ( vii° )" <a fs'> <a fs'> ds
 
   fs <ds' a'> <ds' a'> fs
 
@@ -135,38 +135,129 @@ fourStringChordsTwoTab = {
 fourStringChordsThree = {
   \clef "treble_8"
   \time 4/4
-  \key d \minor
+  \key e \minor
   
-  <f a d'>4^"D minor ( i )" f8 a d' a
-  
-  <a d' f'>4 a8 d' f' d'
-  
-  <d' f' a'>4 d'8 f' a' f' \break
+  e4^"E minor ( i )" <b g'> <b g'> e
+
+  g <e' b'> <e' b'> g
+
+  b <g' e''> <g' e''> b \break
   
 
-  <d' f' bf'>4^"B♭ major ( VI )" d'8 f' bf' f'
-  
-  <f' bf' d''>4 f'8 bf' d'' bf'
-  
-  <bf d' f'>4 bf8 d' f' d' \break
+  c4^"C major ( VI )" <g e'> <g e'> c
+
+  e <c' g'> <c' g'> e
+
+  g <e' c''> <e' c''> g \break
 
 
-  <g bf e'>4^"E diminished ( ii° )" g8 bf e' bf
-  
-  <bf e' g'>4 bf8 e' g' e'
-  
-  <e' g' bf'>4 e'8 g' bf' g' \break
+  fs,4^"F♯ diminished  ( ii° )" <c a> <c a> fs,
+
+  a, <fs c'> <fs c'> a,
+
+  c <a fs'> <a fs'> c  \break
 
 
-  <a cs' e'>4^"A major ( V )" a8 cs' e' cs'
-  
-  <cs' e' a'>4 cs'8 e' a' e'
-  
-  <e' a' cs''>4 e'8 a' cs'' a' \break
+  b,4^"B major ( V )" <fs ds'> <fs ds'> b,
+
+  ds <b fs'> <b fs'> ds
+
+  fs <ds' b'> <ds' b'> fs \break
 
   \bar ":|."
 }
 
 fourStringChordsThreeTab = {
   \time 4/4
+
+  e4 <b g'> <b g'> e
+
+  g <e' b'> <e' b'> g
+
+  b <g' e''> <g' e''> b
+  
+
+  c4 <g e'> <g e'> c
+
+  e <c' g'> <c' g'> e
+
+  g <e' c''> <e' c''> g
+
+
+  fs,4 <c a> <c a> fs,
+
+  a, <fs c'> <fs c'> a,
+
+  c <a fs'> <a fs'> c 
+
+
+  b,4 <fs ds'> <fs ds'> b,
+
+  ds <b fs'> <b fs'> ds
+
+  fs <ds' b'> <ds' b'> fs
+}
+
+fourStringChordsFour = {
+  \clef "treble_8"
+  \time 4/4
+  \key b \minor
+
+  b,4^"B minor ( i )" <fs d'> <fs d'> b,
+
+  d <b fs'> <b fs'> d
+
+  fs <d' b'> <d' b'> fs \break
+
+
+  g,4^"G major ( VI )" <d b> <d b> g,
+
+  b, <g d'> <g d'> b,
+
+  d <b g'> <b g'> d \break
+
+
+  fs,4^"F♯ major ( V )" <cs as> <cs as> fs,
+
+  as, <fs cs'> <fs cs'> as,
+
+  cs <as fs'> <as fs'> cs \break
+
+
+  as,4^"A♯ diminished ( vii° )" <e cs> <e cs> as,
+
+  cs <as e'> <as e'> cs
+
+  e <cs' as'> <cs' as'> e
+}
+
+fourStringChordsFourTab = {
+  \time 4/4
+
+  b,4 <fs d'> <fs d'> b,
+
+  d <b fs'> <b fs'> d
+
+  fs <d' b'> <d' b'> fs
+
+
+  g,4 <d b> <d b> g,
+
+  b, <g d'> <g d'> b,
+
+  d <b g'> <b g'> d
+
+
+  fs,4 <cs as> <cs as> fs,
+
+  as, <fs cs'> <fs cs'> as,
+
+  cs <as fs'> <as fs'> cs
+
+
+  as,4 <e cs> <e cs> as,
+
+  cs <as e'> <as e'> cs
+
+  e <cs' as'> <cs' as'> e
 }
