@@ -7,6 +7,7 @@
 \include "guitar-exercises-ch03.ly"
 \include "guitar-exercises-ch04.ly"
 \include "guitar-exercises-ch05.ly"
+\include "guitar-exercises-ch06.ly"
 
 \header {
     maintainer = "RJ Salvador"
@@ -204,39 +205,11 @@
     \markuplist \table-of-contents
   }
   
-  
-  
-  %%%%%%%%%%   CHAPTER 1 - ARPEGGIOS   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-    
   \include "guitar-exercises-ch01-text.ly"
-  
-  
-  
-  %%%%%%%%%%   CHAPTER 2 - SCALES   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  
   \include "guitar-exercises-ch02-text.ly"
-  
-  
-  
-  %%%%%%%%%%   CHAPTER 3 - SCALE & ARPEGGIO VARIATIONS   %%%%%%%%%%%%%%%%%%%%%%%%
-  
   \include "guitar-exercises-ch03-text.ly"
-  
-  
-  
-  %%%%%%%%%%   CHAPTER 4 - THREE-STRING CHORD VOICINGS   %%%%%%%%%%%%%%%%%%%%%%%%
-  
   \include "guitar-exercises-ch04-text.ly"
-  
-  
-  
-  %%%%%%%%%%   CHAPTER 5 - OPEN CHORD VOICINGS   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  
   \include "guitar-exercises-ch05-text.ly"
-  
-  
-  
-  %%%%%%%%%%   APPENDIX   %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-  
+  \include "guitar-exercises-ch06-text.ly"
   \include "guitar-exercises-appendix.ly"  
 }
