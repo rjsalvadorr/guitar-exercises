@@ -1,140 +1,140 @@
 fourStringChordsOne = {
   \clef "treble_8"
-  \time 3/4
-  \key g \major
+  \time 4/4
+  \key bf \major
   
-  <b d' g'>4^"G major ( I )" b8 d' g' d'
-  
-  <d' g' b'>4 d'8 g' b' g'
-  
-  <g' b' d''>4 g'8 b' d'' b' \break
+  bf,4^"B♭ major ( I )" <f d'> <f d'> bf,
+
+  d <bf f'> <bf f'> bf
+
+  f <d' bf'> <d' bf'> f \break
 
 
-  <fs a d'>4^"D major ( V )" fs8 a d' a
-  
-  <a d' fs'>4 a8 d' fs' d'
-  
-  <d' fs' a'>4 d'8 fs' a' fs' \break
+  g,4^"G minor ( vi )" <d bf> <d bf> g,
+
+  bf, <g d'> <g d'> bf,
+
+  d <bf g'> <bf g'> bf \break
 
 
-  <a c' fs'>4^"F♯ diminished ( vii° )" a8 c' fs' c'
-  
-  <c' fs' a'>4 c'8 fs' a' fs'
-  
-  <fs' a' c''>4 fs'8 a' c'' a' \break
+  c4^"C minor ( ii )" <g ef'> <g ef'> c
+
+  ef <c' g'> <c' g'> ef
+
+  g <ef' c''> <ef' c''> g \break
 
 
-  <b, d g>4^"G major ( I )" b,8 d g d
-  
-  <d g b>4 d8 g b g
-  
-  <g b d'>4 g8 b d' b \break
-  
+  f,4^"F major ( V )" <c a> <c a> f,
+
+  a, <f c'> <f c'> a,
+
+  c <a f'> <a f'> c 
+
   \bar ":|."
 }
 
 fourStringChordsOneTab = {
-  \time 3/4
-  
-  <b d' g'>4 b8\3 d' g' d'
-  
-  <d' g' b'>4 d'8\3 g'\2 b' g'\2
+  \time 4/4
 
-  <g' b' d''>4 g'8\3 b'\2 d'' b'\2
+  bf,4 <f d'> <f d'> bf,
 
+  d <bf f'> <bf f'> bf
 
-  <fs a d'>4 fs8 a d' a
-  
-  <a\4 d'\3 fs'\2>4 a8\4 d'\3 fs'\2 d'\3
-  
-  <d'\4 fs'\3 a'\2>4 d'8\4 fs'\3 a'\2 fs'\3
+  f <d' bf'> <d' bf'> f
 
 
-  <a c' fs'>4 a8 c' fs' c'
-  
-  <c' fs' a'>4 c'8\3 fs'\2 a' fs'\2
-  
-  <fs'\3 a'\2 c''>4 fs'8\3 a'\2 c'' a'\2
+  g,4 <d bf> <d bf> g,
+
+  bf, <g d'> <g d'> bf,
+
+  d <bf g'> <bf g'> bf
 
 
-  <b, d g>4 b,8 d g d
-  
-  <d g b\3>4 d8\5 g\4 b\3 g\4
-  
-  <g\5 b\4 d'\3>4 g8\5 b\4 d'\3 b\4 \break
+  c4 <g ef'> <g ef'> c
+
+  ef <c' g'> <c' g'> ef
+
+  g <ef' c''> <ef' c''> g
+
+
+  f,4 <c a> <c a> f,
+
+  a, <f c'> <f c'> a,
+
+  c <a f'> <a f'> c 
 }
 
 
 fourStringChordsTwo = {
   \clef "treble_8"
-  \time 3/4
-  \key g \minor
+  \time 4/4
+  \key e \major
   
-  <bf d' g'>4^"G minor ( i )" bf8 d' g' d'
-  
-  <d' g' bf'>4 d'8 g' bf' g'
-  
-  <g' bf' d''>4 g'8 bf' d'' bf' \break
+  e4 <b gs'> <b gs'> e
+
+  gs <e' b'> <e' b'> gs
+
+  b <gs' e''> <gs' e''> b \break
 
 
-  <c ef a>4^"A diminished ( ii° )" c8 ef a ef
-  
-  <ef a c'>4 ef8 a c' a
-  
-  <a c' ef'>4 a8 c' ef' c' \break
+  fs,4^"F♯ minor ( ii )" <cs a> <cs a> fs,
+
+  a, <fs cs'> <fs cs'> a,
+
+  cs <a fs'> <a fs'> cs \break
 
 
-  <f a d'>4^"D minor ( v )" f8 a d' a
-  
-  <a d' f'>4 a8 d' f' d'
-  
-  <d' f' a'>4 d'8 f' a' f' \break
+  b,4^"B major ( I )" <fs ds'> <fs ds'> b,
+
+  ds <b fs'> <b fs'> ds
+
+  fs <ds' b'> <ds' b'> fs \break
 
 
-  <bf, d g>4^"G minor ( i )" bf,8 d g d
-  
-  <d g bf>4 d8 g bf g
-  
-  <g bf d'>4 g8 bf d' bf \break
-  
+  ds4 <a fs'> <a fs'> ds
+
+  fs <ds' a'> <ds' a'> fs
+
+  a <fs' ds''> <fs' ds''> a
+
   \bar ":|."
 }
 
 fourStringChordsTwoTab = {
-  \time 3/4
-  
-  <bf d' g'>4 b8\3 d' g' d'
-  
-  <d' g' bf'>4 d'8\3 g'\2 bf' g'\2
+  \time 4/4
 
-  <g' bf' d''>4 g'8\3 bf'\2 d'' bf'\2
+  e4 <b gs'> <b gs'> e
 
+  gs <e' b'> <e' b'> gs
 
-  <c ef a\3>4 c8\5 ef a ef
-  
-  <ef a c'\3>4 ef8\5 a\4 c'\3 a\4
-  
-  <a c' ef'\3>4 a8\5 c'\4 ef'\3 c'\4
+  b <gs' e''> <gs' e''> b
 
 
-  <f a d'>4 f8 a d' a
-  
-  <a\4 d'\3 f'\2>4 a8\4 d'\3 f'\2 d'\3
-  
-  <d'\4 f'\3 a'\2>4 d'8\4 f'\3 a'\2 f'\3
+  fs,4 <cs a> <cs a> fs,
+
+  a, <fs cs'> <fs cs'> a,
+
+  cs <a fs'> <a fs'> cs
 
 
-  <bf, d g>4 bf,8 d g d
-  
-  <d g bf\3>4 d8\5 g\4 bf\3 g\4
-  
-  <g\5 bf\4 d'\3>4 g8\5 bf\4 d'\3 bf\4 \break
+  b,4 <fs ds'> <fs ds'> b,
+
+  ds <b fs'> <b fs'> ds
+
+  fs <ds' b'> <ds' b'> fs
+
+
+  ds4 <a fs'> <a fs'> ds
+
+  fs <ds' a'> <ds' a'> fs
+
+  a <fs' ds''> <fs' ds''> a
 }
 
 
 fourStringChordsThree = {
   \clef "treble_8"
-  \time 3/4
+  \time 4/4
   \key d \minor
   
   <f a d'>4^"D minor ( i )" f8 a d' a
@@ -168,32 +168,5 @@ fourStringChordsThree = {
 }
 
 fourStringChordsThreeTab = {
-  \time 3/4
-  
-  <f a d'>4 f8 a d' a
-  
-  <a\4 d'\3 f'\2>4 a8\4 d'\3 f'\2 d'\3
-  
-  <d'\4 f'\3 a'\2>4 d'8\4 f'\3 a'\2 f'\3
-
-
-  <d'\3 f'\2 bf'>4 d'8\3 f'\2 bf' f'\2
-  
-  <f'\3 bf'\2 d''>4 f'8\3 bf'\2 d'' bf'\2
-  
-  <bf\3 d'\2 f'\1>4 bf8\3 d'\2 f' d'\2
-
-
-  <g bf e'\2>4 g8\4 bf\3 e'\2 bf\3
-  
-  <bf\4 e'\3 g'\2>4 bf8\4 e'\3 g'\2 e'\3
-  
-  <e'\4 g'\3 bf'\2>4 e'8\4 g'\3 bf'\2 g'\3
-
-
-  <a cs' e'\2>4 a8\4 cs'\3 e'\2 cs'\3
-  
-  <cs' e'\3 a'\2>4 cs'8\4 e'\3 a'\2 e'\3
-  
-  <e' a'\2 cs''\1>4 e'8\3 a'\2 cs'' a'\2
+  \time 4/4
 }

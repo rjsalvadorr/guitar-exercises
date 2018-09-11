@@ -173,7 +173,7 @@
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \fourStringChordsThreeTab
+        \fourStringChordsThree
       >>
     >>
     
