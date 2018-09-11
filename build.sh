@@ -1,10 +1,10 @@
 #!/usr/bin/env sh
 
-. ./build.config
+. ./config.cfg
 
 echo "% This file is auto-generated. Do not modify!
 versionNumber = \"$versionNumber\"" > src/config.ly
 
-mkdir -p build
+mkdir -p output
 cd src
-lilypond --output=../build/getting-good-at-guitar-inversions-$versionNumber guitar-exercises.ly
+lilypond --output=../output/getting-good-at-guitar-inversions-$versionNumber guitar-exercises.ly

@@ -38,7 +38,7 @@
         \center-column {
           \line { "GETTING GOOD" }
           \line { "AT" }
-          \line { "GUITAR INVERSIONS" }
+          \line { "GUITAR CHORDS" }
           \hspace #0
         }
       }
