@@ -8,7 +8,7 @@ arpeggiosContextInNotation = {
   
   g'8^4[ d'^3 b^1] g_3[ d_2 b,_1] g,4_2 \break
   
-  e8_1^\markup { "E minor  ( vi )" } [ g_3 b_2] e'_2[ g'^2 b'^3] e''4^4
+  e8_1^\markup { "E minor  ( vi )" } [ g_3 b_2] e'_1[ g'^2 b'^3] e''4^4
   
   e''8^4[ b'^3 g'^2] e'_1^[ b_2 g_3] e4_1 \break
   
@@ -101,9 +101,9 @@ arpeggiosContextThree = {
   
   d''8^4[ a'^3 fs'^1] d'_3[ a_2 fs_1] d4_2 \break
   
-  fs,8_1^"F♯ diminished  ( vii° )"^[ a,_4 c_2] fs_1[ a_4 c'^3] fs'4^4
+  fs,8_1^"F♯ diminished  ( vii° )"^[ a,_4 c_2] fs_1[ a_4 c'^2] fs'4^4
   
-  fs'8^4[ c'^3 a^4] fs^1[ c^2 a,^4] fs,4_1 \bar ":|."
+  fs'8^4[ c'^2 a^4] fs^1[ c^2 a,^4] fs,4_1 \bar ":|."
 }
 
 arpeggiosContextThreeTab = {
