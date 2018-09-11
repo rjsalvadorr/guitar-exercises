@@ -308,6 +308,8 @@
       \hspace #0
       \wordwrap \abs-fontsize #12 {
         Mixed modes, with the \italic "locrian" mode starting on the A string.
+        Also featuring the \italic "phrygian dominant" mode, which is like the
+        \italic "phrygian" mode altered to have a major third.
       }
       \hspace #0
       \hspace #0
