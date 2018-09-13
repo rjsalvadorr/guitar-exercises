@@ -10,18 +10,28 @@
 \include "guitar-exercises-ch06.ly"
 
 \header {
-    maintainer = "RJ Salvador"
-    maintainerEmail = "randolph.salvador@gmail.com"
-    tagline = \markup { \abs-fontsize #12 "© RJ Salvador, 2018" }
+  maintainer = "RJ Salvador"
+  maintainerEmail = "randolph.salvador@gmail.com"
+  tagline = \markup { \abs-fontsize #12 "© RJ Salvador, 2018" }
 }
 
 \paper {
-    #(set-paper-size "letter")
-    top-margin = 0.66\in
-    left-margin = 0.75\in
-    right-margin = 0.75\in
-    bottom-margin = 0.66\in
+  #(set-paper-size "letter")
+  top-margin = 0.66\in
+  left-margin = 0.75\in
+  right-margin = 0.75\in
+  bottom-margin = 0.66\in
+
+  tocSectionMarkup = \markup \large \column {
+    \hspace #1
+    \fill-line { \null \italic \fromproperty #'toc:text \null }
+    \hspace #1
+  }
 }
+
+tocSection =
+#(define-music-function (parser location text) (markup?)
+   (add-toc-item! 'tocSectionMarkup text))
 
 #(set-global-staff-size 23)
 
@@ -190,13 +200,15 @@
       indent = 0\mm
       print-page-number = false
       
-      top-margin = 1.5\in
+      top-margin = 1\in
       left-margin = 1.75\in
       right-margin = 1.75\in
-      bottom-margin = 1.5\in
+      bottom-margin = 1\in
       
       tocTitleMarkup = \markup \huge \bold \column {
-        \fill-line { \null "Table of Contents" \null }
+        \fill-line {
+          \null "Table of Contents" \null
+        }
         \hspace #1
       }
       tocItemMarkup = \tocItemWithDotsMarkup
