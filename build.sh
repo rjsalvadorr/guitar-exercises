@@ -7,4 +7,4 @@ versionNumber = \"$versionNumber\"" > src/config.ly
 
 mkdir -p output
 cd src
-lilypond --output=../output/getting-good-at-guitar-inversions-$versionNumber guitar-exercises.ly
+lilypond --output=../output/getting-good-at-guitar-chords-$versionNumber guitar-exercises.ly

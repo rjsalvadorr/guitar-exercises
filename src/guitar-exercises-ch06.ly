@@ -3,32 +3,32 @@ fourStringChordsOne = {
   \time 4/4
   \key bf \major
   
-  bf,4^"B♭ major ( I )" <f d'> <f d'> bf,
+  bf,4^"B♭ major ( I )" <f d'> bf,8 f d' f
 
-  d <bf f'> <bf f'> d
+  d4 <bf f'> d8 bf f' bf
 
-  f <d' bf'> <d' bf'> f \break
-
-
-  g,4^"G minor ( vi )" <d bf> <d bf> g,
-
-  bf, <g d'> <g d'> bf,
-
-  d <bf g'> <bf g'> d \break
+  f4 <d' bf'> f8 d' bf' d' \break
 
 
-  c4^"C minor ( ii )" <g ef'> <g ef'> c
+  g,4^"G minor ( vi )" <d bf> g,8 d bf d
 
-  ef <c' g'> <c' g'> ef
+  bf,4 <g d'> bf,8 g d' g
 
-  g <ef' c''> <ef' c''> g \break
+  d4 <bf g'> d8 bf g' bf \break
 
 
-  f,4^"F major ( V )" <c a> <c a> f,
+  c4^"C minor ( ii )" <g ef'> c8 g ef' g
 
-  a, <f c'> <f c'> a,
+  ef4 <c' g'> ef8 c' g' c'
 
-  c <a f'> <a f'> c 
+  g4 <ef' c''> g8 ef' c'' ef' \break
+
+
+  f,4^"F major ( V )" <c a> f,8 c a c
+
+  a,4 <f c'> a,8 f c' f
+
+  c4 <a f'> c8 a f' a 
 
   \bar ":|."
 }
@@ -36,32 +36,32 @@ fourStringChordsOne = {
 fourStringChordsOneTab = {
   \time 4/4
 
-  bf,4\5 <f\4 d'\2> <f\4 d'\2> bf,\5
+  bf,4\5 <f\4 d'\2> bf,8\5 f\4 d'\2 f\4
 
-  d\5 <bf\3 f'\2> <bf\3 f'\2> d\5
+  d4\5 <bf\3 f'\2> d8\5 bf\3 f'\2 bf\3
 
-  f\5 <d'\4 bf'\2> <d'\4 bf'\2> f\5
-
-
-  g,4\6 <d\5 bf\3> <d\5 bf\3> g,\6
-
-  bf,\6 <g\4 d'\3> <g\4 d'\3> bf,\6
-
-  d\6 <bf\5 g'\3> <bf\5 g'\3> d\6
+  f4\5 <d'\4 bf'\2> f8\5 d'\4 bf'\2 d'\4
 
 
-  c4\5 <g\4 ef'\2> <g\4 ef'\2> c\5
+  g,4\6 <d\5 bf\3> g,8\6 d\5 bf\3 d\5
 
-  ef\5 <c'\3 g'\2> <c'\3 g'\2> ef\5
+  bf,4\6 <g\4 d'\3> bf,8\6 g\4 d'\3 g\4
 
-  g\5 <ef'\4 c''\2> <ef'\4 c''\2> g\5
+  d4\6 <bf\5 g'\3> d8\6 bf\5 g'\3 bf\5
 
 
-  f,4\6 <c\5 a\3> <c\5 a\3> f,\6
+  c4\5 <g\4 ef'\2> c8\5 g\4 ef'\2 g\4
 
-  a,\6 <f\4 c'\3> <f\4 c'\3> a,\6
+  ef4\5 <c'\3 g'\2> ef8\5 c'\3 g'\2 c'\3
 
-  c\6 <a\4 f'\3> <a\4 f'\3> c\6 
+  g4\5 <ef'\4 c''\2> g8\5 ef'\4 c''\2 ef'\4
+
+
+  f,4\6 <c\5 a\3> f,8\6 c\5 a\3 c\5
+
+  a,4\6 <f\4 c'\3> a,8\6 f\4 c'\3 f\4
+
+  c4\6 <a\4 f'\3> c8\6 a\4 f'\3 a\4 
 }
 
 
@@ -70,32 +70,32 @@ fourStringChordsTwo = {
   \time 4/4
   \key e \major
   
-  e4^"E major ( I )" <b gs'> <b gs'> e
+  e4^"E major ( I )" <b gs'> e8 b gs' b
 
-  gs <e' b'> <e' b'> gs
+  gs4 <e' b'> gs8 e' b' e'
 
-  b <gs' e''> <gs' e''> b \break
-
-
-  fs,4^"F♯ minor ( ii )" <cs a> <cs a> fs,
-
-  a, <fs cs'> <fs cs'> a,
-
-  cs <a fs'> <a fs'> cs \break
+  b4 <gs' e''> b8 gs' e'' gs' \break
 
 
-  b,4^"B major ( V )" <fs ds'> <fs ds'> b,
+  fs,4^"F♯ minor ( ii )" <cs a> fs,8 cs a cs
 
-  ds <b fs'> <b fs'> ds
+  a,4 <fs cs'> a,8 fs cs' fs
 
-  fs <ds' b'> <ds' b'> fs \break
+  cs4 <a fs'> cs8 a fs' a \break
 
 
-  ds4^"D♯ diminished ( vii° )" <a fs'> <a fs'> ds
+  b,4^"B major ( V )" <fs ds'> b,8 fs ds' fs
 
-  fs <ds' a'> <ds' a'> fs
+  ds4 <b fs'> ds8 b fs' b
 
-  a <fs' ds''> <fs' ds''> a
+  fs4 <ds' b'> fs8 ds' b' ds' \break
+
+
+  ds4^"D♯ diminished ( vii° )" <a fs'> ds8 a fs' a
+
+  fs4 <ds' a'> fs8 ds' a' ds'
+
+  a4 <fs' ds''> a8 fs' ds'' fs'
 
   \bar ":|."
 }
@@ -103,32 +103,32 @@ fourStringChordsTwo = {
 fourStringChordsTwoTab = {
   \time 4/4
 
-  e4\4 <b\3 gs'\1> <b\3 gs'\1> e\4
+  e4\4 <b\3 gs'\1> e8\4 b\3 gs'\1 b\3
 
-  gs\4 <e'\2 b'\1> <e'\2 b'\1> gs\4
+  gs4\4 <e'\2 b'\1> gs8\4 e'\2 b'\1 e'\2
 
-  b\4 <gs'\3 e''\1> <gs'\3 e''\1> b\4
-
-
-  fs,4\6 <cs\5 a\3> <cs\5 a\3> fs,\6
-
-  a,\6 <fs\4 cs'\3> <fs\4 cs'\3> a,\6
-
-  cs\6 <a\5 fs'\3> <a\5 fs'\3> cs\6
+  b4\4 <gs'\3 e''\1> b8\4 gs'\3 e''\1 gs'\3
 
 
-  b,4\5 <fs\4 ds'\2> <fs\4 ds'\2> b,\5
+  fs,4\6 <cs\5 a\3> fs,8\6 cs\5 a\3 cs\5
 
-  ds\5 <b\3 fs'\2> <b\3 fs'\2> ds\5
+  a,4\6 <fs\4 cs'\3> a,8\6 fs\4 cs'\3 fs\4
 
-  fs\5 <ds'\4 b'\2> <ds'\4 b'\2> fs\5
+  cs4\6 <a\5 fs'\3> cs8\6 a\5 fs'\3 a\5
 
 
-  ds4\4 <a\3 fs'\1> <a\3 fs'\1> ds\4
+  b,4\5 <fs\4 ds'\2> b,8\5 fs\4 ds'\2 fs\4
 
-  fs\4 <ds'\2 a'\1> <ds'\2 a'\1> fs\4
+  ds4\5 <b\3 fs'\2> ds8\5 b\3 fs'\2 b\3
 
-  a\4 <fs'\3 ds''\1> <fs'\3 ds''\1> a\4
+  fs4\5 <ds'\4 b'\2> fs8\5 ds'\4 b'\2 ds'\4
+
+
+  ds4\4 <a\3 fs'\1> ds8\4 a\3 fs'\1 a\3
+
+  fs4\4 <ds'\2 a'\1> fs8\4 ds'\2 a'\1 ds'\2
+
+  a4\4 <fs'\3 ds''\1> a8\4 fs'\3 ds''\1 fs'\3
 }
 
 
@@ -137,32 +137,32 @@ fourStringChordsThree = {
   \time 4/4
   \key e \minor
   
-  e4^"E minor ( i )" <b g'> <b g'> e
+  e4^"E minor ( i )" <b g'> e8 b g' b
 
-  g <e' b'> <e' b'> g
+  g4 <e' b'> g8 e' b' e'
 
-  b <g' e''> <g' e''> b \break
+  b4 <g' e''> b8 g' e'' g' \break
   
 
-  c4^"C major ( VI )" <g e'> <g e'> c
+  c4^"C major ( VI )" <g e'> c8 g e' g
 
-  e <c' g'> <c' g'> e
+  e4 <c' g'> e8 c' g' c'
 
-  g <e' c''> <e' c''> g \break
-
-
-  fs,4^"F♯ diminished  ( ii° )" <c a> <c a> fs,
-
-  a, <fs c'> <fs c'> a,
-
-  c <a fs'> <a fs'> c  \break
+  g4 <e' c''> g8 e' c'' e' \break
 
 
-  b,4^"B major ( V )" <fs ds'> <fs ds'> b,
+  fs,4^"F♯ diminished  ( ii° )" <c a> fs,8 c a c
 
-  ds <b fs'> <b fs'> ds
+  a,4 <fs c'> a,8 fs c' fs
 
-  fs <ds' b'> <ds' b'> fs \break
+  c4 <a fs'> c8 a fs' a  \break
+
+
+  b,4^"B major ( V )" <fs ds'> b,8 fs ds' fs
+
+  ds4 <b fs'> ds8 b fs' b
+
+  fs4 <ds' b'> fs8 ds' b' ds' \break
 
   \bar ":|."
 }
@@ -170,32 +170,32 @@ fourStringChordsThree = {
 fourStringChordsThreeTab = {
   \time 4/4
 
-  e4\4 <b\3 g'\1> <b\3 g'\1> e\4
+  e4\4 <b\3 g'\1> e8\4 b\3 g'\1 b\3
 
-  g\4 <e'\2 b'\1> <e'\2 b'\1> g\4
+  g4\4 <e'\2 b'\1> g8\4 e'\2 b'\1 e'\2
 
-  b\4 <g'\3 e''\1> <g'\3 e''\1> b\4
+  b4\4 <g'\3 e''\1> b8\4 g'\3 e''\1 g'\3
   
 
-  c4\5 <g\4 e'\2> <g\4 e'\2> c\5
+  c4\5 <g\4 e'\2> c8\5 g\4 e'\2 g\4
 
-  e\5 <c'\3 g'\2> <c'\3 g'\2> e\5
+  e4\5 <c'\3 g'\2> e8\5 c'\3 g'\2 c'\3
 
-  g\5 <e'\4 c''\2> <e'\4 c''\2> g\5
-
-
-  fs,4\6 <c\5 a\3> <c\5 a\3> fs,\6
-
-  a,\6 <fs\4 c'\3> <fs\4 c'\3> a,\6
-
-  c\6 <a\5 fs'\3> <a\5 fs'\3> c\6
+  g4\5 <e'\4 c''\2> g8\5 e'\4 c''\2 e'\4
 
 
-  b,4\5 <fs\4 ds'\2> <fs\4 ds'\2> b,\5
+  fs,4\6 <c\5 a\3> fs,8\6 c\5 a\3 c\5
 
-  ds\5 <b\3 fs'\2> <b\3 fs'\2> ds\5
+  a,4\6 <fs\4 c'\3> a,8\6 fs\4 c'\3 fs\4
 
-  fs\5 <ds'\4 b'\2> <ds'\4 b'\2> fs\5
+  c4\6 <a\5 fs'\3> c8\6 a\5 fs'\3 a\5
+
+
+  b,4\5 <fs\4 ds'\2> b,8\5 fs\4 ds'\2 fs\4
+
+  ds4\5 <b\3 fs'\2> ds8\5 b\3 fs'\2 b\3
+
+  fs4\5 <ds'\4 b'\2> fs8\5 ds'\4 b'\2 ds'\4
 }
 
 fourStringChordsFour = {
@@ -203,61 +203,61 @@ fourStringChordsFour = {
   \time 4/4
   \key b \minor
 
-  b,4^"B minor ( i )" <fs d'> <fs d'> b,
+  b,4^"B minor ( i )" <fs d'> b,8 fs d' fs
 
-  d <b fs'> <b fs'> d
+  d4 <b fs'> d8 b fs' b
 
-  fs <d' b'> <d' b'> fs \break
-
-
-  g,4^"G major ( VI )" <d b> <d b> g,
-
-  b, <g d'> <g d'> b,
-
-  d <b g'> <b g'> d \break
+  fs4 <d' b'> fs8 d' b' d' \break
 
 
-  fs,4^"F♯ major ( V )" <cs as> <cs as> fs,
+  g,4^"G major ( VI )" <d b> g,8 d b d
 
-  as, <fs cs'> <fs cs'> as,
+  b,4 <g d'> b,8 g d' g
 
-  cs <as fs'> <as fs'> cs \break
+  d4 <b g'> d8 b g' b \break
 
 
-  as,4^"A♯ diminished ( vii° )" <e cs'> <e cs'> as,
+  fs,4^"F♯ major ( V )" <cs as> fs,8 cs as cs
 
-  cs <as e'> <as e'> cs
+  as,4 <fs cs'> as,8 fs cs' fs
 
-  e <cs' as'> <cs' as'> e
+  cs4 <as fs'> cs8 as fs' as \break
+
+
+  as,4^"A♯ diminished ( vii° )" <e cs'> as,8 e cs' e
+
+  cs4 <as e'> cs8 as e' as
+
+  e4 <cs' as'> e8 cs' as' cs'
 }
 
 fourStringChordsFourTab = {
   \time 4/4
 
-  b,4\5 <fs\4 d'\2> <fs\4 d'\2> b,\5
+  b,4\5 <fs\4 d'\2> b,8\5 fs\4 d'\2 fs\4
 
-  d\5 <b\3 fs'\2> <b\3 fs'\2> d\5
+  d4\5 <b\3 fs'\2> d8\5 b\3 fs'\2 b\3
 
-  fs\5 <d'\4 b'\2> <d'\4 b'\2> fs\5
-
-
-  g,4\6 <d\5 b\3> <d\5 b\3> g,\6
-
-  b,\6 <g\4 d'\3> <g\4 d'\3> b,\6
-
-  d\6 <b\4 g'\3> <b\4 g'\3> d\6
+  fs4\5 <d'\4 b'\2> fs8\5 d'\4 b'\2 d'\4
 
 
-  fs,4\6 <cs\5 as\3> <cs\5 as\3> fs,\6
+  g,4\6 <d\5 b\3> g,8\6 d\5 b\3 d\5
 
-  as,\6 <fs\4 cs'\3> <fs\4 cs'\3> as,\6
+  b,4\6 <g\4 d'\3> b,8\6 g\4 d'\3 g\4
 
-  cs\6 <as\4 fs'\3> <as\4 fs'\3> cs\6
+  d4\6 <b\4 g'\3> d8\6 b\4 g'\3 b\4
 
 
-  as,4\5 <e\4 cs'\2> <e\4 cs'\2> as,\5
+  fs,4\6 <cs\5 as\3> fs,8\6 cs\5 as\3 cs\5
 
-  cs\5 <as\3 e'\2> <as\3 e'\2> cs\5
+  as,4\6 <fs\4 cs'\3> as,8\6 fs\4 cs'\3 fs\4
 
-  e\5 <cs'\4 as'\2> <cs'\4 as'\2> e\5
+  cs4\6 <as\4 fs'\3> cs8\6 as\4 fs'\3 as\4
+
+
+  as,4\5 <e\4 cs'\2> as,8\5 e\4 cs'\2 e\4
+
+  cs4\5 <as\3 e'\2> cs8\5 as\3 e'\2 as\3
+
+  e4\5 <cs'\4 as'\2> e8\5 cs'\4 as'\2 cs'\4
 }
