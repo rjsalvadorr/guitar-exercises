@@ -52,7 +52,7 @@
   \header {
     title = "Exercise 4-A"
     subtitle = "Major three-string chords"
-    subsubtitle = "I - V - vii° - I"
+    subsubtitle = "I - V - I"
   }
   
   \paper { 
@@ -63,7 +63,7 @@
     \column {
       \hspace #0
       \wordwrap \abs-fontsize #12 {
-        Major chord voicings, with a diminished chord on the upper strings.
+        Major chord voicings.
       }
       \hspace #0
       \hspace #0
@@ -100,7 +100,7 @@
   \header {
     title = "Exercise 4-B"
     subtitle = "Minor three-string chords"
-    subsubtitle = "i - ii° - v - i"
+    subsubtitle = "i - v - i"
   }
   
   \paper { 
@@ -111,7 +111,7 @@
     \column {
       \hspace #0
       \wordwrap \abs-fontsize #12 {
-        Minor chord voicings, with a diminished chord on the lower strings. 
+        Minor chord voicings.
       }
       \hspace #0
       \hspace #0
@@ -143,10 +143,58 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 4-C:  Mixed three-string chords" }
+  \tocItem \markup { "   Exercise 4-C:  Diminished three-string chords" }
   
   \header {
     title = "Exercise 4-C"
+    subtitle = "Diminished three-string chords"
+    subsubtitle = "i° - ♭v° - i°"
+  }
+  
+  \paper { 
+    system-system-spacing.basic-distance = #18
+  }
+  
+  \markup {
+    \column {
+      \hspace #0
+      \wordwrap \abs-fontsize #12 {
+        Diminished chord voicings.
+      }
+      \hspace #0
+      \hspace #0
+    }
+  }
+  
+  \score {
+    
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    
+    \new StaffGroup <<
+      
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \threeStringChordsThree
+      >>
+        
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \threeStringChordsThreeTab
+      >>
+    >>
+    
+  }
+}
+
+\bookpart {
+  
+  \tocItem \markup { "   Exercise 4-D:  Mixed three-string chords" }
+  
+  \header {
+    title = "Exercise 4-D"
     subtitle = "Mixed three-string chords"
     subsubtitle = "i - VI - ii° - V"
   }
@@ -177,12 +225,12 @@
       
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
-        \threeStringChordsThree
+        \threeStringChordsFour
       >>
         
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \threeStringChordsThreeTab
+        \threeStringChordsFourTab
       >>
     >>
     

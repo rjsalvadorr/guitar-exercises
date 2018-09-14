@@ -1,3 +1,5 @@
+\language "english"
+
 threeStringChordsOne = {
   \clef "treble_8"
   \time 3/4
@@ -17,13 +19,6 @@ threeStringChordsOne = {
   <d' fs' a'>4 d'8 fs' a' fs' \break
 
 
-  <a c' fs'>4^"F♯ diminished ( vii° )" a8 c' fs' c'
-  
-  <c' fs' a'>4 c'8 fs' a' fs'
-  
-  <fs' a' c''>4 fs'8 a' c'' a' \break
-
-
   <b, d g>4^"G major ( I )" b,8 d g d
   
   <d g b>4 d8 g b g
@@ -41,20 +36,13 @@ threeStringChordsOneTab = {
   <d' g' b'>4 d'8\3 g'\2 b' g'\2
 
   <g' b' d''>4 g'8\3 b'\2 d'' b'\2
-
-
+  
+  
   <fs a d'>4 fs8 a d' a
   
   <a\4 d'\3 fs'\2>4 a8\4 d'\3 fs'\2 d'\3
   
   <d'\4 fs'\3 a'\2>4 d'8\4 fs'\3 a'\2 fs'\3
-
-
-  <a c' fs'>4 a8 c' fs' c'
-  
-  <c' fs' a'>4 c'8\3 fs'\2 a' fs'\2
-  
-  <fs'\3 a'\2 c''>4 fs'8\3 a'\2 c'' a'\2
 
 
   <b, d g>4 b,8 d g d
@@ -75,13 +63,6 @@ threeStringChordsTwo = {
   <d' g' bf'>4 d'8 g' bf' g'
   
   <g' bf' d''>4 g'8 bf' d'' bf' \break
-
-
-  <c ef a>4^"A diminished ( ii° )" c8 ef a ef
-  
-  <ef a c'>4 ef8 a c' a
-  
-  <a c' ef'>4 a8 c' ef' c' \break
 
 
   <f a d'>4^"D minor ( v )" f8 a d' a
@@ -110,13 +91,6 @@ threeStringChordsTwoTab = {
   <g' bf' d''>4 g'8\3 bf'\2 d'' bf'\2
 
 
-  <c ef a\3>4 c8\5 ef a ef
-  
-  <ef a c'\3>4 ef8\5 a\4 c'\3 a\4
-  
-  <a c' ef'\3>4 a8\5 c'\4 ef'\3 c'\4
-
-
   <f a d'>4 f8 a d' a
   
   <a\4 d'\3 f'\2>4 a8\4 d'\3 f'\2 d'\3
@@ -135,6 +109,58 @@ threeStringChordsTwoTab = {
 threeStringChordsThree = {
   \clef "treble_8"
   \time 3/4
+  \key gs \locrian
+
+  <b d' gs'>4^"G♯ diminished ( i° )" b8 d' gs' d'
+  
+  <d' gs' b'>4 d'8 gs' b' gs'
+  
+  <gs' b' d''>4 gs'8 b' d'' b' \break
+
+
+  <f af d'>4^"D diminished ( ♭v° )" f8 af d' af
+  
+  <af d' f'>4 af8 d' f' d'
+  
+  <d' f' af'>4 d'8 f' af' f' \break
+
+
+  <b, d gs>4^"G♯ diminished ( i° )" b,8 d gs d
+  
+  <d gs b>4 d8 gs b gs
+  
+  <gs b d'>4 gs8 b d' b \break
+
+  \bar ":|."
+}
+
+threeStringChordsThreeTab = {
+  \time 3/4
+  
+  <b d' gs'>4 b8 d' gs' d'
+  
+  <d' gs' b'>4 d'8\3 gs'\2 b' gs'\2
+  
+  <gs'\3 b'\2 d''>4 gs'8\3 b'\2 d'' b'\2
+
+
+  <f af d'\2>4 f8\4 af\3 d'\2 af\3
+  
+  <af\4 d'\3 f'\2>4 af8\4 d'\3 f'\2 d'\3
+  
+  <d'\4 f'\3 af'\2>4 d'8\4 f'\3 af'\2 f'\3
+
+
+  <b, d gs\3>4 b,8\5 d\4 gs\3 d\4
+  
+  <d gs b\3>4 d8\5 gs\4 b\3 gs\4
+  
+  <gs b d'\3>4 gs8\5 b\4 d'\3 b\4
+}
+
+threeStringChordsFour = {
+  \clef "treble_8"
+  \time 3/4
   \key d \minor
   
   <f a d'>4^"D minor ( i )" f8 a d' a
@@ -151,8 +177,8 @@ threeStringChordsThree = {
   <bf d' f'>4 bf8 d' f' d' \break
 
 
-  <g bf e'>4^"E diminished ( ii° )" g8 bf e' bf
-  
+  <g bf e'>4^"E diminished ( ii° )" g8 bf e' bf  
+
   <bf e' g'>4 bf8 e' g' e'
   
   <e' g' bf'>4 e'8 g' bf' g' \break
@@ -167,7 +193,7 @@ threeStringChordsThree = {
   \bar ":|."
 }
 
-threeStringChordsThreeTab = {
+threeStringChordsFourTab = {
   \time 3/4
   
   <f a d'>4 f8 a d' a
@@ -197,3 +223,4 @@ threeStringChordsThreeTab = {
   
   <e' a'\2 cs''\1>4 e'8\3 a'\2 cs'' a'\2
 }
+
