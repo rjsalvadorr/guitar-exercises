@@ -50,10 +50,10 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 4:  Major modes, part 1" }
+  \tocItem \markup { "   Exercise 2-A:  Major modes, part 1" }
   
   \header {
-    title = "Exercise 4"
+    title = "Exercise 2-A"
     subtitle = "Major modes"
     subsubtitle = "Part 1"
   }
@@ -98,10 +98,10 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 5:  Major modes, part 2" }
+  \tocItem \markup { "   Exercise 2-B:  Major modes, part 2" }
   
   \header {
-    title = "Exercise 5"
+    title = "Exercise 2-B"
     subtitle = "Major modes"
     subsubtitle = "Part 2"
   }
@@ -146,10 +146,10 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 6:  Minor modes, part 1" }
+  \tocItem \markup { "   Exercise 2-C:  Minor modes, part 1" }
   
   \header {
-    title = "Exercise 6"
+    title = "Exercise 2-C"
     subtitle = "Minor modes"
     subsubtitle = "Part 1"
   }
@@ -194,10 +194,10 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 7:  Minor modes, part 2" }
+  \tocItem \markup { "   Exercise 2-D:  Minor modes, part 2" }
   
   \header {
-    title = "Exercise 7"
+    title = "Exercise 2-D"
     subtitle = "Minor modes"
     subsubtitle = "part 2"
   }
@@ -242,10 +242,10 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 8:  Mixed modes, part 1" }
+  \tocItem \markup { "   Exercise 2-E:  Mixed modes, part 1" }
   
   \header {
-    title = "Exercise 8"
+    title = "Exercise 2-E"
     subtitle = "Mixed modes"
     subsubtitle = "Part 1"
   }
@@ -290,10 +290,10 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 9:  Mixed modes, part 2" }
+  \tocItem \markup { "   Exercise 2-F:  Mixed modes, part 2" }
   
   \header {
-    title = "Exercise 9"
+    title = "Exercise 2-F"
     subtitle = "Mixed modes"
     subsubtitle = "Part 2"
   }
