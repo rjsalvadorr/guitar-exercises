@@ -33,7 +33,7 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 5-A:  Major and minor chords" }
+  \tocItem \markup { "   Exercise 5-A:  Major chords" }
   
   \paper { 
     system-system-spacing.basic-distance = #15
@@ -41,8 +41,8 @@
   
   \header {
     title = "Exercise 5-A"
-    subtitle = "Major and minor chords"
-    subsubtitle = "I - vi - ii - V"
+    subtitle = "Major chords"
+    subsubtitle = "I - V"
   }
 
   \markup {
@@ -81,12 +81,12 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 5-B:  Major and diminished chords" }
+  \tocItem \markup { "   Exercise 5-B:  Minor chords" }
   
   \header {
     title = "Exercise 5-B"
-    subtitle = "Major and diminished chords"
-    subsubtitle = "V - vii° - I"
+    subtitle = "Minor chords"
+    subsubtitle = "i -v"
   }
   
   \paper { 
@@ -129,12 +129,12 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 5-C:  Minor and diminished chords" }
+  \tocItem \markup { "   Exercise 5-C:  Diminished chords" }
   
   \header {
     title = "Exercise 5-C"
-    subtitle = "Minor and diminished chords"
-    subsubtitle = "v - vii° - i"
+    subtitle = "Diminished chords"
+    subsubtitle = "i° - ♯iv°"
   }
   
   \paper { 
