@@ -156,13 +156,13 @@ fourStringChordsThree = {
   
   \break
   
-  bf,4^"B♭ diminished ( ♭v° )" <f d'> bf,8 f d' f
+  bf,4^"B♭ diminished ( ♭v° )" <ff df'> bf,8 ff df' ff
 
-  d4 <bf f'> d8 bf f' bf
+  df4 <bf ff'> df8 bf ff' bf
 
-  f4 <d' bf'> f8 d' bf' d'
+  ff4 <df' bf'> ff8 df' bf' df'
   
-  \tuplet 3/2 { bf,8 f d' d8 bf f' f8 d' bf' } bf,4
+  \tuplet 3/2 { bf,8 ff df' df8 bf ff' f8 df' bf' } bf,4
 
   \break
   
@@ -191,13 +191,13 @@ fourStringChordsThreeTab = {
   \tuplet 3/2 { e,8\6 bf,\5 g\3 g,8\6 e\4 bf\3 bf,8\6 g\4 e'\3 } e,4\6
   
 
-  bf,4\5 <f\4 d'\2> bf,8\5 f\4 d'\2 f\4
+  bf,4\5 <ff\4 df'\2> bf,8\5 ff\4 df'\2 ff\4
 
-  d4\5 <bf\3 f'\2> d8\5 bf\3 f'\2 bf\3
+  df4\5 <bf\3 ff'\2> df8\5 bf\3 ff'\2 bf\3
 
-  f4\5 <d'\4 bf'\2> f8\5 d'\4 bf'\2 d'\4
+  ff4\5 <df'\4 bf'\2> ff8\5 df'\4 bf'\2 df'\4
 
-  \tuplet 3/2 { bf,8\5 f\4 d'\2 d8\5 bf\3 f'\2 f8\5 d'\4 bf'\2 } bf,4\5
+  \tuplet 3/2 { bf,8\5 ff\4 df'\2 df8\5 bf\3 ff'\2 ff8\5 df'\4 bf'\2 } bf,4\5
 
   
   e4\4 <bf\3 g'\1> e8\4 bf\3 g'\1 bf\3
@@ -235,23 +235,23 @@ fourStringChordsFour = {
 
   \break
 
-  fs,4^"F♯ major ( V )" <cs af> fs,8 cs af cs
+  fs,4^"F♯ major ( V )" <cs as> fs,8 cs as cs
 
-  af,4 <fs cs'> af,8 fs cs' fs
+  as,4 <fs cs'> as,8 fs cs' fs
 
-  cs4 <af fs'> cs8 af fs' af
+  cs4 <as fs'> cs8 as fs' as
   
-  \tuplet 3/2 { fs,8 cs af af,8 fs cs' cs8 af fs' } fs,4
+  \tuplet 3/2 { fs,8 cs as as,8 fs cs' cs8 as fs' } fs,4
 
   \break
 
-  af,4^"A♯ diminished ( vii° )" <e cs'> af,8 e cs' e
+  as,4^"A♯ diminished ( vii° )" <e cs'> as,8 e cs' e
 
-  cs4 <af e'> cs8 af e' af
+  cs4 <as e'> cs8 as e' as
 
-  e4 <cs' af'> e8 cs' af' cs'
+  e4 <cs' as'> e8 cs' as' cs'
 
-  \tuplet 3/2 { af,8 e cs' cs8 af e' e8 cs' af' } af,4
+  \tuplet 3/2 { as,8 e cs' cs8 as e' e8 cs' as' } as,4
 }
 
 fourStringChordsFourTab = {
@@ -275,20 +275,20 @@ fourStringChordsFourTab = {
   \tuplet 3/2 { g,8\6 d\5 b\3 b,8\6 g\4 d'\3 d8\6 b\4 g'\3 } g,4\6
 
 
-  fs,4\6 <cs\5 af\3> fs,8\6 cs\5 af\3 cs\5
+  fs,4\6 <cs\5 as\3> fs,8\6 cs\5 as\3 cs\5
 
-  af,4\6 <fs\4 cs'\3> af,8\6 fs\4 cs'\3 fs\4
+  as,4\6 <fs\4 cs'\3> as,8\6 fs\4 cs'\3 fs\4
 
-  cs4\6 <af\4 fs'\3> cs8\6 af\4 fs'\3 af\4
+  cs4\6 <as\4 fs'\3> cs8\6 as\4 fs'\3 as\4
 
-  \tuplet 3/2 { fs,8\6 cs\5 af\3 af,8\6 fs\4 cs'\3 cs8\6 af\4 fs'\3 } fs,4\6
+  \tuplet 3/2 { fs,8\6 cs\5 as\3 as,8\6 fs\4 cs'\3 cs8\6 as\4 fs'\3 } fs,4\6
 
 
-  af,4\5 <e\4 cs'\2> af,8\5 e\4 cs'\2 e\4
+  as,4\5 <e\4 cs'\2> as,8\5 e\4 cs'\2 e\4
 
-  cs4\5 <af\3 e'\2> cs8\5 af\3 e'\2 af\3
+  cs4\5 <as\3 e'\2> cs8\5 as\3 e'\2 as\3
 
-  e4\5 <cs'\4 af'\2> e8\5 cs'\4 af'\2 cs'\4
+  e4\5 <cs'\4 as'\2> e8\5 cs'\4 as'\2 cs'\4
 
-  \tuplet 3/2 { b,8\5 fs\4 d'\2 d8\5 b\3 fs'\2 fs8\5 d'\4 b'\2 } b,4\5
+  \tuplet 3/2 { as,8\5 e\4 cs'\2 cs8\5 as\3 e'\2 e8\5 cs'\4 as'\2 } as,4\5
 }
