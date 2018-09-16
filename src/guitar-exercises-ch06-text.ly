@@ -46,19 +46,8 @@
     subsubtitle = "I - V - I"
   }
   
-  \paper { 
+  \paper {
     system-system-spacing.basic-distance = #18
-  }
-  
-  \markup {
-    \column {
-      \hspace #0
-      \wordwrap \abs-fontsize #12 {
-        Major chord voicings, with a diminished chord on the upper strings.
-      }
-      \hspace #0
-      \hspace #0
-    }
   }
   
   \score {
@@ -98,17 +87,6 @@
     system-system-spacing.basic-distance = #18
   }
   
-  \markup {
-    \column {
-      \hspace #0
-      \wordwrap \abs-fontsize #12 {
-        Minor chord voicings, with a diminished chord on the lower strings. 
-      }
-      \hspace #0
-      \hspace #0
-    }
-  }
-  
   \score {
     
     \layout {
@@ -144,17 +122,6 @@
   
   \paper { 
     system-system-spacing.basic-distance = #18
-  }
-  
-  \markup {
-    \column {
-      \hspace #0
-      \wordwrap \abs-fontsize #12 {
-        Mixed voicings, with a diminished chord on the middle strings.
-      }
-      \hspace #0
-      \hspace #0
-    }
   }
   
   \score {
@@ -198,7 +165,7 @@
     \column {
       \hspace #0
       \wordwrap \abs-fontsize #12 {
-        Mixed voicings, with a diminished chord on the middle strings.
+        "Mixed voicings, with a diminished chord on the middle strings."
       }
       \hspace #0
       \hspace #0

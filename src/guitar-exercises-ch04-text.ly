@@ -55,19 +55,8 @@
     subsubtitle = "I - V - I"
   }
   
-  \paper { 
+  \paper {
     system-system-spacing.basic-distance = #18
-  }
-  
-  \markup {
-    \column {
-      \hspace #0
-      \wordwrap \abs-fontsize #12 {
-        Major chord voicings.
-      }
-      \hspace #0
-      \hspace #0
-    }
   }
   
   \score {
@@ -103,19 +92,8 @@
     subsubtitle = "i - v - i"
   }
   
-  \paper { 
+  \paper {
     system-system-spacing.basic-distance = #18
-  }
-  
-  \markup {
-    \column {
-      \hspace #0
-      \wordwrap \abs-fontsize #12 {
-        Minor chord voicings.
-      }
-      \hspace #0
-      \hspace #0
-    }
   }
   
   \score {
@@ -151,19 +129,8 @@
     subsubtitle = "i° - ♭v° - i°"
   }
   
-  \paper { 
+  \paper {
     system-system-spacing.basic-distance = #18
-  }
-  
-  \markup {
-    \column {
-      \hspace #0
-      \wordwrap \abs-fontsize #12 {
-        Diminished chord voicings.
-      }
-      \hspace #0
-      \hspace #0
-    }
   }
   
   \score {

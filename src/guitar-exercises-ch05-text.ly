@@ -33,28 +33,16 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 5-A:  Major chords" }
+  \tocItem \markup { "   Exercise 5-A:  Major open chords" }
   
-  \paper { 
+  \paper {
     system-system-spacing.basic-distance = #15
   }
   
   \header {
     title = "Exercise 5-A"
-    subtitle = "Major chords"
+    subtitle = "Major open chords"
     subsubtitle = "I - V"
-  }
-
-  \markup {
-    \column {
-      \hspace #0
-      \hspace #0
-      \wordwrap \abs-fontsize #12 {
-        Major and minor chords, starting on the low E and A strings.
-      }
-      \hspace #0
-      \hspace #0
-    }
   }
   
   \score {
@@ -81,30 +69,18 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 5-B:  Minor chords" }
+  \tocItem \markup { "   Exercise 5-B:  Minor open chords" }
   
   \header {
     title = "Exercise 5-B"
-    subtitle = "Minor chords"
+    subtitle = "Minor open chords"
     subsubtitle = "i -v"
   }
   
-  \paper { 
+  \paper {
     system-system-spacing.basic-distance = #18
   }
 
-  \markup {
-    \column {
-      \hspace #0
-      \hspace #0
-      \wordwrap \abs-fontsize #12 {
-        Major chords, and diminished voicings starting on the A string.
-      }
-      \hspace #0
-      \hspace #0
-    }
-  }
-  
   \score {
     
     \layout {
@@ -129,28 +105,16 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 5-C:  Diminished chords" }
+  \tocItem \markup { "   Exercise 5-C:  Diminished open chords" }
   
   \header {
     title = "Exercise 5-C"
-    subtitle = "Diminished chords"
+    subtitle = "Diminished open chords"
     subsubtitle = "i° - ♯iv°"
   }
   
-  \paper { 
+  \paper {
     system-system-spacing.basic-distance = #18
-  }
-
-  \markup {
-    \column {
-      \hspace #0
-      \hspace #0
-      \wordwrap \abs-fontsize #12 {
-        Minor chords, and diminished voicings starting from the low E string.
-      }
-      \hspace #0
-      \hspace #0
-    }
   }
   
   \score {
