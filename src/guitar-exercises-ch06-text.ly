@@ -47,6 +47,7 @@
   }
   
   \paper {
+    markup-system-spacing.basic-distance = #21
     system-system-spacing.basic-distance = #18
   }
   
@@ -84,6 +85,7 @@
   }
   
   \paper {
+    markup-system-spacing.basic-distance = #21
     system-system-spacing.basic-distance = #18
   }
   
@@ -120,7 +122,8 @@
     subsubtitle = "i° - ♭v° - i°"
   }
   
-  \paper { 
+  \paper {
+    markup-system-spacing.basic-distance = #21
     system-system-spacing.basic-distance = #18
   }
   
@@ -137,7 +140,7 @@
         \override Score.BarNumber.transparent = ##t
         \fourStringChordsThree
       >>
-        
+      
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
         \fourStringChordsThreeTab

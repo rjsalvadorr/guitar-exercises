@@ -56,6 +56,7 @@
   }
   
   \paper {
+    markup-system-spacing.basic-distance = #21
     system-system-spacing.basic-distance = #18
   }
   
@@ -93,6 +94,7 @@
   }
   
   \paper {
+    markup-system-spacing.basic-distance = #21
     system-system-spacing.basic-distance = #18
   }
   
@@ -130,6 +132,7 @@
   }
   
   \paper {
+    markup-system-spacing.basic-distance = #21
     system-system-spacing.basic-distance = #18
   }
   

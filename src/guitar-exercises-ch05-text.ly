@@ -36,6 +36,7 @@
   \tocItem \markup { "   Exercise 5-A:  Major open chords" }
   
   \paper {
+    markup-system-spacing.basic-distance = #20
     system-system-spacing.basic-distance = #15
   }
   
@@ -78,6 +79,7 @@
   }
   
   \paper {
+    markup-system-spacing.basic-distance = #20
     system-system-spacing.basic-distance = #18
   }
 
@@ -114,6 +116,7 @@
   }
   
   \paper {
+    markup-system-spacing.basic-distance = #20
     system-system-spacing.basic-distance = #18
   }
   
