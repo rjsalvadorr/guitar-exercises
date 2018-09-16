@@ -38,12 +38,12 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 6-A:  Mixed four-string chords" }
+  \tocItem \markup { "   Exercise 6-A:  Major four-string chords" }
   
   \header {
     title = "Exercise 6-A"
-    subtitle = "Mixed four-string chords"
-    subsubtitle = "I - vi - ii - V"
+    subtitle = "Major four-string chords"
+    subsubtitle = "I - V - I"
   }
   
   \paper { 
@@ -86,15 +86,15 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 6-B:  Mixed four-string chords" }
+  \tocItem \markup { "   Exercise 6-B:  Minor four-string chords" }
   
   \header {
     title = "Exercise 6-B"
-    subtitle = "Mixed four-string chords"
-    subsubtitle = "I - ii -V - vii°"
+    subtitle = "Minor four-string chords"
+    subsubtitle = "i - v - i"
   }
   
-  \paper { 
+  \paper {
     system-system-spacing.basic-distance = #18
   }
   
@@ -134,16 +134,16 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 6-C:  Mixed four-string chords" }
+  \tocItem \markup { "   Exercise 6-C:  Diminished four-string chords" }
   
   \header {
     title = "Exercise 6-C"
-    subtitle = "Mixed four-string chords"
-    subsubtitle = "i - VI - ii° - V"
+    subtitle = "Diminished four-string chords"
+    subsubtitle = "i° - ♭v° - i°"
   }
   
   \paper { 
-    system-system-spacing.basic-distance = #14
+    system-system-spacing.basic-distance = #18
   }
   
   \markup {
@@ -191,7 +191,7 @@
   }
   
   \paper { 
-    system-system-spacing.basic-distance = #14
+    system-system-spacing.basic-distance = #16
   }
   
   \markup {
