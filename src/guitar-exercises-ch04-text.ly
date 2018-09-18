@@ -57,7 +57,7 @@
   
   \paper {
     markup-system-spacing.basic-distance = #21
-    system-system-spacing.basic-distance = #18
+    system-system-spacing.basic-distance = #16
   }
   
   \score {
@@ -95,7 +95,7 @@
   
   \paper {
     markup-system-spacing.basic-distance = #21
-    system-system-spacing.basic-distance = #18
+    system-system-spacing.basic-distance = #16
   }
   
   \score {
@@ -133,7 +133,7 @@
   
   \paper {
     markup-system-spacing.basic-distance = #21
-    system-system-spacing.basic-distance = #18
+    system-system-spacing.basic-distance = #16
   }
   
   \score {
@@ -169,19 +169,9 @@
     subsubtitle = "i - VI - ii° - V"
   }
   
-  \paper { 
+  \paper {
+    markup-system-spacing.basic-distance = #21
     system-system-spacing.basic-distance = #14
-  }
-  
-  \markup {
-    \column {
-      \hspace #0
-      \wordwrap \abs-fontsize #12 {
-        Mixed voicings, with a diminished chord on the middle strings.
-      }
-      \hspace #0
-      \hspace #0
-    }
   }
   
   \score {

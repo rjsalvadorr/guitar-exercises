@@ -80,7 +80,7 @@
   
   \paper {
     markup-system-spacing.basic-distance = #20
-    system-system-spacing.basic-distance = #18
+    system-system-spacing.basic-distance = #15
   }
 
   \score {
@@ -117,7 +117,7 @@
   
   \paper {
     markup-system-spacing.basic-distance = #20
-    system-system-spacing.basic-distance = #18
+    system-system-spacing.basic-distance = #15
   }
   
   \score {
@@ -154,7 +154,7 @@
   
   \paper {
     markup-system-spacing.basic-distance = #20
-    system-system-spacing.basic-distance = #18
+    system-system-spacing.basic-distance = #17
   }
   
   \score {
