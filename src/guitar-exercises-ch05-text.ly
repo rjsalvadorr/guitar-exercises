@@ -141,3 +141,40 @@
     >>
   }
 }
+
+\bookpart {
+  
+  \tocItem \markup { "   Exercise 5-D:  Mixed open chords" }
+  
+  \header {
+    title = "Exercise 5-D"
+    subtitle = "Mixed open chords"
+    subsubtitle = "I - vi - IV - V"
+  }
+  
+  \paper {
+    markup-system-spacing.basic-distance = #20
+    system-system-spacing.basic-distance = #18
+  }
+  
+  \score {
+    
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    
+    \new StaffGroup <<
+      
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \openChordsFour
+      >>
+        
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \openChordsFourTab
+      >>
+    >>
+  }
+}

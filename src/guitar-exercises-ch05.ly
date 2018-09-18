@@ -164,3 +164,90 @@ openChordsThreeTab = {
   
   <b, d' f'>4 <d\5 f'\2 b'\1> <f\5 b'\2 d''\1>
 }
+
+openChordsFour = {
+  \clef "treble_8"
+  \time 3/4
+  \key bf \major
+  
+  <bf, d' f'>4^"B♭ major ( I )" bf,8 d' f' d'
+  
+  <d f' bf'>4 d8 f' bf' f'
+  
+  <f, bf d'>4 f,8 bf d' bf
+  
+  <bf, d' f'>4 <d f' bf'> <f, bf d'>
+  
+  \break
+
+  <g, bf d'>4^"G minor ( vi )" g,8[ bf d' bf]
+  
+  <bf, d' g'>4 bf,8 d' g' d'
+  
+  <d g' bf'>4 d8 g' bf' g'
+  
+  <g, bf d'>4 <bf, d' g'> <d g' bf'>
+  
+  \break
+
+  <ef g' bf'>4^"E♭ major ( IV )" ef8[ g' bf' g']
+  
+  <g, bf ef'>4 g,8 bf ef' bf
+  
+  <bf, ef' g'>4 bf,8 ef' g' ef'
+  
+  <ef, g bf>4 <g, bf ef'> <bf, ef' g'>
+  
+  \break
+
+  <f, a c'>4^"F major ( V )" f,8[ a c' a]
+  
+  <a, c' f'>4 a,8 c' f' c'
+  
+  <c f' a'>4 c8 f' a' f'
+  
+  <f, a c'>4 <a, c' f'> <c f' a'>
+  
+  \break
+  
+  \bar ":|."
+}
+
+openChordsFourTab = {
+  \time 3/4
+  
+  <bf, d' f'>4 bf,8 d'\2 f' d'\2
+  
+  <d\5 f'\2 bf'\1>4 d8\5 f'\2 bf'\1 f'\2
+  
+  <f,\6 bf\3 d'\2>4 f,8\6 bf\3 d'\2 bf\3
+  
+  <bf, d' f'>4 <d\5 f'\2 bf'\1> <f,\6 bf\3 d'\2>
+
+
+  <g, bf d'>4 g,8[ bf d' bf]
+  
+  <bf,\5 d'\2 g'\1>4 bf,8\5 d'\2 g'\1 d'\2
+  
+  <d\5 g'\2 bf'\1>4 d8\5 g'\2 bf'\1 g'\2
+  
+  <g, bf d'>4 <bf,\5 d'\2 g'\1> <d\5 g'\2 bf'\1>
+
+
+  <ef g' bf'>4 ef8\5[ g'\2 bf'\1 g'\2]
+  
+  <g,\6 bf\3 ef'\2>4 g,8\6 bf\3 ef'\2 bf\3
+  
+  <bf,\6 ef'\3 g'\2>4 bf,8\6 ef'\3 g'\2 ef'\3
+  
+  <ef g' bf'>4 <g,\6 bf\3 ef'\2> <bf,\6 ef'\3 g'\2>
+
+
+  <f, a c'>4 f,8[ a c' a]
+  
+  <a,\6 c'\3 f'\2>4 a,8\6 c'\3 f'\2 c'\3
+  
+  <c\5 f'\2 a'\1>4 c8\5 f'\2 a'\1 f'\2
+  
+  <f, a c'>4 <a,\6 c'\3 f'\2> <c\5 f'\2 a'\1>
+}
