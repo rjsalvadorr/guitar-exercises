@@ -1,10 +1,8 @@
-# Get Good at Guitar Inversions
+# Get Good at Guitar Chords
 
 _Exercises for improving fluency on guitar_
 
 &nbsp;
-
----
 
 ## Preface
 
@@ -12,9 +10,9 @@ _Exercises for improving fluency on guitar_
 
 This book started as a personal collection of exercises to get better at improvising on guitar, but it turned into a compact system that could help other guitarists as well. So I cleaned up what exercises I had, and decided to share this with others.
 
-I've laid out sixteen exercises for improving guitar fluency by memorizing a series of patterns on the fingerboard. These patterns all build on each other, and are especially effective when combined with music theory knowledge.
+I've laid out exercises for improving guitar fluency, which help the reader to memorize patterns on the fingerboard. These patterns all build on each other, and are especially effective when combined with music theory knowledge.
 
-I hope you learn something cool here.
+I hope you learn something cool here, because I learned a lot by making it.
 
 \- RJ Salvador  
 rjsalvadorr@gmail.com  
@@ -54,35 +52,15 @@ At the end of the day, use this book however you like. I encourage you to experi
 
 &nbsp;
 
----
-
 ## Chapter 1 - Arpeggios
 
 Arpeggios are an essential element for skillful improvisation and composition. They're used in countless melodies, and many accompaniment parts use nothing but block chords and arpeggios. 
 
 I put these exercises first because they're so useful, versatile, and ubiquitous. Knowledge of arpeggios can be applied right away to create good music. If you're going to learn only one exercise set from this book, this is the one I'd recommend.
 
-### Exercise 1A
-
-This chord progression is commonly found in jazz and pop music. It also gives us a chance to practice two forms of major and minor arpeggios (on the A string and the low E string).
-
-### Exercise 1B
-
-Major chords, and a diminished arpeggio starting on the A string.
-
-### Exercise 1C
-
-Minor chords, and a diminished arpeggio starting on the E string.
-
-### Étude
-
-Blah
-
 &nbsp;
 
----
-
-## Chapter 2 - Scales and modes
+## Chapter 2 - Scales & modes
 
 Many guitarists encounter scales and modes as the mainstays of boring practice routines. Well, they're also the mainstays of effective practice routines. And they don't have to be boring, if you know how to apply them properly. Scale practice improves the skills needed for lightning-fast runs, and staying in key while improvising melodies.
 
@@ -106,7 +84,7 @@ In the major key, the _ionian_, _lydian_, and _mixolydian_ modes start on the 1s
 
 ### Exercise 2B
 
-The same modes as in Exercise 2A, but with the _lydian_ and _mixolydian_ modes below the _ionian_.
+The same modes as in Exercise 2-A, but with the _lydian_ and _mixolydian_ modes below the _ionian_.
 
 ### Exercise 2C
 
@@ -114,7 +92,7 @@ In the natural minor key, the _aeolian_, _dorian_, and _phrygian_ modes start on
 
 ### Exercise 2D
 
-The same modes as in Exercise 2C, but with the _dorian_ and _phrygian_ modes below the _aeolian_.
+The same modes as in Exercise 2-C, but with the _dorian_ and _phrygian_ modes below the _aeolian_.
 
 ### Exercise 2E
 
@@ -124,13 +102,7 @@ Mixed modes. Introducing the diminished mode: _locrian_, starting on the low E s
 
 Mixed modes, with the _locrian_ mode starting on the A string.
 
-### Étude
-
-Blah
-
 &nbsp;
-
----
 
 ## Chapter 3 - Scale & Arpeggio Variations
 
@@ -144,37 +116,13 @@ Blah
 
 &nbsp;
 
----
-
 ## Chapter 4 - Three-string chord voicings
 
 Three-string voicings are a great way to add some harmony to a melodic passage. Technically, they're also pretty efficient. Your fretting hand can form these chord shapes quickly, and you can move through most chords while barely moving your hand around the neck.
 
 Learning these chord shapes can give your solos a fuller sound by supporting the melody with harmony. They also make it easier to transition between melodic and rhythmic playing.
 
-### Exercise 4A
-
-Major chord voicings on the lower strings.
-
-### Exercise 4B
-
-Minor chord voicings on the lower strings.
-
-### Exercise 4C
-
-Mixed voicings. Introducing two sets of diminished chord voicings.
-
-### Exercise 4D
-
-Focusing on mixed voicings on the upper strings.
-
-### Étude
-
-Blah
-
 &nbsp;
-
----
 
 ## Chapter 5 - Open chord voicings
 
@@ -182,25 +130,19 @@ Classical and jazz guitarists are known for playing chords with plenty of space 
 
 Learning these voicings should give you the skills for playing on two areas of the fretboard at the same time. With enough practice, you can easily play a distinct bassline with a melody (plus accompaniment) all by yourself.
 
-### Exercise 5A
+&nbsp;
 
-Major and minor chords, starting on the low E and A strings.
+## Chapter 6 - Four-string chord patterns
 
-### Exercise 5B
-
-Major chords, and diminished voicings starting on the A string.
-
-### Exercise 5C
-
-Minor chords, and diminished voicings starting from the low E string.
-
-### Étude
-
-Blah
+...
 
 &nbsp;
 
----
+## Chapter 7 - Seventh chord patterns
+
+...
+
+&nbsp;
 
 ## APPENDIX
 
@@ -241,5 +183,3 @@ This book goes through 72 chord forms, with each chapter covering 3 chord types 
 * 9 bass chord shapes, covering 1 string groups
 
 &nbsp;
-
----

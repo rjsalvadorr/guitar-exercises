@@ -115,7 +115,7 @@
       \hspace #0
       \hspace #0
       \wordwrap \abs-fontsize #12 {
-        The same modes as in Exercise 2A, but with the \italic "lydian" and \italic "mixolydian" modes below the \italic "ionian".
+        The same modes as in Exercise 2-A, but with the \italic "lydian" and \italic "mixolydian" modes below the \italic "ionian".
       }
       \hspace #0
       \hspace #0
@@ -211,7 +211,7 @@
       \hspace #0
       \hspace #0
       \wordwrap \abs-fontsize #12 {
-        The same modes as in Exercise 2C, but with the \italic "dorian" and \italic "phrygian" modes below the \italic "aeolian."
+        The same modes as in Exercise 2-C, but with the \italic "dorian" and \italic "phrygian" modes below the \italic "aeolian."
       }
       \hspace #0
       \hspace #0
