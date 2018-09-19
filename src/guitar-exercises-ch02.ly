@@ -202,7 +202,7 @@ scalesAndModesFour = {
   \time 4/4
   \key d \minor
   
-  d8_1^"D aeolian  ( I )" e f g a bf c' d'_3
+  d8_1^"D aeolian  ( i )" e f g a bf c' d'_3
   
   e'_3 f' g' a' bf' c'' d''4
   
@@ -211,7 +211,7 @@ scalesAndModesFour = {
   c' bf a g f e d4_1 \break
   
 
-  g,8_1^"G dorian  ( IV )" a, bf, c d_2 e_4 f g_3
+  g,8_1^"G dorian  ( iv )" a, bf, c d_2 e_4 f g_3
   
   a_3 bf c' d' e' f' g'4
   
@@ -220,7 +220,7 @@ scalesAndModesFour = {
   g_3 f e_4 d_2 c bf, a, g,4_1 \break
   
 
-  a,8_1^"A phrygian  ( V )" bf, c d e f g a_3
+  a,8_1^"A phrygian  ( v )" bf, c d e f g a_3
   
   bf_2 c' d' e' f' g' a'4
   
