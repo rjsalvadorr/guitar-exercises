@@ -8,6 +8,7 @@
 \include "guitar-exercises-ch04.ly"
 \include "guitar-exercises-ch05.ly"
 \include "guitar-exercises-ch06.ly"
+\include "guitar-exercises-ch07.ly"
 
 \header {
   maintainer = "RJ Salvador"
@@ -200,10 +201,10 @@ tocSection =
       indent = 0\mm
       print-page-number = false
       
-      top-margin = 1\in
+      top-margin = 0.5\in
       left-margin = 1.75\in
       right-margin = 1.75\in
-      bottom-margin = 1\in
+      bottom-margin = 0.5\in
       
       tocTitleMarkup = \markup \huge \bold \column {
         \fill-line {
@@ -223,5 +224,6 @@ tocSection =
   \include "guitar-exercises-ch04-text.ly"
   \include "guitar-exercises-ch05-text.ly"
   \include "guitar-exercises-ch06-text.ly"
+  \include "guitar-exercises-ch07-text.ly"
   \include "guitar-exercises-appendix.ly"  
 }

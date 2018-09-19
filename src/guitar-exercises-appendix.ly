@@ -27,8 +27,6 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Technical details about exercises" }
-  
   \header {
     title = "Technical details about exercises"
   }
