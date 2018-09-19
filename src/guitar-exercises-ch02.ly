@@ -3,7 +3,7 @@ scalesAndMOdesOne = {
   \time 4/4
   \key g \major
   
-  g,8_2^"G ionian ( I )" a, b, c d e fs_3 g_2
+  g,8_2^"G ionian  ( I )" a, b, c d e fs_3 g_2
   
   a b c' d' e' fs' g'4
   
@@ -12,7 +12,7 @@ scalesAndMOdesOne = {
   g_2 fs_3 e d c b, a, g,4_2 \break
   
 
-  c8_2^"C lydian ( IV )" d e fs g a b_3 c'_2
+  c8_2^"C lydian  ( IV )" d e fs g a b_3 c'_2
   
   d' e' fs' g' a' b' c''4
   
@@ -21,7 +21,7 @@ scalesAndMOdesOne = {
   b_3 a g fs e d c4_2 \break
   
 
-  d8_2^"D mixolydian ( V )" e fs g a b c'_2 d'_2
+  d8_2^"D mixolydian  ( V )" e fs g a b c'_2 d'_2
   
   e' fs' g' a' b' c'' d''4
   
@@ -70,7 +70,7 @@ scalesAndModesTwo = {
   \time 4/4
   \key d \major
   
-  d8_2^"D ionian ( I )" e fs g a b cs'_3 d'_2
+  d8_2^"D ionian  ( I )" e fs g a b cs'_3 d'_2
   
   e' fs' g' a' b' cs'' d''4
   
@@ -79,7 +79,7 @@ scalesAndModesTwo = {
   cs'_3 b a g fs e d4_2 \break
 
   
-  g,8_2^"G lydian ( IV )" a, b, cs d e fs_3 g_2
+  g,8_2^"G lydian  ( IV )" a, b, cs d e fs_3 g_2
   
   a b cs' d' e' fs' g'4
   
@@ -88,7 +88,7 @@ scalesAndModesTwo = {
   g_2 fs_3 e d cs b, a, g,4_2 \break
   
 
-  a,8_2^"A mixolydian ( V )" b, cs d e fs g_2 a_2
+  a,8_2^"A mixolydian  ( V )" b, cs d e fs g_2 a_2
   
   b cs' d' e' fs' g' a'4
   
@@ -135,7 +135,7 @@ scalesAndModesThree = {
   \time 4/4
   \key g \minor
   
-  g,8_1^"G aeolian ( i )" a, bf, c d ef f g_3
+  g,8_1^"G aeolian  ( i )" a, bf, c d ef f g_3
   
   a_3 bf c' d' ef' f' g'4
   
@@ -144,7 +144,7 @@ scalesAndModesThree = {
   g_3 f ef d c bf, a, g,4_1 \break
   
 
-  c8_1^"C dorian ( iv )" d ef f g_2 a_4 bf c'_3
+  c8_1^"C dorian  ( iv )" d ef f g_2 a_4 bf c'_3
   
   d'_3 ef' f' g' a' bf' c''4
   
@@ -153,7 +153,7 @@ scalesAndModesThree = {
   bf a_4 g_2 f ef d c4_1 \break
   
 
-  d8_1^"D phrygian ( v )" ef f g a bf c' d'_3
+  d8_1^"D phrygian  ( v )" ef f g a bf c' d'_3
   
   ef'_2 f' g' a' bf' c'' d''4
   
@@ -202,7 +202,7 @@ scalesAndModesFour = {
   \time 4/4
   \key d \minor
   
-  d8_1^"D aeolian ( I )" e f g a bf c' d'_3
+  d8_1^"D aeolian  ( I )" e f g a bf c' d'_3
   
   e'_3 f' g' a' bf' c'' d''4
   
@@ -211,7 +211,7 @@ scalesAndModesFour = {
   c' bf a g f e d4_1 \break
   
 
-  g,8_1^"G dorian ( IV )" a, bf, c d_2 e_4 f g_3
+  g,8_1^"G dorian  ( IV )" a, bf, c d_2 e_4 f g_3
   
   a_3 bf c' d' e' f' g'4
   
@@ -220,7 +220,7 @@ scalesAndModesFour = {
   g_3 f e_4 d_2 c bf, a, g,4_1 \break
   
 
-  a,8_1^"A phrygian ( V )" bf, c d e f g a_3
+  a,8_1^"A phrygian  ( V )" bf, c d e f g a_3
   
   bf_2 c' d' e' f' g' a'4
   
@@ -269,7 +269,7 @@ scalesAndModesFive = {
   \time 4/4
   \key g \major
   
-  g,8_2^"G ionian ( I )" a, b, c d e fs_3 g_2
+  g,8_2^"G ionian  ( I )" a, b, c d e fs_3 g_2
   
   a b c' d' e' fs' g'4
   
@@ -278,7 +278,7 @@ scalesAndModesFive = {
   g_2 fs_3 e d c b, a, g,4_2 \break
   
 
-  a,8_1^"A dorian ( ii )" b, c d e_2 fs_4 g a_3
+  a,8_1^"A dorian  ( ii )" b, c d e_2 fs_4 g a_3
   
   b_3 c' d' e' fs' g' a'4
   
@@ -287,7 +287,7 @@ scalesAndModesFive = {
   g fs_4 e_2 d c b, a,4_1 \break
   
 
-  d8_2^"D mixolydian ( V )" e fs g a b c'_2 d'_2
+  d8_2^"D mixolydian  ( V )" e fs g a b c'_2 d'_2
   
   e' fs' g' a' b' c'' d''4
   
@@ -296,7 +296,7 @@ scalesAndModesFive = {
   c'_2 b a g fs e d4_2 \break
 
 
-  fs,8_1^"F♯ locrian ( vii° )" g, a, b, c d e fs_3
+  fs,8_1^"F♯ locrian  ( vii° )" g, a, b, c d e fs_3
   
   g_2 a b c' d' e' fs'4
   
@@ -353,7 +353,7 @@ scalesAndModesSix = {
   \time 4/4
   \key c \minor
   
-  c8_1^"C aeolian ( i )" d ef f g af bf c'_3
+  c8_1^"C aeolian  ( i )" d ef f g af bf c'_3
   
   d'_3 ef' f' g' af' bf' c''4
   
@@ -362,7 +362,7 @@ scalesAndModesSix = {
   bf af g f ef d c4_1 \break
 
 
-  f,8_1^"F dorian ( iv )" g, af, bf, c_2 d_4 ef f_3
+  f,8_1^"F dorian  ( iv )" g, af, bf, c_2 d_4 ef f_3
   
   g_3 af bf c' d' ef' f'4
   
@@ -371,7 +371,7 @@ scalesAndModesSix = {
   ef d_4 c_2 bf, af, g, f,4_1 \break
 
 
-  d8_1^"D locrian ( ii° )" ef f g af bf c' d'_3
+  d8_1^"D locrian  ( ii° )" ef f g af bf c' d'_3
   
   ef'_2 f' g' af' bf' c'' d''4
   
@@ -380,7 +380,7 @@ scalesAndModesSix = {
   c' bf af g f ef d4_1 \break
 
 
-  g,8_2^"G phrygian dominant ( V )" af,_3 b,_1 c d_3 ef f g_2
+  g,8_2^"G phrygian dominant  ( V )" af,_3 b,_1 c d_3 ef f g_2
   
   af_3 b_1 c' d'_3 ef' f' g'4
   

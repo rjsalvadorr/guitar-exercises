@@ -5,7 +5,7 @@ openChordsOne = {
   \time 3/4
   \key e \major
   
-  <e, gs b>4^"E major ( I )" e,8[ gs b gs]
+  <e, gs b>4^"E major  ( I )" e,8[ gs b gs]
   
   <gs, b e'>4 gs,8 b e' b
   
@@ -17,7 +17,7 @@ openChordsOne = {
   
   \break
   
-  <b, ds' fs'>4^"B major ( V )" b,8 ds' fs' ds'
+  <b, ds' fs'>4^"B major  ( V )" b,8 ds' fs' ds'
   
   <ds fs' b'>4 ds8 fs' b' fs'
   
@@ -60,7 +60,7 @@ openChordsTwo = {
   \time 3/4
   \key e \minor
   
-  <e, g b>4^"E minor ( i )" e,8[ g b g]
+  <e, g b>4^"E minor  ( i )" e,8[ g b g]
   
   <g, b e'>4 g,8 b e' b
   
@@ -72,7 +72,7 @@ openChordsTwo = {
   
   \break
   
-  <b, d' fs'>4^"B minor ( v )" b,8 d' fs' d'
+  <b, d' fs'>4^"B minor  ( v )" b,8 d' fs' d'
   
   <d fs' b'>4 d8 fs' b' fs'
   
@@ -115,7 +115,7 @@ openChordsThree = {
   \time 3/4
   \key f \locrian
   
-  <f, af cf'>4^"F diminished ( i° )" f,8[ af cf' af]
+  <f, af cf'>4^"F diminished  ( i° )" f,8[ af cf' af]
   
   <af, cf' f'>4 af,8 cf' f' cf'
   
@@ -127,7 +127,7 @@ openChordsThree = {
   
   \break
   
-  <b, d' f'>4^"B diminished ( ♯iv° )" b,8 d' f' d'
+  <b, d' f'>4^"B diminished  ( ♯iv° )" b,8 d' f' d'
   
   <d f' b'>4 d8 f' b' f'
   
@@ -170,7 +170,7 @@ openChordsFour = {
   \time 3/4
   \key bf \major
   
-  <bf, d' f'>4^"B♭ major ( I )" bf,8 d' f' d'
+  <bf, d' f'>4^"B♭ major  ( I )" bf,8 d' f' d'
   
   <d f' bf'>4 d8 f' bf' f'
   
@@ -180,7 +180,7 @@ openChordsFour = {
   
   \break
 
-  <g, bf d'>4^"G minor ( vi )" g,8[ bf d' bf]
+  <g, bf d'>4^"G minor  ( vi )" g,8[ bf d' bf]
   
   <bf, d' g'>4 bf,8 d' g' d'
   
@@ -190,7 +190,7 @@ openChordsFour = {
   
   \break
 
-  <ef g' bf'>4^"E♭ major ( IV )" ef8[ g' bf' g']
+  <ef g' bf'>4^"E♭ major  ( IV )" ef8[ g' bf' g']
   
   <g, bf ef'>4 g,8 bf ef' bf
   
@@ -200,7 +200,7 @@ openChordsFour = {
   
   \break
 
-  <f, a c'>4^"F major ( V )" f,8[ a c' a]
+  <f, a c'>4^"F major  ( V )" f,8[ a c' a]
   
   <a, c' f'>4 a,8 c' f' c'
   

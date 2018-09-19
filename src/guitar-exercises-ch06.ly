@@ -5,7 +5,7 @@ fourStringChordsOne = {
   \time 4/4
   \key e \major
   
-  e,4^"E major ( I )" <b, gs> e,8 b, gs b,
+  e,4^"E major  ( I )" <b, gs> e,8 b, gs b,
 
   gs,4 <e b> gs,8 e b e
 
@@ -16,7 +16,7 @@ fourStringChordsOne = {
   
   \break
   
-  b,4^"B major ( V )" <fs ds'> b,8 fs ds' fs
+  b,4^"B major  ( V )" <fs ds'> b,8 fs ds' fs
 
   ds4 <b fs'> ds8 b fs' b
 
@@ -26,7 +26,7 @@ fourStringChordsOne = {
   
   \break
   
-  e4^"E major ( I )" <b gs'> e8 b gs' b
+  e4^"E major  ( I )" <b gs'> e8 b gs' b
 
   gs4 <e' b'> gs8 e' b' e'
 
@@ -75,7 +75,7 @@ fourStringChordsTwo = {
   \time 4/4
   \key e \minor
   
-  e,4^"E minor ( i )" <b, g> e,8 b, g b,
+  e,4^"E minor  ( i )" <b, g> e,8 b, g b,
 
   g,4 <e b> g,8 e b e
 
@@ -86,7 +86,7 @@ fourStringChordsTwo = {
   
   \break
   
-  b,4^"B minor ( v )" <fs d'> b,8 fs d' fs
+  b,4^"B minor  ( v )" <fs d'> b,8 fs d' fs
 
   d4 <b fs'> d8 b fs' b
 
@@ -96,7 +96,7 @@ fourStringChordsTwo = {
 
   \break
   
-  e4^"E minor ( i )" <b g'> e8 b g' b
+  e4^"E minor  ( i )" <b g'> e8 b g' b
 
   g4 <e' b'> g8 e' b' e'
 
@@ -145,7 +145,7 @@ fourStringChordsThree = {
   \time 4/4
   \key e \locrian
   
-  e,4^"E diminished ( i° )" <bf, g> e,8 bf, g bf,
+  e,4^"E diminished  ( i° )" <bf, g> e,8 bf, g bf,
 
   g,4 <e bf> g,8 e bf e
 
@@ -156,7 +156,7 @@ fourStringChordsThree = {
   
   \break
   
-  bf,4^"B♭ diminished ( ♭v° )" <ff df'> bf,8 ff df' ff
+  bf,4^"B♭ diminished  ( ♭v° )" <ff df'> bf,8 ff df' ff
 
   df4 <bf ff'> df8 bf ff' bf
 
@@ -166,7 +166,7 @@ fourStringChordsThree = {
 
   \break
   
-  e4^"E diminished ( i° )" <bf g'> e8 bf g' bf
+  e4^"E diminished  ( i° )" <bf g'> e8 bf g' bf
 
   g4 <e' bf'> g8 e' bf' e'
 
@@ -214,7 +214,7 @@ fourStringChordsFour = {
   \time 4/4
   \key b \minor
 
-  b,4^"B minor ( i )" <fs d'> b,8 fs d' fs
+  b,4^"B minor  ( i )" <fs d'> b,8 fs d' fs
 
   d4 <b fs'> d8 b fs' b
 
@@ -225,7 +225,7 @@ fourStringChordsFour = {
   
   \break
 
-  g,4^"G major ( VI )" <d b> g,8 d b d
+  g,4^"G major  ( VI )" <d b> g,8 d b d
 
   b,4 <g d'> b,8 g d' g
 
@@ -235,7 +235,7 @@ fourStringChordsFour = {
 
   \break
 
-  fs,4^"F♯ major ( V )" <cs as> fs,8 cs as cs
+  fs,4^"F♯ major  ( V )" <cs as> fs,8 cs as cs
 
   as,4 <fs cs'> as,8 fs cs' fs
 
@@ -245,7 +245,7 @@ fourStringChordsFour = {
 
   \break
 
-  as,4^"A♯ diminished ( vii° )" <e cs'> as,8 e cs' e
+  as,4^"A♯ diminished  ( vii° )" <e cs'> as,8 e cs' e
 
   cs4 <as e'> cs8 as e' as
 
