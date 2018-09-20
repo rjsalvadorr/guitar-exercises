@@ -58,7 +58,7 @@
       indent = 0.0\cm
     }
     \header {
-      piece = \markup \huge { "Full chord voicing" }
+      piece = \markup \huge \bold { "Full chord voicing" }
     }
     \new StaffGroup <<
       \new Staff <<
@@ -78,7 +78,7 @@
       indent = 0.0\cm
     }
     \header {
-      piece = \markup \huge { "Partial chord voicing, dropped 5th" }
+      piece = \markup \huge \bold { "Partial chord voicing, dropped 5th" }
     }
     \new StaffGroup <<
       \new Staff <<
@@ -104,30 +104,49 @@
   }
   
   \paper {
-    markup-system-spacing.basic-distance = #21
+    markup-system-spacing.basic-distance = #15
+    score-markup-spacing.basic-distance = #15
     system-system-spacing.basic-distance = #18
   }
   
   \score {
-    
     \layout {
       \omit Voice.StringNumber
       indent = 0.0\cm
     }
-    
+    \header {
+      piece = \markup \huge \bold { "Full chord voicing" }
+    }
     \new StaffGroup <<
-      
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
         \seventhChordsTwo
       >>
-        
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
         \seventhChordsTwoTab
       >>
     >>
-    
+  }
+
+  \score {
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    \header {
+      piece = \markup \huge \bold { "Partial chord voicing, dropped 5th" }
+    }
+    \new StaffGroup <<
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \seventhChordsIIb
+      >>
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \seventhChordsIIbTab
+      >>
+    >>
   }
 }
 
@@ -142,29 +161,48 @@
   }
   
   \paper {
-    markup-system-spacing.basic-distance = #21
+    markup-system-spacing.basic-distance = #15
+    score-markup-spacing.basic-distance = #15
     system-system-spacing.basic-distance = #18
   }
   
   \score {
-    
     \layout {
       \omit Voice.StringNumber
       indent = 0.0\cm
     }
-    
+    \header {
+      piece = \markup \huge \bold { "Full chord voicing" }
+    }
     \new StaffGroup <<
-      
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
         \seventhChordsThree
       >>
-        
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
         \seventhChordsThreeTab
       >>
     >>
-    
+  }
+
+  \score {
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    \header {
+      piece = \markup \huge \bold { "Partial chord voicing, dropped 5th" }
+    }
+    \new StaffGroup <<
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \seventhChordsIIIb
+      >>
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \seventhChordsIIIbTab
+      >>
+    >>
   }
 }
