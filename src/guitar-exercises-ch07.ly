@@ -20,6 +20,18 @@ seventhChordsOne = {
   \bar ":|."
 }
 
+seventhChordsOneTab = {
+  \time 3/4
+  
+  <g, d fs b\3>4 g,8 d\5 fs\4 b\3
+  
+  <a,\6 e g c'\3>4 a,8\6 e\5 g\4 c'\3
+
+  <d\6 a c' fs'\3>4 d8\6 a\5 c'\4 fs'\3
+  
+  <fs,\6 c e a\3>4 fs,8\6 c\5 e\4 a\3
+}
+
 seventhChordsIb = {
   \clef "treble_8"
   \time 3/4
@@ -40,18 +52,6 @@ seventhChordsIb = {
   \bar ":|."
 }
 
-seventhChordsOneTab = {
-  \time 3/4
-  
-  <g, d fs b\3>4 g,8 d fs b\3
-  
-  <a,\6 e g c'\3>4 a,8\6 e g\4 c'\3
-
-  <d\6 a c' fs'\3>4 d8\6 a c'\4 fs'\3
-  
-  <fs,\6 c e a\3>4 fs,8\6 c\4 e\3 a\4
-}
-
 seventhChordsIbTab = {
   
   <g, fs b\3>4 g,8 fs b\3 fs
@@ -60,7 +60,7 @@ seventhChordsIbTab = {
   
   <d\6 c' fs'\3>4 d8\6 c'\4 fs'\3 c'\4
   
-  <fs,\6 c e a\3>4 fs,8\6 c\4 e\3 a\4
+  <fs,\6 c e a\3>4 fs,8\6 c\5 e\4 a\3
 }
 
 seventhChordsTwo = {
@@ -74,7 +74,7 @@ seventhChordsTwo = {
 
   \break
   
-  <g d f' b'>4^"G7  ( V )" g8 d f' b'
+  <g d' f' b'>4^"G7  ( V )" g8 d' f' b'
   
   <b, f a d'>4^"Bm7♭5  ( vii° )" b,8 f a d'
   
@@ -86,11 +86,11 @@ seventhChordsTwo = {
 seventhChordsTwoTab = {
   \time 3/4
   
-  <c\5 g b e'\2>4 c8\5 g b\3 e'\2
+  <c\5 g b e'\2>4 c8\5 g\4 b\3 e'\2
   
-  <d\5 a c' f'\2>4 d8\5 a c'\3 f'\2
+  <d\5 a c' f'\2>4 d8\5 a\4 c'\3 f'\2
   
-  <g\5 d f' b'\2>4 g8\5 d f'\3 b'\2
+  <g\5 d' f' b'\2>4 g8\5 d'\4 f'\3 b'\2
   
   <b,\5 f a d'\2>4 b,8\5 f\4 a\3 d'\2
 }
@@ -132,13 +132,13 @@ seventhChordsThree = {
   \time 3/4
   \key e \major
   
-  <e ds' gs'>4^"Emaj7  ( I )" e8 ds' gs' ds'
+  <e b ds' gs'>4^"Emaj7  ( I )" e8 b ds' gs'
   
-  <fs e' a'>4^"F♯m7  ( ii )" fs8 e' a' e'
+  <fs c' e' a'>4^"F♯m7  ( ii )" fs8 c' e' a'
 
   \break
   
-  <b a' ds''>4^"B7  ( V )" b8 a' ds'' a'
+  <b fs' a' ds''>4^"B7  ( V )" b8 fs' a' ds''
   
   <ds a cs' fs'>4^"D♯m7♭5  ( vii° )" ds8 a cs' fs'
   
@@ -150,13 +150,13 @@ seventhChordsThree = {
 seventhChordsThreeTab = {
   \time 3/4
   
-  <e\4 ds' gs'\1>4 e8\4 ds'\2 gs'\1 ds'\2
+  <e\4 b ds' gs'\1>4 e8\4 b\3 ds'\2 gs'\1
   
-  <fs\4 e' a'\1>4 fs8\4 e'\2 a'\1 e'\2
+  <fs\4 c' e' a'\1>4 fs8\4 c'\3 e'\2 a'\1
   
-  <b\4 a' ds''\1>4 b8\4 a'\2 ds''\1 a'\2
+  <b\4 fs' a' ds''\1>4 b8\4 fs'\3 a'\2 ds''\1
   
-  <ds\4 a cs' fs'\1>4 ds8\4 a\2 cs'\1 fs'\2
+  <ds\4 a cs' fs'\1>4 ds8\4 a\3 cs'\2 fs'\1
 }
 
 seventhChordsIIIb = {
@@ -188,5 +188,5 @@ seventhChordsIIIbTab = {
   
   <b\4 a' ds''\1>4 b8\4 a'\2 ds''\1 a'\2
   
-  <ds\4 a cs' fs'\1>4 ds8\4 a\2 cs'\1 fs'\2
+  <ds\4 a cs' fs'\1>4 ds8\4 a\3 cs'\2 fs'\1
 }
