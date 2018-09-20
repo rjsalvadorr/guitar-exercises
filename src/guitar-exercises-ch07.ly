@@ -7,13 +7,31 @@ seventhChordsOne = {
   
   <g, fs b>4^"Gmaj7  ( I )" g,8 fs b fs
   
-  <a, g c'>4^"Dm7  ( ii )" a,8 g c' g
-  
-  \break
+  <a, g c'>4^"Am7  ( ii )" a,8 g c' g
   
   <d c' fs'>4^"D7  ( V )" d8 c' fs' c'
   
   <fs, c e a>4^"F♯m7♭5  ( vii° )" fs,8 c e a
+  
+  \break
+
+  <g, b, a>4^"Gmaj9  ( I )" g,8 b, a b,
+  
+  <a, c b>4^"Am9  ( ii )" a,8 c b c
+  
+  <d fs e'>4^"D9  ( V )" d8 fs e' fs
+  
+  <fs, c ef a>4^"F♯°7  ( vii° )" fs,8 c ef a
+  
+  \break
+
+  <g, fs a>4^"Gmaj9  ( I )" g,8 fs a fs
+  
+  <a, g b>4^"Am9  ( ii )" a,8 g b g
+  
+  <d c' e'>4^"D9  ( V )" d8 c' e' c'
+  
+  <fs, c ef a>4^"F♯°7  ( vii° )" fs,8 c ef a
   
   \break
 
@@ -27,10 +45,31 @@ seventhChordsOneTab = {
   
   <a,\6 g c'\3>4 a,8\6 g\4 c'\3 g\4
   
-  
   <d\6 c' fs'\3>4 d8\6 c'\4 fs'\3 c'\4
   
   <fs,\6 c e a\3>4 fs,8\6 c\4 e\3 a\4
+
+  
+  <g, b, a>4 g,8 b, a b,
+  
+  <a, c b>4 a,8 c b c
+  
+  <d fs e'>4 d8 fs e' fs
+  
+  <fs, c ef a>4 fs,8 c ef a
+  
+
+  <g, fs a>4 g,8 fs a fs
+  
+  <a, g b>4 a,8 g b g
+  
+  <d c' e'>4 d8 c' e' c'
+  
+  <fs, c ef a>4 fs,8 c ef a
+  
+  \break
+
+
 }
 
 seventhChordsTwo = {
