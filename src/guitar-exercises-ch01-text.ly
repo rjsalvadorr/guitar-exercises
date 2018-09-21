@@ -172,3 +172,41 @@
     >>
   }
 }
+
+\bookpart {
+  \tocItem \markup { "   Example 1-D:  Classical Clone" }
+  \header {
+    title = "Example 1-D"
+    subtitle = "Classical Clone"
+    subsubtitle = "i − iv − V − vii°"
+  }
+  \paper { 
+    system-system-spacing.basic-distance = #16
+  }
+  \markup {
+    \column {
+      \hspace #0
+      \wordwrap \abs-fontsize #12 {
+        Example combining simple chords, arpeggios, and melodies.
+      }
+      \hspace #0
+      \hspace #0
+    }
+  }
+  \score { 
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    \new StaffGroup <<
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \exampleId
+      >>
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \exampleId
+      >>
+    >>
+  }
+}

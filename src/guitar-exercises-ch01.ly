@@ -125,3 +125,18 @@ arpeggiosContextThreeTab = {
   
   fs'8\2 c'\3 a\4 fs\4 c\5 a,\6 fs,4\6
 }
+
+exampleId = {
+  \clef "treble_8"
+  \time 4/4
+  \key g \major
+
+  << { <b d'>4. e'8 d'4 cs'4 } \\ { g,4. s8 s2 } >>
+  << { <b d'>4 g'8 d' b d' d g } \\ { g,4 s2. } >>
+  << { <c' e'>4. fs'8 e'4 ds'4 } \\ { c4. s8 s2 } >>
+  << { <c' e'>4 c''8 g' e' g' c' e' } \\ { c4 s2. } >>
+}
+
+exampleIdTab = {
+  \time 4/4
+}
