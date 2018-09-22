@@ -233,6 +233,26 @@ sound by supporting the melody with harmony. They also make
 it easier to transition between melodic and rhythmic
 playing.
 
+### Exercise Format
+
+Each exercise shows how to play one chord type through the
+upper, middle, and lower strings. Every given chord is
+played in different inversions:
+
+\- root note on top  
+\- 3rd on top  
+\- 5th on top  
+
+The exercises don't have any chords written on the bottom
+three strings. Those were left out because chord patterns
+using the 5th, 4th, and 3rd strings (or A, D, and G) can be
+used on the three bottom strings as well.
+
+### Suggestions 
+
+Try to make melodies with these chords, paying attention to
+the note at the top of each chord.
+
 &nbsp;
 
 ## Chapter 5 - Open chord voicings

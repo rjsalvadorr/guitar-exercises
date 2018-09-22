@@ -50,7 +50,7 @@
       \wordwrap \abs-fontsize #13 {
         Be mindful of the root note of each chord, and where they
         are. Each arpeggio in these exercises will have the root
-        note in three spots: the beginning, middle, and end.*
+        note in three spots: the beginning, middle, and end.
       }
       \hspace #0
       \hspace #0
