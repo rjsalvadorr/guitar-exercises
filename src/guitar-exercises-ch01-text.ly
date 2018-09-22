@@ -9,7 +9,7 @@
   }
   
   \paper {
-    top-markup-spacing.basic-distance = #10
+    top-markup-spacing.basic-distance = #8
     left-margin = 1.25\in
     right-margin = 1.25\in
   }
@@ -19,15 +19,51 @@
       \hspace #0
       \hspace #0
       \wordwrap \abs-fontsize #13 {
-        Arpeggios are an essential element for skillful improvisation and composition. They're used in countless melodies, and many accompaniment parts use nothing but block chords and arpeggios. 
+        Arpeggios are an essential element for skillful
+        improvisation and composition. They're used in countless
+        melodies, and many accompaniment parts use nothing but
+        block chords and arpeggios.
       }
       \hspace #0
       \hspace #0
       \wordwrap \abs-fontsize #13 {
-        I put these exercises first because they're so useful, versatile, and ubiquitous. Knowledge of arpeggios can be applied right away to create good music. If you're going to learn only one exercise set from this book, this is the one I'd recommend.
+        I put these exercises first because they're so useful,
+        versatile, and ubiquitous. Knowledge of arpeggios can be
+        applied right away to create good music. If you're going to
+        learn only one exercise set from this book, this is the one
+        I'd recommend.
       }
       \hspace #0
       \hspace #0
+      \hspace #0
+      \huge \bold "Exercise Format"
+      \hspace #0
+      \wordwrap \abs-fontsize #13 {
+        Each exercise goes through a chord progression made of four
+        chords, which are played as two-octave arpeggios.
+      }
+      \hspace #0
+      \hspace #0
+      \hspace #0
+      \huge \bold "Suggestions"
+      \hspace #0
+      \wordwrap \abs-fontsize #13 {
+        Be mindful of the root note of each chord, and where they
+        are. Each arpeggio in these exercises will have the root
+        note in three spots: the beginning, middle, and end.*
+      }
+      \hspace #0
+      \hspace #0
+      \wordwrap \abs-fontsize #13 {
+        Follow the fretting hand fingerings on the notation staff.
+        If you're not familiar with the notation, the fingers are
+        numbered like this:
+      }
+      \hspace #0
+      "1 = index"
+      "2 = middle"
+      "3 = ring"
+      "4 = pinky"
     }
   }
 }

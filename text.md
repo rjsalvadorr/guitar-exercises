@@ -105,6 +105,26 @@ applied right away to create good music. If you're going to
 learn only one exercise set from this book, this is the one
 I'd recommend.
 
+### Exercise Format
+
+Each exercise goes through a chord progression made of four
+chords, which are played as two-octave arpeggios.
+
+### Suggestions
+
+Be mindful of the root note of each chord, and where they
+are. Each arpeggio in these exercises will have the root
+note in three spots: the beginning, middle, and end.
+
+Follow the fretting hand fingerings on the notation staff.
+If you're not familiar with the notation, the fingers are
+numbered like this:
+
+1 = index  
+2 = middle  
+3 = ring  
+4 = pinky
+
 &nbsp;
 
 ## Chapter 2 - Scales & modes
