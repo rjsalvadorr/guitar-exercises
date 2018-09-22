@@ -132,11 +132,81 @@ exampleId = {
   \key g \major
 
   << { <b d'>4. e'8 d'4 cs'4 } \\ { g,4. s8 s2 } >>
+  
   << { <b d'>4 g'8 d' b d' d g } \\ { g,4 s2. } >>
+  
   << { <c' e'>4. fs'8 e'4 ds'4 } \\ { c4. s8 s2 } >>
+  
   << { <c' e'>4 c''8 g' e' g' c' e' } \\ { c4 s2. } >>
+  
+  \break
+  
+  << {<b d'>4 b,8 d g b b' a'} \\ {g,4 s2.} >>
+  
+  << {<c' e'>4 e8 g c' e' c'' b'} \\ {c4 s2.} >>
+  
+  << {<c' e' a'>4 g' fs' e'} \\ {a,4 s2.} >>
+  
+  <fs a d>1
+  
+  \break
+  
+  << { <b d'>4. e'8 d' cs' d' e' } \\ { g,4. s8 s2 } >>
+  
+  << { <b d'>4 b'8 g' d' g' b d' } \\ { g,4 s2. } >>
+  
+  << { <c' e'>4. fs'8 e' ds' e' fs' } \\ { c4. s8 s2 } >>
+  
+  << { <c' e'>4 c''8 g' e' g' c' e' } \\ { c4 s2. } >>
+  
+  \break
+  
+  << { <b d'>4 g8 b d' g' fs' g' } \\ { g,4 s2. } >>
+  
+  << { <c' e'>4 g8 c' e' g' f' g' } \\ { c4 s2. } >>
+  
+  << { <c' e' a'>4 g' <c' fs' b'> a  } \\ { a,4 r d r } >>
+  
+  << { <b d' g'>1 } \\ { g,1 } >>
+  
+  \bar ":|."
 }
 
 exampleIdTab = {
   \time 4/4
+  
+  << { <b d'>4. e'8 d'4 cs'4 } \\ { g,4. s8 s2 } >>
+  
+  << { <b d'>4 g'8 d' b d' d g } \\ { g,4 s2. } >>
+  
+  << { <c' e'>4. fs'8 e'4 ds'4 } \\ { c4. s8 s2 } >>
+  
+  << { <c' e'>4 c''8 g' e' g' c' e' } \\ { c4 s2. } >>
+  
+  
+  << {<b d'>4 b,8 d g b b' a'} \\ {g,4 s2.} >>
+  
+  << {<c' e'>4 e8 g c' e' c'' b'} \\ {c4 s2.} >>
+  
+  << {<c' e' a'>4 g' fs' e'} \\ {a,4 s2.} >>
+  
+  <fs a d>1
+  
+  
+  << { <b d'>4. e'8 d' cs' d' e' } \\ { g,4. s8 s2 } >>
+  
+  << { <b d'>4 b'8 g' d' g' b d' } \\ { g,4 s2. } >>
+  
+  << { <c' e'>4. fs'8 e' ds' e' fs' } \\ { c4. s8 s2 } >>
+  
+  << { <c' e'>4 c''8 g' e' g' c' e' } \\ { c4 s2. } >>
+  
+  
+  << { <b d'>4 g8 b d' g' fs' g' } \\ { g,4 s2. } >>
+  
+  << { <c' e'>4 g8 c' e' g' f' g' } \\ { c4 s2. } >>
+  
+  << { <c' e' a'>4 g' <c' fs' b'> a  } \\ { a,4 r d r } >>
+  
+  << { <b d' g'>1 } \\ { g,1 } >>
 }

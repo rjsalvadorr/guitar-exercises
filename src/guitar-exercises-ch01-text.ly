@@ -178,23 +178,17 @@
   \header {
     title = "Example 1-D"
     subtitle = "Classical Clone"
-    subsubtitle = "i − iv − V − vii°"
+    composer = "R. J. Salvador"
   }
   \paper { 
     system-system-spacing.basic-distance = #16
   }
-  \markup {
-    \column {
-      \hspace #0
-      \wordwrap \abs-fontsize #12 {
-        Example combining simple chords, arpeggios, and melodies.
-      }
-      \hspace #0
-      \hspace #0
+  \score {
+    \header {
+      piece = "A simple example combining chords, arpeggios, and melodies."
     }
-  }
-  \score { 
     \layout {
+      #(layout-set-staff-size 20)
       \omit Voice.StringNumber
       indent = 0.0\cm
     }
@@ -205,7 +199,7 @@
       >>
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
-        \exampleId
+        \exampleIdTab
       >>
     >>
   }
