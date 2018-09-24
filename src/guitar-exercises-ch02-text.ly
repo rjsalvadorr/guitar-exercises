@@ -337,3 +337,34 @@
     >>
   }
 }
+
+\bookpart {
+  \tocItem \markup { "   Example 2-G:  ..." }
+  \header {
+    title = "Example 2-G"
+    subtitle = "..."
+    composer = "R. J. Salvador"
+  }
+  \paper { 
+    system-system-spacing.basic-distance = #16
+  }
+  \score {
+    \header {
+      piece = "..."
+    }
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    \new StaffGroup <<
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \exampleIIg
+      >>
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \exampleIIgTab
+      >>
+    >>
+  }
+}

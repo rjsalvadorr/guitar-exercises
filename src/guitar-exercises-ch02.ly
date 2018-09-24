@@ -432,3 +432,90 @@ scalesAndModesSixTab = {
   
   g\4 f\4 ef\5 d\5 c\5 b,\6 af,\6 g,4\6
 }
+
+exampleIIg = {
+  \clef "treble_8"
+  \time 4/4
+  \key c \minor
+
+  g,4 c ef d
+
+  c4 d c b,
+
+  g,4 g8( af) af g f g
+
+  d2 af,
+  
+  \break
+  
+  r1
+  
+  r1
+  
+  r1
+  
+  r1
+  
+  \break
+  
+  r1
+  
+  r1
+  
+  r1
+  
+  r1
+  
+  \break
+  
+  r1
+  
+  r1
+  
+  r1
+  
+  r1
+  
+  \break
+  
+  \bar ":|."
+}
+
+exampleIIgTab = {
+  \time 4/4
+
+  g,4 c ef d
+
+  c4 d c b,
+
+  g,4 g8 af af g f g
+
+  d2 af,
+  
+  
+  r1
+  
+  r1
+  
+  r1
+  
+  r1
+  
+  
+  r1
+  
+  r1
+  
+  r1
+  
+  r1
+  
+  
+  r1
+  
+  r1
+  
+  r1
+  
+  r1
+}
