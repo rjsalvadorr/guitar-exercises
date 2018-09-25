@@ -353,6 +353,7 @@
       piece = "..."
     }
     \layout {
+      #(layout-set-staff-size 24)
       \omit Voice.StringNumber
       indent = 0.0\cm
     }

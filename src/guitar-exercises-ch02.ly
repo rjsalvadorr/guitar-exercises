@@ -448,33 +448,33 @@ exampleIIg = {
   
   \break
   
-  r1
+  g,4 g'8( f') ef' d' c'( d')
   
-  r1
+  g,4 af'8( g') f' ef' d' ef'
   
-  r1
+  << { r4 <f' a'> r <c' ef'> } \\ { d2 af, } >>
   
-  r1
-  
-  \break
-  
-  r1
-  
-  r1
-  
-  r1
-  
-  r1
+  <g, b d'>4 g,8( af,) ef d c b,
   
   \break
   
-  r1
+  c4 d ef d
+
+  c4 d c bf,
+
+  g,4 g8( af) af g f g
+
+  d2 af,
   
-  r1
+  \break
   
-  r1
+  g,4 d''8( c'') bf' af' g' af'
   
-  r1
+  ef4 c''8( bf') af' g' f' g'
+  
+  << { <c' ef'>4 f' <b d'> b' } \\ { af,2 g,4 r } >>
+  
+  <ef' g' c''>1
   
   \break
   
@@ -493,29 +493,29 @@ exampleIIgTab = {
   d2 af,
   
   
-  r1
+  g,4 g'8( f') ef' d' c'( d')
   
-  r1
+  g,4 af'8( g') f' ef' d' ef'
   
-  r1
+  << { r4 <f' a'> r <c' ef'> } \\ { d2 af, } >>
   
-  r1
-  
-  
-  r1
-  
-  r1
-  
-  r1
-  
-  r1
+  <g, b d'>4 g,8( af,) ef d c b,
   
   
-  r1
+  c4 d ef d
+
+  c4 d c bf,
+
+  g,4 g8( af) af g f g
+
+  d2 af,
   
-  r1
   
-  r1
+  g,4 d''8( c'') bf' af' g' af'
   
-  r1
+  ef4 c''8( bf') af' g' f' g'
+  
+  << { <c' ef'>4 f' <b d'> b' } \\ { af,2 g,4 r } >>
+  
+  <ef' g' c''>1
 }
