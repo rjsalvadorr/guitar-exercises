@@ -437,10 +437,11 @@ exampleIIg = {
   \clef "treble_8"
   \time 4/4
   \key c \minor
+  \tempo 4 = 156
 
   g,4 c ef d
 
-  c4 d c b,
+  c4 d c bf,
 
   g,4 g8( af) af g f g
 
@@ -474,7 +475,7 @@ exampleIIg = {
   
   << { <c' ef'>4 f' <b d'> b' } \\ { af,2 g,4 r } >>
   
-  <ef' g' c''>1
+  << { <ef' g' c''>1 } \\ { c1 } >>
   
   \break
   
@@ -484,38 +485,38 @@ exampleIIg = {
 exampleIIgTab = {
   \time 4/4
 
-  g,4 c ef d
+  g,4 c ef\5 d\5
 
-  c4 d c b,
+  c4 d\5 c bf,\6
 
-  g,4 g8 af af g f g
+  g,4 g8\4( af\4) af\4 g\4 f\4 g\4
 
-  d2 af,
+  d2\5 af,
   
   
-  g,4 g'8( f') ef' d' c'( d')
+  g,4 g'8\2( f')\2 ef'\3 d'\3 c'\3( d'\3)
   
-  g,4 af'8( g') f' ef' d' ef'
+  g,4 af'8\2( g')\2 f'\2 ef'\3 d'\3 ef'\3
   
-  << { r4 <f' a'> r <c' ef'> } \\ { d2 af, } >>
+  << { r4 <f' a'> r <c' ef'> } \\ { d2\5 af, } >>
   
-  <g, b d'>4 g,8( af,) ef d c b,
+  <g, b d'>4 g,8( af,) ef\5 d\5 c b,
   
   
-  c4 d ef d
+  c4 d\5 ef\5 d\5
 
-  c4 d c bf,
+  c4 d\5 c bf,\6
 
-  g,4 g8( af) af g f g
+  g,4 g8\4( af\4) af\4 g\4 f\4 g\4
 
-  d2 af,
+  d2\5 af,
   
   
-  g,4 d''8( c'') bf' af' g' af'
+  g,4 d''8( c'') bf'\2 af'\2 g'\2 af'\2
   
-  ef4 c''8( bf') af' g' f' g'
+  ef4\5 c''8( bf') af'\2 g'\2 f'\2 g'\2
   
-  << { <c' ef'>4 f' <b d'> b' } \\ { af,2 g,4 r } >>
+  << { <c' ef'>4 f'\2 <b d'> b' } \\ { af,2 g,4 r } >>
   
-  <ef' g' c''>1
+  << { <ef' g' c''>1 } \\ { c1\6 } >>
 }

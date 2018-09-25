@@ -339,10 +339,10 @@
 }
 
 \bookpart {
-  \tocItem \markup { "   Example 2-G:  ..." }
+  \tocItem \markup { "   Example 2-G:  Phrygian Riffs" }
   \header {
     title = "Example 2-G"
-    subtitle = "..."
+    subtitle = "Phrygian Riffs"
     composer = "R. J. Salvador"
   }
   \paper { 
@@ -350,7 +350,7 @@
   }
   \score {
     \header {
-      piece = "..."
+      piece = "Feel free to play this like a metal tune, with heavy downbeats for headbanging."
     }
     \layout {
       #(layout-set-staff-size 24)
