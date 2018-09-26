@@ -359,7 +359,6 @@
     }
     \new StaffGroup <<
       \new Staff <<
-        \override Score.BarNumber.transparent = ##t
         \exampleIIg
       >>
       \new TabStaff <<

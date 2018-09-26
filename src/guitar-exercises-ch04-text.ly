@@ -218,3 +218,34 @@
     
   }
 }
+
+\bookpart {
+  \tocItem \markup { "   Exercise 4-E:  ..." }
+  \header {
+    title = "Exercise 4-E"
+    subtitle = "..."
+    composer = "R. J. Salvador"
+  }
+  \paper {
+    system-system-spacing.basic-distance = #16
+  }
+  \score {
+    \header {
+      piece = "..."
+    }
+    \layout {
+      #(layout-set-staff-size 24)
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+    \new StaffGroup <<
+      \new Staff <<
+        \exampleIVe
+      >>
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \exampleIVeTab
+      >>
+    >>
+  }
+}

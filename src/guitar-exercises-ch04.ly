@@ -276,3 +276,89 @@ threeStringChordsFourTab = {
   <a cs' e'\2>2.
 }
 
+exampleIVe = {
+  \clef "treble_8"
+  \time 4/4
+  \key g \major
+  
+  r1
+
+  r1
+
+  r1
+
+  r1
+
+  \break
+  
+  r1
+
+  r1
+
+  r1
+
+  r1
+
+  \break
+  
+  r1
+
+  r1
+
+  r1
+
+  r1
+
+  \break
+  
+  r1
+
+  r1
+
+  r1
+
+  r1
+
+  \break
+
+  \bar "|."
+}
+
+exampleIVeTab = {
+  \time 4/4
+  
+  r1
+
+  r1
+
+  r1
+
+  r1
+
+  
+  r1
+
+  r1
+
+  r1
+
+  r1
+
+  
+  r1
+
+  r1
+
+  r1
+
+  r1
+
+  
+  r1
+
+  r1
+
+  r1
+
+  r1
+}
