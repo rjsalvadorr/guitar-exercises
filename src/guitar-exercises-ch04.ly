@@ -280,34 +280,35 @@ exampleIVe = {
   \clef "treble_8"
   \time 4/4
   \key g \major
+  \tempo 4 = 999
   
-  r1
+  g,8 g, r <b d' a'>4. <b d' a'>8 <b d' g'>
 
-  r1
+  g,8 g, r <b d' a'>4 <b d' a'>8 <b d' g'> <b d' a'>
 
-  r1
+  c8 c r <c' e' a'>4. <c' e' a'>8 <c' e' g'>
 
-  r1
+  c8 c r <c' e' a'>4 <c' e' a'>8 <c' e' b'> <c' e' b'>
 
   \break
   
-  r1
+  e8 e r <e' g' b'>4 <e' g' c''>8 <e' g' c''> <e' g' b'>
 
-  r1
+  e8[ e] <e' g' b'> <e' g' c''> <e' g' d''>4 <e' g' b'>4
 
-  r1
+  a,8 a, r <a c' e'>4 <a c' e'>8 e cs
 
-  r1
+  d8 c' fs' <d c' fs' a'>~ <d c' fs' a'>2
 
   \break
   
-  r1
+  g,8 g, r <b d' a'>4. <b d' a'>8 <b d' g'>
 
-  r1
+  g,8 g, r <b d' a'>4 <b d' a'>8 <b d' g'> <b d' a'>
 
-  r1
+  c8 c r <c' e' a'>4. <c' e' a'>8 <c' e' g'>
 
-  r1
+  c8 c r <c' e' a'>4 <c' e' a'>8 <c' e' b'> <c' e' b'>
 
   \break
   
@@ -327,31 +328,31 @@ exampleIVe = {
 exampleIVeTab = {
   \time 4/4
   
-  r1
+  g,8 g, r <b d' a'>4. <b d' a'>8 <b d' g'>
 
-  r1
+  g,8 g, r <b d' a'>4 <b d' a'>8 <b d' g'> <b d' a'>
 
-  r1
+  c8 c r <c' e' a'>4. <c' e' a'>8 <c' e' g'>
 
-  r1
-
-  
-  r1
-
-  r1
-
-  r1
-
-  r1
+  c8 c r <c' e' a'>4 <c' e' a'>8 <c' e' b'> <c' e' b'>
 
   
-  r1
+  e8 e r <e' g' b'>4 <e' g' c''>8 <e' g' c''> <e' g' b'>
 
-  r1
+  e8[ e] <e' g' b'> <e' g' c''> <e' g' d''>4 <e' g' b'>4
 
-  r1
+  a,8 a, r <a c' e'>4 <a c' e'>8 e cs
 
-  r1
+  d8 c' fs' <d c' fs' a'>~ <d c' fs' a'>2
+
+  
+  g,8 g, r <b d' a'>4. <b d' a'>8 <b d' g'>
+
+  g,8 g, r <b d' a'>4 <b d' a'>8 <b d' g'> <b d' a'>
+
+  c8 c r <c' e' a'>4. <c' e' a'>8 <c' e' g'>
+
+  c8 c r <c' e' a'>4 <c' e' a'>8 <c' e' b'> <c' e' b'>
 
   
   r1
