@@ -220,9 +220,9 @@
 }
 
 \bookpart {
-  \tocItem \markup { "   Exercise 4-E:  ..." }
+  \tocItem \markup { "   Example 4-E:  ..." }
   \header {
-    title = "Exercise 4-E"
+    title = "Example 4-E"
     subtitle = "..."
     composer = "R. J. Salvador"
   }
