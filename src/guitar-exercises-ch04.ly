@@ -312,13 +312,13 @@ exampleIVe = {
 
   \break
   
-  r1
+  d8 d r <fs' a' d''>4 <fs' a' d''>8 <fs' a' d''> <f' af' df''>
 
-  r1
+  c8 c r <e' g' c''>4 <e' g' c''>8 <e' g' c''> <e' g' b'>
 
-  r1
+  a,8 a, r d4 <d' fs' b'>8 <d' fs' b'> <d' fs' a'>
 
-  r1
+  <g, b, d g b g'>1
 
   \break
 
@@ -355,11 +355,11 @@ exampleIVeTab = {
   c8 c r <c' e' a'>4 <c' e' a'>8 <c' e' b'> <c' e' b'>
 
   
-  r1
+  d8\5 d\5 r <fs' a' d''>4 <fs' a' d''>8 <fs' a' d''> <f' af' df''>
 
-  r1
+  c8 c r <e' g' c''>4 <e' g' c''>8 <e' g' c''> <e' g' b'>
 
-  r1
+  a,8\6 a,\6 r d4 <d' fs' b'>8 <d' fs' b'> <d' fs' a'>
 
-  r1
+  <g, b, d g b g'>1
 }
