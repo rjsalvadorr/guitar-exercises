@@ -86,17 +86,25 @@ tocSection =
         \huge \bold "What is this book?"
         \hspace #0
         \wordwrap {
-          This book started as a personal collection of exercises to get better at improvising on guitar, but it turned into a compact system that could help other guitarists as well. So I cleaned up what exercises I had, and decided to share this with others.
+          This book started as a personal collection of exercises to
+          get better at improvising on guitar, but it turned into a
+          compact system that could help other guitarists as well. So
+          I cleaned up what exercises I had, and decided to share this
+          with others.
         }
         \hspace #0
         \hspace #0
         \wordwrap {
-          I've laid out sixteen exercises for improving guitar fluency by memorizing a series of patterns on the fingerboard. These patterns all build on each other, and are especially effective when combined with music theory knowledge.
+          I've laid out exercises for improving guitar fluency, which
+          help the reader to memorize patterns on the fingerboard.
+          These patterns all build on each other, and are especially
+          effective when combined with music theory knowledge.
         }
         \hspace #0
         \hspace #0
         \wordwrap {
-          I hope you learn something cool here.
+          I hope you learn something cool here, because I learned a
+          lot by making it.
         }
         \hspace #0
         "RJ Salvador"
@@ -105,17 +113,16 @@ tocSection =
         \hspace #0
         \hspace #0
         
-    
-        \huge \bold "Why should I use this book?"
+        \huge \bold "Who is this book for?"
         \hspace #0
         \wordwrap {
-          The exercises here build up technical and improvisation mastery by building on three main skills:
+          If any of this describes you, you might find this book
+          useful:
         }
         \hspace #0
-        \hspace #0
-        \italic "1. Playing melodies over various chords in any key"
-        \italic "2. Playing various chords in any position on the fretboard"
-        \italic "3. Playing various chords in any inversion"
+        "- You want to get better at improvisation by building up your technique and dexterity."
+        "- You like playing through fingerstyle or hybrid picking."
+        "- You're too busy for a rigid practice regimen, and want something more free-form."
         \hspace #0
         \wordwrap {
           With those skills, a guitarist could have an easier time improvising and composing using the entire range of the guitar. They could use chord voicings on any area of the guitar fretboard, and switch easily between them. They can have a lot more variation in their playing, since they can play familiar chords in many different ways. And they probably focus on creating good music instead of worrying about where to put their hands.
@@ -135,51 +142,72 @@ tocSection =
       \column {
         \hspace #0
         \hspace #0
-        \huge \bold "What do I need to know before using this book?"
+        \huge \bold "Why should anyone use this book?"
         \hspace #0
         \wordwrap {
-          If you can read tablature, and you know what chords and scales are, you can learn from this book.
+          ...
+        }
+        \hspace #0
+        \hspace #0
+
+        \huge \bold "What should a guitarist know before using this book?"
+        \hspace #0
+        \wordwrap {
+          Not very much. If you can read tablature, and...
+        }
+        \hspace #0
+        \hspace #0
+
+        \huge \bold "How does a guitarist use this properly?"
+        \hspace #0
+
+        \large \bold "The general rule"
+        \hspace #0
+        \wordwrap {
+          For any exercise, learn the chord patterns until you can
+          play the the whole exercise smoothly. That means playing the
+          correct notes, in correct and steady rhythm. If you can do
+          this, you're doing it right.
         }
         \hspace #0
         \hspace #0
         \wordwrap {
-          But you can learn even more if you know about basic music theory, especially about keys, diatonic chords, modes, and chord inversions.
+          Once you learn the chord patterns, play with them. Use
+          them to play familiar chords in different ways. Mix the new
+          chord patterns with older and more familiar ways of playing
+          guitar. This way, you'll learn what works for you,
+          and what doesn't work as well.
         }
         \hspace #0
         \hspace #0
-        \wordwrap {
-          You don't need to read standard notation here. But it's a good advantage if you can. It makes things a hell of a lot easier, especially for figuring out how chord inversions all fit together.
-        }
-        \hspace #0
-        \hspace #0
-        \huge \bold "How do I use these exercises properly?"
+
+        \large \bold "Specific guidelines"
         \hspace #0
         \wordwrap {
-          Practice the exercises that would get you closer to your goals. Each chapter's introduction will explain the specific skills that are improved by each set of exercises. Read those to figure out how these workouts can help you out!
-        }
-        \hspace #0
-        \hspace #0
-        \wordwrap {
-          At the end of the day, use this book however you like. I encourage you to experiment and find a way that works for you.
-        }
-        \hspace #0
-        \hspace #0
-        \large \bold "Author's Recommendations"
-        \hspace #0
-        \wordwrap {
-          - Take 10 minutes to practice any exercises on practice days. These exercises can get boring quickly, and become less effective if you play them for too long.
+          1. Focus on memorizing the chord patterns relative to their
+          root note. If you learn one chord pattern on the fretboard,
+          you can easily that same chord type different root notes.
         }
         \hspace #0
         \wordwrap {
-          - Follow the repeat sign on the exercises, playing each chosen exercise twice in a row.
+          2. At first, play through the chord patterns slowly. That's
+          very important. It's easier to memorize these patterns when
+          they're played slowly at first.
         }
-        % \hspace #0
+        \hspace #0
         \wordwrap {
-          - When learning a new exercise, take it slow. It takes time for the brain to remember these movements and it's easier to learn by going slowly. In an odd way, slower practice leads to faster results.
+          3. Don't worry if you can't memorize the chord patterns
+          quickly. It takes plenty of time and repetition to build
+          muscle memory. That's why you have to do this stuff
+          frequently, hopefully every day. Even 10 minutes a day would
+          work.
         }
         \hspace #0
         \hspace #0
         \hspace #0
+        \hspace #0
+        \hspace #0
+
         \fill-line {
           \center-column {
             \general-align #Y #DOWN {

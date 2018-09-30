@@ -60,8 +60,7 @@ something more free-form.
 
 ### What should a guitarist know before using this book?
 
-Not very much. If you can read tablature, and have a few
-minutes every
+Not very much. If you can read tablature, and...
 
 ### How does a guitarist use this properly?
 
@@ -70,9 +69,7 @@ minutes every
 For any exercise, learn the chord patterns until you can
 play the the whole exercise smoothly. That means playing the
 correct notes, in correct and steady rhythm. If you can do
-this, you're _doing it right_. Hold yourself to a good
-standard in practice sessions, and you'll get better at
-playing guitar.
+this, you're _doing it right_.
 
 Once you learn the chord patterns, **play with them**. Use
 them to play familiar chords in different ways. Mix the new
@@ -87,9 +84,8 @@ and what doesn't work as well.
 root note. If you learn one chord pattern on the fretboard,
 you can easily that same chord type different root notes.
 1. At first, play through the chord patterns slowly. That's
-very important.
-It's easier to memorize these patterns when they're played
-slowly at first.
+very important. It's easier to memorize these patterns when
+they're played slowly at first.
 1. Don't worry if you can't memorize the chord patterns
 quickly. It takes plenty of time and repetition to build
 muscle memory. That's why you have to do this stuff

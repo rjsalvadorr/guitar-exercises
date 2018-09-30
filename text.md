@@ -47,13 +47,13 @@ If any of this describes you, you might find this book useful:
 
 ### What should a guitarist know before using this book?
 
-Not very much. If you can read tablature, and have a few minutes every
+Not very much. If you can read tablature, and...
 
 ### How does a guitarist use this properly?
 
 #### The general rule
 
-For any exercise, learn the chord patterns until you can play the the whole exercise smoothly. That means playing the correct notes, in correct and steady rhythm. If you can do this, you're _doing it right_. Hold yourself to a good standard in practice sessions, and you'll get better at playing guitar.
+For any exercise, learn the chord patterns until you can play the the whole exercise smoothly. That means playing the correct notes, in correct and steady rhythm. If you can do this, you're _doing it right_.
 
 Once you learn the chord patterns, **play with them**. Use them to play familiar chords in different ways. Mix the new chord patterns with older and more familiar ways of playing guitar. This way, you'll learn what works for you,
 and what doesn't work as well.
