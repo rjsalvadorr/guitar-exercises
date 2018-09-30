@@ -47,9 +47,8 @@ tocSection =
     \header {
       title = \markup \abs-fontsize #34 {
         \center-column {
-          \line { "GETTING GOOD" }
-          \line { "AT" }
-          \line { "GUITAR CHORDS" }
+          \line { "GUITAR IMPROV" }
+          \line { "FOUNDATIONS" }
           \hspace #0
         }
       }
