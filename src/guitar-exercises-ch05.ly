@@ -251,3 +251,89 @@ openChordsFourTab = {
   
   <f, a c'>4 <a,\6 c'\3 f'\2> <c\5 f'\2 a'\1>
 }
+
+etudeI = {
+  \clef "treble_8"
+  \time 3/4
+  \key bf \major
+  \tempo 4 = 999
+
+  r2.
+
+  r2.
+
+  r2.
+
+  r2.
+
+  \break
+
+  r2.
+
+  r2.
+
+  r2.
+
+  r2.
+
+  \break
+
+  r2.
+
+  r2.
+
+  r2.
+
+  r2.
+
+  \break
+
+  r2.
+
+  r2.
+
+  r2.
+
+  r2.
+
+  \bar "|."
+}
+
+etudeITab = {
+  \time 3/4
+
+  r2.
+
+  r2.
+
+  r2.
+
+  r2.
+
+
+  r2.
+
+  r2.
+
+  r2.
+
+  r2.
+
+
+  r2.
+
+  r2.
+
+  r2.
+
+  r2.
+
+
+  r2.
+
+  r2.
+
+  r2.
+
+  r2.
+}
