@@ -1,4 +1,4 @@
-# Get Good at Guitar Chords
+# Guitar Improv Foundations
 
 _Exercises for improving fluency on guitar_
 
