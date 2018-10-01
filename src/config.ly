@@ -1,2 +1,2 @@
 % This file is auto-generated. Do not modify!
-versionNumber = "v1.18.1"
+versionNumber = "v1.18.2"

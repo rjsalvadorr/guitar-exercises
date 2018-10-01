@@ -254,17 +254,33 @@ openChordsFourTab = {
 
 etudeI = {
   \clef "treble_8"
-  \time 3/4
+  \time 6/8
   \key bf \major
-  \tempo 4 = 999
+  \tempo 8 = 999
 
-  r2.
+  <<
+    { <ef' g'>4. <ef' af'>4 <ef' g'>8 }
+    \\
+    { c4. c }
+  >>
 
-  r2.
+  <<
+    { <f' g'>4. <ef' g'> }
+    \\
+    { d4. c4 a,8 }
+  >>
 
-  r2.
+  <<
+    { r8 d' f' af' g'16 f' ef'( d') }
+    \\
+    { b,4. f4 r8 }
+  >>
 
-  r2.
+  <<
+    { ef'16 c' g c' ef'8 <bf d'>4 <bf d'>8 }
+    \\
+    { s4. g8 g g }
+  >>
 
   \break
 
@@ -278,13 +294,29 @@ etudeI = {
 
   \break
 
-  r2.
+  <<
+    { <ef' g'>4. <ef' af'>4 <ef' g'>8 }
+    \\
+    { c8 c c c c c }
+  >>
 
-  r2.
+  <<
+    { <f' g'>4. <ef' g'> }
+    \\
+    { d8 d d c c a, }
+  >>
 
-  r2.
+  <<
+    { r8 d' f' af' g'16 f' ef'( d') }
+    \\
+    { b,8 b, b, f f f }
+  >>
 
-  r2.
+  <<
+    { ef'16 c' g c' ef'8 <bf d'>4 <bf d'>8 }
+    \\
+    { g8 g g g g g }
+  >>
 
   \break
 
@@ -300,7 +332,32 @@ etudeI = {
 }
 
 etudeITab = {
-  \time 3/4
+  \time 6/8
+
+  <<
+    { <ef' g'>4. <ef' af'>4 <ef' g'>8 }
+    \\
+    { c4.\6 c\6 }
+  >>
+
+  <<
+    { <f' g'>4. <ef' g'> }
+    \\
+    { d4.\5 c4\6 a,8\6 }
+  >>
+
+  <<
+    { r8 d' f' af' g'16 f' ef'( d') }
+    \\
+    { b,4. f4 r8 }
+  >>
+
+  <<
+    { ef'16 c' g c' ef'8 <bf d'>4 <bf d'>8 }
+    \\
+    { s4. g8 g g }
+  >>
+
 
   r2.
 
@@ -311,22 +368,29 @@ etudeITab = {
   r2.
 
 
-  r2.
+  <<
+    { <ef' g'>4. <ef' af'>4 <ef' g'>8 }
+    \\
+    { c8 c c c c c }
+  >>
 
-  r2.
+  <<
+    { <f' g'>4. <ef' g'> }
+    \\
+    { d8 d d c c a, }
+  >>
 
-  r2.
+  <<
+    { r8 d' f' af' g'16 f' ef'( d') }
+    \\
+    { b,8 b, b, f f f }
+  >>
 
-  r2.
-
-
-  r2.
-
-  r2.
-
-  r2.
-
-  r2.
+  <<
+    { ef'16 c' g c' ef'8 <bf d'>4 <bf d'>8 }
+    \\
+    { g8 g g g g g }
+  >>
 
 
   r2.
