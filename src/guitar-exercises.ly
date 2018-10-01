@@ -124,14 +124,6 @@ tocSection =
         "- You like playing through fingerstyle or hybrid picking."
         "- You're too busy for a rigid practice regimen, and want something more free-form."
         \hspace #0
-        \wordwrap {
-          With those skills, a guitarist could have an easier time improvising and composing using the entire range of the guitar. They could use chord voicings on any area of the guitar fretboard, and switch easily between them. They can have a lot more variation in their playing, since they can play familiar chords in many different ways. And they probably focus on creating good music instead of worrying about where to put their hands.
-        }
-        \hspace #0
-        \wordwrap {
-          This book is not the only way to learn these skills, it only shows one path towards them.
-        }
-        \hspace #0
         \hspace #0
       }
     }
