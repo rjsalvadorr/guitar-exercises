@@ -2,21 +2,24 @@
 
 _Exercises for improving fluency on guitar_
 
-## Draft notes
+## Notes
 
-- Keep to a 60-character line width.
-- nnn
+- Add a place for notation basics?
+  + fingering indications
+  + barre indications
 
-### Feedback from Brian
+## Feedback from Brian
 
 - Suggestion for modes: Play the tonic as a drone, to really hear the differences between the modes.
 - More encouragement!!! You kinda know your audience. Just encourage the shit out of them.
 
-### Test run on Paulo
+## Test run on Paulo
 
 - The chords need fingerings. They're super confusing at first, and indicators might help.
 
 &nbsp;
+
+---
 
 ## Preface
 
@@ -33,21 +36,18 @@ I hope you learn something cool here, because I learned a lot by making it.
 rjsalvadorr@gmail.com  
 www.rj-salvador.com
 
-### Who is this book for?
+### Who is this book for, and why should anyone use it?
 
 If any of this describes you, you might find this book useful:
 
 - You want to get better at improvisation by building up your technique and dexterity.
 - You like playing through fingerstyle or hybrid picking.
-- You're too busy for a rigid practice regimen, and want something more free-form.
-
-### Why should anyone use this book?
-
-...
+- You want to learn things that you can use immediately.
+- You don't like a rigid practice regimen, and want something more free-form.
 
 ### What should a guitarist know before using this book?
 
-Not very much. If you can read tablature, and...
+Not very much. If you can play at a basic level, and you can read tablature, you can probably learn a lot here.
 
 ### How does a guitarist use this properly?
 
@@ -55,16 +55,13 @@ Not very much. If you can read tablature, and...
 
 For any exercise, learn the chord patterns until you can play the the whole exercise smoothly. That means playing the correct notes, in correct and steady rhythm. If you can do this, you're _doing it right_.
 
-Once you learn the chord patterns, **play with them**. Use them to play familiar chords in different ways. Mix the new chord patterns with older and more familiar ways of playing guitar. This way, you'll learn what works for you,
-and what doesn't work as well.
-
+Once you learn the chord patterns, **play with them**. Use them to play familiar chords in different ways. Mix the new chord patterns with older and more familiar ways of playing guitar. This way, you'll learn what works for you, and what doesn't work as well.
 
 #### Specific guidelines
 
-1. Focus on memorizing the chord patterns relative to their root note. If you learn one chord pattern on the fretboard, you can easily that same chord type different root notes.
-1. At first, play through the chord patterns slowly. That's very important.
-It's easier to memorize these patterns when they're played slowly at first.
-1. Don't worry if you can't memorize the chord patterns quickly. It takes plenty of time and repetition to build muscle memory. That's why you have to do this stuff frequently, hopefully every day. Even 10 minutes a day would work.
+1. Focus on memorizing the chord patterns relative to their root note. If you learn one chord pattern on the fretboard, you can easily that same chord type on different root notes.
+1. At first, play through the chord patterns slowly. This is really important. It's easier to memorize these patterns when they're played slowly, and it's the quicker way to build comfortable habits for your hands.
+1. Don't worry if you can't memorize the chord patterns quickly. It takes plenty of time and repetition to build muscle memory. That's why you have to do this stuff frequently, hopefully every day. Just 10 minutes a day could work. Besides, even if you don't memorize an exercise completely, you'd still build finger dexterity by doing it. 
 
 &nbsp;
 

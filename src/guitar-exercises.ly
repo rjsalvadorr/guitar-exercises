@@ -112,8 +112,9 @@ tocSection =
         www.rj-salvador.com
         \hspace #0
         \hspace #0
+        \hspace #0
         
-        \huge \bold "Who is this book for?"
+        \huge \bold "Who is this book for, and why should anyone use it?"
         \hspace #0
         \wordwrap {
           If any of this describes you, you might find this book
@@ -134,19 +135,11 @@ tocSection =
       \column {
         \hspace #0
         \hspace #0
-        \huge \bold "Why should anyone use this book?"
-        \hspace #0
-        \wordwrap {
-          ...
-        }
-        \hspace #0
-        \hspace #0
-
         \huge \bold "What should a guitarist know before using this book?"
         \hspace #0
         \wordwrap {
-          Not very much. If you can read tablature, and...
-        }
+          Not very much. If you can play at a basic level, and you can read tablature, you can probably learn a lot here.        }
+        \hspace #0
         \hspace #0
         \hspace #0
 
@@ -192,8 +185,11 @@ tocSection =
           quickly. It takes plenty of time and repetition to build
           muscle memory. That's why you have to do this stuff
           frequently, hopefully every day. Even 10 minutes a day would
-          work.
+          work. Besides, even if you don't memorize an exercise completely,
+          you'd still build finger dexterity by doing it. 
         }
+        \hspace #0
+        \hspace #0
         \hspace #0
         \hspace #0
         \hspace #0
