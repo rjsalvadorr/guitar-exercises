@@ -220,10 +220,10 @@ tocSection =
       indent = 0\mm
       print-page-number = false
       
-      top-margin = 0.5\in
+      top-margin = 1.3\in
       left-margin = 1.75\in
       right-margin = 1.75\in
-      bottom-margin = 0.5\in
+      bottom-margin = 1.3\in
       
       tocTitleMarkup = \markup \huge \bold \column {
         \fill-line {
@@ -244,5 +244,5 @@ tocSection =
   \include "guitar-exercises-ch05-text.ly"
   \include "guitar-exercises-ch06-text.ly"
   \include "guitar-exercises-ch07-text.ly"
-  \include "guitar-exercises-appendix.ly"  
+  \include "guitar-exercises-appendix.ly"
 }

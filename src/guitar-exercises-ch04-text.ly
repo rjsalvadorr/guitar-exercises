@@ -220,10 +220,10 @@
 }
 
 \bookpart {
-  \tocItem \markup { "   Example 4-E:  ..." }
+  \tocItem \markup { "   Example 4-E:  Aenean Nec Suscipit" }
   \header {
     title = "Example 4-E"
-    subtitle = "..."
+    subtitle = "Aenean Nec Suscipit"
     composer = "R. J. Salvador"
   }
   \paper {

@@ -180,10 +180,10 @@
 }
 
 \bookpart {
-  \tocItem \markup { "   Etude 5-E:  ..." }
+  \tocItem \markup { "   Etude 5-E:  Ullamcorper Mi Posuere" }
   \header {
     title = "Etude 5-E"
-    subtitle = "..."
+    subtitle = "Ullamcorper Mi Posuere"
   }
   \paper {
     markup-system-spacing.basic-distance = #20
