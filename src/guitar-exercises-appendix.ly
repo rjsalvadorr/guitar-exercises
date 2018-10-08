@@ -26,17 +26,13 @@
 }
 
 \bookpart {
-
-  \tocItem \markup { "   Short loin et cillum venison" }
-  
+  \tocItem \markup { "   Fretboard Diagrams" }
   \header {
-    title = "Short loin et cillum venison"
+    title = "Fretboard Diagrams"
   }
-  
   \paper { 
     system-system-spacing.basic-distance = #16
   }
-  
   \markup {
     \column {
       \hspace #0
@@ -45,6 +41,116 @@
       }
       \hspace #0
       \hspace #0
+    }
+  }
+
+  \markup {
+    \fill-line {
+      \center-column {
+        \hspace #0
+        \hspace #0
+        \epsfile #X #93 #"images/open-lower.eps"
+      }
+    }
+  }
+  
+  \markup {
+    \fill-line {
+      \center-column {
+        \hspace #0
+        \hspace #0
+        \epsfile #X #93 #"images/open-upper.eps"
+      }
+    }
+  }
+  
+  \markup {
+    \fill-line {
+      \center-column {
+        \hspace #0
+        \hspace #0
+        \epsfile #X #93 #"images/melodic-lower.eps"
+      }
+    }
+  }
+  
+  \markup {
+    \fill-line {
+      \center-column {
+        \hspace #0
+        \hspace #0
+        \epsfile #X #93 #"images/melodic-middle.eps"
+      }
+    }
+  }
+  
+  \markup {
+    \fill-line {
+      \center-column {
+        \hspace #0
+        \hspace #0
+        \epsfile #X #93 #"images/melodic-upper.eps"
+      }
+    }
+  }
+  
+  \markup {
+    \fill-line {
+      \center-column {
+        \hspace #0
+        \hspace #0
+        \epsfile #X #93 #"images/4-string-lower.eps"
+      }
+    }
+  }
+  
+  \markup {
+    \fill-line {
+      \center-column {
+        \hspace #0
+        \hspace #0
+        \epsfile #X #93 #"images/4-string-middle.eps"
+      }
+    }
+  }
+  
+  \markup {
+    \fill-line {
+      \center-column {
+        \hspace #0
+        \hspace #0
+        \epsfile #X #93 #"images/4-string-upper.eps"
+      }
+    }
+  }
+  
+  \markup {
+    \fill-line {
+      \center-column {
+        \hspace #0
+        \hspace #0
+        \epsfile #X #93 #"images/7ths-lower.eps"
+      }
+    }
+  }
+  
+  \markup {
+    \fill-line {
+      \center-column {
+        \hspace #0
+        \hspace #0
+        \epsfile #X #93 #"images/7ths-middle.eps"
+      }
+    }
+  }
+  
+  \markup {
+    \fill-line {
+      \center-column {
+        \hspace #0
+        \hspace #0
+        \epsfile #X #93 #"images/7ths-upper.eps"
+      }
     }
   }
 }

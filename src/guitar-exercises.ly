@@ -199,7 +199,7 @@ tocSection =
         \fill-line {
           \center-column {
             \general-align #Y #DOWN {
-              \epsfile #Y #6 #"license.eps"
+              \epsfile #Y #6 #"images/license.eps"
             }
             "This work is licensed under a"
             "Creative Commons Attribution-ShareAlike 4.0 International License."
