@@ -18,6 +18,7 @@
   }
   \score {
     \layout {
+      #(layout-set-staff-size 23)
       \omit Voice.StringNumber
       indent = 0.0\cm
     }

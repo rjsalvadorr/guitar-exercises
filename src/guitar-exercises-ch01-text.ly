@@ -208,34 +208,3 @@
     >>
   }
 }
-
-\bookpart {
-  \tocItem \markup { "   Example 1-D:  Classical Clone" }
-  \header {
-    title = "Example 1-D"
-    subtitle = "Classical Clone"
-    composer = "R. J. Salvador"
-  }
-  \paper { 
-    system-system-spacing.basic-distance = #16
-  }
-  \score {
-    \header {
-      piece = "A simple example combining chords, arpeggios, and melodies."
-    }
-    \layout {
-      #(layout-set-staff-size 20)
-      \omit Voice.StringNumber
-      indent = 0.0\cm
-    }
-    \new StaffGroup <<
-      \new Staff <<
-        \exampleId
-      >>
-      \new TabStaff <<
-        \set TabStaff.restrainOpenStrings = ##t
-        \exampleIdTab
-      >>
-    >>
-  }
-}

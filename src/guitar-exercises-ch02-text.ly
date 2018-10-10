@@ -337,34 +337,3 @@
     >>
   }
 }
-
-\bookpart {
-  \tocItem \markup { "   Example 2-G:  Phrygian Riffs" }
-  \header {
-    title = "Example 2-G"
-    subtitle = "Phrygian Riffs"
-    composer = "R. J. Salvador"
-  }
-  \paper { 
-    system-system-spacing.basic-distance = #16
-  }
-  \score {
-    \header {
-      piece = "Feel free to play this like a metal tune, with heavy downbeats for headbanging."
-    }
-    \layout {
-      #(layout-set-staff-size 24)
-      \omit Voice.StringNumber
-      indent = 0.0\cm
-    }
-    \new StaffGroup <<
-      \new Staff <<
-        \exampleIIg
-      >>
-      \new TabStaff <<
-        \set TabStaff.restrainOpenStrings = ##t
-        \exampleIIgTab
-      >>
-    >>
-  }
-}

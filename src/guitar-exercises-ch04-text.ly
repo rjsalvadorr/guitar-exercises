@@ -218,34 +218,3 @@
     
   }
 }
-
-\bookpart {
-  \tocItem \markup { "   Example 4-E:  Aenean Nec Suscipit" }
-  \header {
-    title = "Example 4-E"
-    subtitle = "Aenean Nec Suscipit"
-    composer = "R. J. Salvador"
-  }
-  \paper {
-    system-system-spacing.basic-distance = #16
-  }
-  \score {
-    \header {
-      piece = "..."
-    }
-    \layout {
-      #(layout-set-staff-size 24)
-      \omit Voice.StringNumber
-      indent = 0.0\cm
-    }
-    \new StaffGroup <<
-      \new Staff <<
-        \exampleIVe
-      >>
-      \new TabStaff <<
-        \set TabStaff.restrainOpenStrings = ##t
-        \exampleIVeTab
-      >>
-    >>
-  }
-}
