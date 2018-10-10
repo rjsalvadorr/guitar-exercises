@@ -178,30 +178,3 @@
     >>
   }
 }
-
-\bookpart {
-  \tocItem \markup { "   Etude 5-E:  Ullamcorper Mi Posuere" }
-  \header {
-    title = "Etude 5-E"
-    subtitle = "Ullamcorper Mi Posuere"
-  }
-  \paper {
-    markup-system-spacing.basic-distance = #20
-    system-system-spacing.basic-distance = #17
-  }
-  \score {
-    \layout {
-      \omit Voice.StringNumber
-      indent = 0.0\cm
-    }
-    \new StaffGroup <<
-      \new Staff <<
-        \etudeI
-      >>
-      \new TabStaff <<
-        \set TabStaff.restrainOpenStrings = ##t
-        \etudeITab
-      >>
-    >>
-  }
-}
