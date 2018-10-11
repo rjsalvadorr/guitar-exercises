@@ -6,7 +6,8 @@
   \header {
     title = "Example 4-E"
     subtitle = "Aenean Nec Suscipit"
-    composer = "R. J. Salvador"
+    composer = "RJ Salvador"
+    opus = "Op. 6, no. 3"
   }
   \paper {
     top-margin = 0.66\in
@@ -30,7 +31,7 @@
         \clef "treble_8"
         \time 4/4
         \key g \major
-        \tempo 4 = 999
+        \tempo 4 = 95
         
         g,8 g, r <b d' a'>4. <b d' a'>8 <b d' g'>
 

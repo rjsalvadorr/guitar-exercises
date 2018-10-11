@@ -6,7 +6,8 @@
   \header {
     title = "Example 1-D"
     subtitle = "Classical Clone"
-    composer = "R. J. Salvador"
+    composer = "RJ Salvador"
+    opus = "Op. 6, no. 1"
   }
   \paper {
     top-margin = 0.66\in
@@ -30,7 +31,7 @@
       \clef "treble_8"
       \time 4/4
       \key g \major
-      \tempo 4 = 999
+      \tempo 4 = 106
 
       << { <b d'>4. e'8 d'4 cs'4 } \\ { g,4. s8 s2 } >>
       

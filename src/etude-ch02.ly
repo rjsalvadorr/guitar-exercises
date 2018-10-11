@@ -6,7 +6,8 @@
   \header {
     title = "Example 2-G"
     subtitle = "Phrygian Riffs"
-    composer = "R. J. Salvador"
+    composer = "RJ Salvador"
+    opus = "Op. 6, no. 2"
   }
   \paper {
     top-margin = 0.66\in
@@ -14,11 +15,15 @@
     right-margin = 0.75\in
     bottom-margin = 0.66\in
   
+    % markup-system-spacing.basic-distance = #15
     system-system-spacing.basic-distance = #16
   }
   \score {
     \header {
-      piece = "Feel free to play this like a metal tune, with heavy downbeats for headbanging."
+      piece = \markup \column {
+        "Feel free to play this like a metal tune,"
+        "with heavy downbeats for headbanging."
+      }
     }
     \layout {
       #(layout-set-staff-size 24)
