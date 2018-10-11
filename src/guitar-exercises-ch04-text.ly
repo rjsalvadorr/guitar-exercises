@@ -1,13 +1,13 @@
 \bookpart {
-  
+
   \tocSection \markup { Part 2: Chord Patterns & Voicings }
   \tocItem \markup \bold { Chapter 4 - Three-string chord voicings }
-  
+
   \header {
     title = "CHAPTER 4"
     subtitle = "THREE-STRING CHORD VOICINGS"
   }
-  
+
   \paper {
     top-markup-spacing.basic-distance = #8
     left-margin = 1.25\in
@@ -68,153 +68,115 @@
 }
 
 \bookpart {
-  
+
   \tocItem \markup { "   Exercise 4-A:  Major three-string chords" }
-  
+
   \header {
     title = "Exercise 4-A"
     subtitle = "Major three-string chords"
     subsubtitle = "I - V - I"
   }
-  
+
   \paper {
     markup-system-spacing.basic-distance = #21
     system-system-spacing.basic-distance = #16
   }
-  
+
   \score {
-    
+
     \layout {
       \omit Voice.StringNumber
       indent = 0.0\cm
     }
-    
+
     \new StaffGroup <<
-      
+
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
         \threeStringChordsOne
       >>
-        
+
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
         \threeStringChordsOneTab
       >>
     >>
-    
+
   }
 }
 
 \bookpart {
-  
+
   \tocItem \markup { "   Exercise 4-B:  Minor three-string chords" }
-  
+
   \header {
     title = "Exercise 4-B"
     subtitle = "Minor three-string chords"
     subsubtitle = "i - v - i"
   }
-  
+
   \paper {
     markup-system-spacing.basic-distance = #21
     system-system-spacing.basic-distance = #16
   }
-  
+
   \score {
-    
+
     \layout {
       \omit Voice.StringNumber
       indent = 0.0\cm
     }
-    
+
     \new StaffGroup <<
-      
+
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
         \threeStringChordsTwo
       >>
-        
+
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
         \threeStringChordsTwoTab
       >>
     >>
-    
+
   }
 }
 
 \bookpart {
-  
+
   \tocItem \markup { "   Exercise 4-C:  Diminished three-string chords" }
-  
+
   \header {
     title = "Exercise 4-C"
     subtitle = "Diminished three-string chords"
     subsubtitle = "i° - ♭v° - i°"
   }
-  
+
   \paper {
     markup-system-spacing.basic-distance = #21
     system-system-spacing.basic-distance = #16
   }
-  
+
   \score {
-    
+
     \layout {
       \omit Voice.StringNumber
       indent = 0.0\cm
     }
-    
+
     \new StaffGroup <<
-      
+
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
         \threeStringChordsThree
       >>
-        
+
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
         \threeStringChordsThreeTab
       >>
     >>
-    
-  }
-}
 
-\bookpart {
-  
-  \tocItem \markup { "   Exercise 4-D:  Mixed three-string chords" }
-  
-  \header {
-    title = "Exercise 4-D"
-    subtitle = "Mixed three-string chords"
-    subsubtitle = "i - VI - ii° - V"
-  }
-  
-  \paper {
-    markup-system-spacing.basic-distance = #21
-    system-system-spacing.basic-distance = #14
-  }
-  
-  \score {
-    
-    \layout {
-      \omit Voice.StringNumber
-      indent = 0.0\cm
-    }
-    
-    \new StaffGroup <<
-      
-      \new Staff <<
-        \override Score.BarNumber.transparent = ##t
-        \threeStringChordsFour
-      >>
-        
-      \new TabStaff <<
-        \set TabStaff.restrainOpenStrings = ##t
-        \threeStringChordsFourTab
-      >>
-    >>
-    
   }
 }

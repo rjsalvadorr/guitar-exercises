@@ -2,9 +2,9 @@
 \language "english"
 
 \bookpart {
-  \tocItem \markup { "   Etude 5-E:  Ullamcorper Mi Posuere" }
+  \tocItem \markup { "   Etude 5-D:  Ullamcorper Mi Posuere" }
   \header {
-    title = "Etude 5-E"
+    title = "Etude 5-D"
     subtitle = "Ullamcorper Mi Posuere"
     composer = "RJ Salvador"
     opus = "Op. 6, no. 4"
@@ -14,7 +14,7 @@
     left-margin = 0.75\in
     right-margin = 0.75\in
     bottom-margin = 0.66\in
-  
+
     system-system-spacing.basic-distance = #17
   }
 
@@ -46,7 +46,7 @@
         << { <bf d'>4 <c' ef'>8 g'\2 f'\2 d'\2 } \\ { d4.\5 <c\6 ef'\3>4 r8 } >>
 
         << { c'8\3 b\3 c'\3 f'16\2 ef'\2 d'\2 c'\3 b\3 c'\3 } \\ { g,4.\6 d4\5 r8 } >>
-        
+
         << { c'4.\3 b\3 } \\ { <g, d\5>4. <g, d\5>4. } >>
 
         \break
@@ -66,14 +66,14 @@
         << { <bf d'>4 <c' ef'>8 g'\2 f'\2 d'\2 } \\ { d4.\5 <c\6 ef'\3>4 r8 } >>
 
         << { <c' ef'>8 d' c'\3 <b d' g'>4. } \\ { g,4. g,4 g,8 } >>
-        
+
         << { c'4.\3 <e' g' c''>4. } \\ { c8\5 ef\5 g\4 c4.\6 } >>
-        
+
         \bar "|."
       }
       \new TabStaff {
         \set TabStaff.restrainOpenStrings = ##t
-        
+
         \time 6/8
 
         << { <ef' g'\2>4. <ef' af'\2>4 <ef' g'\2>8 } \\ { c4.\6 c\6 } >>
@@ -91,7 +91,7 @@
         << { <bf d'>4 <c' ef'>8 g'\2 f'\2 d'\2 } \\ { d4.\5 <c\6 ef'\3>4 r8 } >>
 
         << { c'8\3 b\3 c'\3 f'16\2 ef'\2 d'\2 c'\3 b\3 c'\3 } \\ { g,4.\6 d4\5 r8 } >>
-        
+
         << { c'4.\3 b\3 } \\ { <g, d\5>4. <g, d\5>4. } >>
 
         \break
@@ -111,9 +111,9 @@
         << { <bf d'>4 <c' ef'>8 g'\2 f'\2 d'\2 } \\ { d4.\5 <c\6 ef'\3>4 r8 } >>
 
         << { <c' ef'>8 d' c'\3 <b d' g'>4. } \\ { g,4. g,4 g,8 } >>
-        
+
         << { c'4.\3 <e' g' c''>4. } \\ { c8\5 ef\5 g\4 c4.\6 } >>
-        
+
         \bar "|."
       }
     >>
