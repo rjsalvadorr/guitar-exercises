@@ -2,20 +2,21 @@
 \language "english"
 
 \bookpart {
-  \tocItem \markup { "   Example 1-D:  Classical Clone" }
+  \tocItem \markup { "   Étude 1:  Classical Clone" }
   \header {
-    title = "Example 1-D"
+    title = "Étude 1"
     subtitle = "Classical Clone"
     composer = "RJ Salvador"
     opus = "Op. 6, no. 1"
   }
   \paper {
+    #(set-paper-size "letter")
     top-margin = 0.66\in
     left-margin = 0.75\in
     right-margin = 0.75\in
-    bottom-margin = 0.66\in
+    bottom-margin = 0.5\in
   
-    system-system-spacing.basic-distance = #16
+    system-system-spacing.basic-distance = #20
   }
   \score {
     \header {

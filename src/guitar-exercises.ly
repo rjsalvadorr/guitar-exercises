@@ -16,6 +16,8 @@
   tagline = \markup { \abs-fontsize #12 "© RJ Salvador, 2018" }
 }
 
+#(set-default-paper-size "letter")
+
 \paper {
   #(set-paper-size "letter")
   top-margin = 0.66\in
@@ -41,9 +43,7 @@ tocSection =
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \book {
-  
   \bookpart {
-    
     \header {
       title = \markup \abs-fontsize #34 {
         \center-column {
@@ -54,7 +54,6 @@ tocSection =
       }
       subtitle = \markup { \abs-fontsize #18 \medium "Exercises for improving fluency on guitar" }
     }
-    
     \paper {
       top-markup-spacing.basic-distance = #20
       left-margin = 1.5\in
@@ -74,11 +73,10 @@ tocSection =
   }
   
   \bookpart {
-    
     \header {
       title = "PREFACE"
     }
-    
+
     \markup \abs-fontsize #12 {
       \column {
         \hspace #0
@@ -211,7 +209,6 @@ tocSection =
   }
   
   \bookpart {
-    
     \paper {
       indent = 0\mm
       print-page-number = false
@@ -234,21 +231,21 @@ tocSection =
   }
   
   \include "guitar-exercises-ch01-text.ly"
-  \include "etude-ch01.ly"
+  \include "etude-1.ly"
 
   \include "guitar-exercises-ch02-text.ly"
-  \include "etude-ch02.ly"
+  \include "etude-2.ly"
 
   \include "guitar-exercises-ch03-text.ly"
 
   \include "guitar-exercises-ch04-text.ly"
-  \include "etude-ch04.ly"
+  \include "etude-3.ly"
 
   \include "guitar-exercises-ch05-text.ly"
-  \include "etude-ch05.ly"
+  \include "etude-4.ly"
 
   \include "guitar-exercises-ch06-text.ly"
-  \include "etude-ch06.ly"
+  \include "etude-5.ly"
 
   \include "guitar-exercises-ch07-text.ly"
 

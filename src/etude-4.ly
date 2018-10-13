@@ -2,14 +2,15 @@
 \language "english"
 
 \bookpart {
-  \tocItem \markup { "   Etude 5-D:  Ullamcorper Mi Posuere" }
+  \tocItem \markup { "   Étude 4:  Ullamcorper Mi Posuere" }
   \header {
-    title = "Etude 5-D"
+    title = "Étude 4"
     subtitle = "Ullamcorper Mi Posuere"
     composer = "RJ Salvador"
     opus = "Op. 6, no. 4"
   }
   \paper {
+    #(set-paper-size "letter")
     top-margin = 0.66\in
     left-margin = 0.75\in
     right-margin = 0.75\in
@@ -19,6 +20,9 @@
   }
 
   \score {
+    \header {
+      piece = "..."
+    }
     \layout {
       #(layout-set-staff-size 21)
       \omit Voice.StringNumber

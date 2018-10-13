@@ -2,14 +2,15 @@
 \language "english"
 
 \bookpart {
-  \tocItem \markup { "   Example 2-G:  Phrygian Riffs" }
+  \tocItem \markup { "   Étude 2:  Phrygian Riffs" }
   \header {
-    title = "Example 2-G"
+    title = "Étude 2"
     subtitle = "Phrygian Riffs"
     composer = "RJ Salvador"
     opus = "Op. 6, no. 2"
   }
   \paper {
+    #(set-paper-size "letter")
     top-margin = 0.66\in
     left-margin = 0.75\in
     right-margin = 0.75\in
@@ -20,10 +21,7 @@
   }
   \score {
     \header {
-      piece = \markup \column {
-        "Feel free to play this like a metal tune,"
-        "with heavy downbeats for headbanging."
-      }
+      piece = "Play this like a metal tune, with heavy downbeats for headbanging."
     }
     \layout {
       #(layout-set-staff-size 24)

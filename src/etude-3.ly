@@ -2,14 +2,15 @@
 \language "english"
 
 \bookpart {
-  \tocItem \markup { "   Example 4-D:  Aenean Nec Suscipit" }
+  \tocItem \markup { "   Étude 3:  Aenean Nec Suscipit" }
   \header {
-    title = "Example 4-D"
+    title = "Étude 3"
     subtitle = "Aenean Nec Suscipit"
     composer = "RJ Salvador"
     opus = "Op. 6, no. 3"
   }
   \paper {
+    #(set-paper-size "letter")
     top-margin = 0.66\in
     left-margin = 0.75\in
     right-margin = 0.75\in
