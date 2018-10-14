@@ -28,8 +28,10 @@
       \omit Voice.StringNumber
       indent = 0.0\cm
     }
+    \midi {}
     \new StaffGroup <<
       \new Staff {
+        \set Staff.midiInstrument = #"acoustic guitar (nylon)"
         \clef "treble_8"
         \key d \minor
         \tempo 4 = 99
@@ -55,13 +57,13 @@
         
         \break
 
-        r1
+        << { r4 f'8\2 g'\2 f'4\2 e'\2 } \\ { d4\5 a2\4 r4 } >>
 
-        r1
+        << { f'4\2 g'\2 a'\2 bf'\2 } \\ { <d\5 a\4>2 r2 } >>
 
-        r1
+        << { r4 cs'8\3 d'\3 cs'4\3 b\3 } \\ { a,4\6 e2\5 r4 } >>
 
-        r1
+        << { <e\5 cs'>4 e8\5 f\5 g\4 a\4 bf\4 a\4 } \\ { a,2\6 r2 } >>
 
         \break
 
@@ -100,13 +102,13 @@
 
         \break
         
-        r1
+        << { r4 f'8\2 g'\2 f'4\2 e'\2 } \\ { d4\5 a2\4 r4 } >>
 
-        r1
+        << { f'4\2 g'\2 a'\2 bf'\2 } \\ { <d\5 a\4>2 r2 } >>
 
-        r1
+        << { r4 cs'8\3 d'\3 cs'4\3 b\3 } \\ { a,4\6 e2\5 r4 } >>
 
-        r1
+        << { <e\5 cs'>4 e8\5 f\5 g\4 a\4 bf\4 a\4 } \\ { a,2\6 r2 } >>
 
         \break
 

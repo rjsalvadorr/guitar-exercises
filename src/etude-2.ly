@@ -28,8 +28,10 @@
       \omit Voice.StringNumber
       indent = 0.0\cm
     }
+    \midi {}
     \new StaffGroup <<
       \new Staff {
+        \set Staff.midiInstrument = #"acoustic guitar (nylon)"
         \clef "treble_8"
         \time 4/4
         \key c \minor
