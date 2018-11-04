@@ -5,10 +5,6 @@
 \include "guitar-exercises-ch01.ly"
 \include "guitar-exercises-ch02.ly"
 \include "guitar-exercises-ch03.ly"
-\include "guitar-exercises-ch04.ly"
-\include "guitar-exercises-ch05.ly"
-\include "guitar-exercises-ch06.ly"
-\include "guitar-exercises-ch07.ly"
 
 \header {
   maintainer = "RJ Salvador"
@@ -243,6 +239,4 @@ tocSection =
   \include "guitar-exercises-ch06-text.ly"
 
   \include "guitar-exercises-ch07-text.ly"
-
-  \include "guitar-exercises-appendix.ly"
 }
