@@ -231,21 +231,16 @@ tocSection =
   }
   
   \include "guitar-exercises-ch01-text.ly"
-  \include "etude-1.ly"
 
   \include "guitar-exercises-ch02-text.ly"
-  \include "etude-2.ly"
 
   \include "guitar-exercises-ch03-text.ly"
 
   \include "guitar-exercises-ch04-text.ly"
-  \include "etude-3.ly"
 
   \include "guitar-exercises-ch05-text.ly"
-  \include "etude-4.ly"
 
   \include "guitar-exercises-ch06-text.ly"
-  \include "etude-5.ly"
 
   \include "guitar-exercises-ch07-text.ly"
 

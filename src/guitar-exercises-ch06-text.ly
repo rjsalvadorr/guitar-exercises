@@ -37,115 +37,37 @@
 }
 
 \bookpart {
-
-  \tocItem \markup { "   Exercise 6-A:  Major four-string chords" }
-
-  \header {
-    title = "Exercise 6-A"
-    subtitle = "Major four-string chords"
-    subsubtitle = "I - V - I"
-  }
-
-  \paper {
-    markup-system-spacing.basic-distance = #21
-    system-system-spacing.basic-distance = #18
-  }
-
-  \score {
-
-    \layout {
-      \omit Voice.StringNumber
-      indent = 0.0\cm
+  \markup {
+    \fill-line {
+      \center-column {
+        \hspace #0
+        \hspace #0
+        \epsfile #X #93 #"images/four-string-1.eps"
+      }
     }
-
-    \new StaffGroup <<
-
-      \new Staff <<
-        \override Score.BarNumber.transparent = ##t
-        \fourStringChordsOne
-      >>
-
-      \new TabStaff <<
-        \set TabStaff.restrainOpenStrings = ##t
-        \fourStringChordsOneTab
-      >>
-    >>
-
-  }
-}
-
-\bookpart {
-
-  \tocItem \markup { "   Exercise 6-B:  Minor four-string chords" }
-
-  \header {
-    title = "Exercise 6-B"
-    subtitle = "Minor four-string chords"
-    subsubtitle = "i - v - i"
   }
 
-  \paper {
-    markup-system-spacing.basic-distance = #21
-    system-system-spacing.basic-distance = #18
-  }
+  \pageBreak
 
-  \score {
-
-    \layout {
-      \omit Voice.StringNumber
-      indent = 0.0\cm
+  \markup {
+    \fill-line {
+      \center-column {
+        \hspace #0
+        \hspace #0
+        \epsfile #X #93 #"images/four-string-2.eps"
+        \hspace #0
+        \epsfile #X #93 #"images/legend.eps"
+      }
     }
-
-    \new StaffGroup <<
-
-      \new Staff <<
-        \override Score.BarNumber.transparent = ##t
-        \fourStringChordsTwo
-      >>
-
-      \new TabStaff <<
-        \set TabStaff.restrainOpenStrings = ##t
-        \fourStringChordsTwoTab
-      >>
-    >>
-
-  }
-}
-
-\bookpart {
-
-  \tocItem \markup { "   Exercise 6-C:  Diminished four-string chords" }
-
-  \header {
-    title = "Exercise 6-C"
-    subtitle = "Diminished four-string chords"
-    subsubtitle = "i° - ♭v° - i°"
   }
 
-  \paper {
-    markup-system-spacing.basic-distance = #21
-    system-system-spacing.basic-distance = #18
-  }
+  \pageBreak
 
-  \score {
-
-    \layout {
-      \omit Voice.StringNumber
-      indent = 0.0\cm
+  \markup {
+    \fill-line {
+      \center-column {
+        "This page is intentionally blank."
+      }
     }
-
-    \new StaffGroup <<
-
-      \new Staff <<
-        \override Score.BarNumber.transparent = ##t
-        \fourStringChordsThree
-      >>
-
-      \new TabStaff <<
-        \set TabStaff.restrainOpenStrings = ##t
-        \fourStringChordsThreeTab
-      >>
-    >>
-
   }
 }
