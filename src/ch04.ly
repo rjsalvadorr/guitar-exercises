@@ -5,25 +5,21 @@ openChordsOne = {
   \time 3/4
   \key e \major
 
-  <e, gs b>4^"E major  ( I )" e,8[ gs b gs]
+  <e, gs b>2.^"E major  ( I )"
 
-  <gs, b e'>4 gs,8 b e' b
+  <gs, b e'>2.
 
-  \break
-
-  <b, e' gs'>4 b,8 e' gs' e'
+  <b, e' gs'>2.
 
   <e, gs b>4 <gs, b e'> <b, e' gs'>
 
   \break
 
-  <b, ds' fs'>4^"B major  ( V )" b,8 ds' fs' ds'
+  <b, ds' fs'>2.^"B major  ( V )"
 
-  <ds fs' b'>4 ds8 fs' b' fs'
+  <ds fs' b'>2.
 
-  \break
-
-  <fs b' ds''>4 fs8 b' ds'' b'
+  <fs b' ds''>2.
 
   <b, ds' fs'>4 <ds fs' b'> <fs b' ds''>
 
@@ -35,22 +31,20 @@ openChordsOne = {
 openChordsOneTab = {
   \time 3/4
 
-  <e, gs b>4 e,8[ gs b gs]
+  <e, gs b>2.
 
-  <gs,\6 b\3 e'\2>4 gs,8\6 b\3 e'\2 b\3
+  <gs,\6 b\3 e'\2>2.
 
-
-  <b,\6 e'\3 gs'\2>4 b,8\6 e'\3 gs'\2 e'\3
+  <b,\6 e'\3 gs'\2>2.
 
   <e, gs b>4 <gs,\6 b\3 e'\2> <b,\6 e'\3 gs'\2>
 
 
-  <b, ds' fs'>4 b,8 ds'\2 fs' ds'\2
+  <b, ds' fs'>2.
 
-  <ds\5 fs'\2 b'\1>4 ds8\5 fs'\2 b'\1 fs'\2
+  <ds\5 fs'\2 b'\1>2.
 
-
-  <fs\5 b'\2 ds''\1>4 fs8\5 b'\2 ds''\1 b'\2
+  <fs\5 b'\2 ds''\1>2.
 
   <b, ds' fs'>4 <ds\5 fs'\2 b'\1> <fs\5 b'\2 ds''\1>
 }
@@ -60,25 +54,21 @@ openChordsTwo = {
   \time 3/4
   \key e \minor
 
-  <e, g b>4^"E minor  ( i )" e,8[ g b g]
+  <e, g b>2.^"E minor  ( i )"
 
-  <g, b e'>4 g,8 b e' b
+  <g, b e'>2.
 
-  \break
-
-  <b, e' g'>4 b,8 e' g' e'
+  <b, e' g'>2.
 
   <e, g b>4 <g, b e'> <b, e' g'>
 
   \break
 
-  <b, d' fs'>4^"B minor  ( v )" b,8 d' fs' d'
+  <b, d' fs'>2.^"B minor  ( v )"
 
-  <d fs' b'>4 d8 fs' b' fs'
+  <d fs' b'>2.
 
-  \break
-
-  <fs b' d''>4 fs8 b' d'' b'
+  <fs b' d''>2.
 
   <b, d' fs'>4 <d fs' b'> <fs b' d''>
 
@@ -90,22 +80,20 @@ openChordsTwo = {
 openChordsTwoTab = {
   \time 3/4
 
-  <e, g b>4 e,8[ g b g]
+  <e, g b>2.
 
-  <g,\6 b\3 e'\2>4 g,8\6 b\3 e'\2 b\3
+  <g,\6 b\3 e'\2>2.
 
-
-  <b,\6 e'\3 g'\2>4 b,8\6 e'\3 g'\2 e'\3
+  <b,\6 e'\3 g'\2>2.
 
   <e, g b>4 <g,\6 b\3 e'\2> <b,\6 e'\3 g'\2>
 
 
-  <b, d' fs'>4 b,8 d'\2 fs' d'\2
+  <b, d' fs'>2.
 
-  <d\5 fs'\2 b'\1>4 d8\5 fs'\2 b'\1 fs'\2
+  <d\5 fs'\2 b'\1>2.
 
-
-  <fs\5 b'\2 d''\1>4 fs8\5 b'\2 d''\1 b'\2
+  <fs\5 b'\2 d''\1>2.
 
   <b, d' fs'>4 <d\5 fs'\2 b'\1> <fs\5 b'\2 d''\1>
 }
@@ -115,25 +103,21 @@ openChordsThree = {
   \time 3/4
   \key f \locrian
 
-  <f, af cf'>4^"F diminished  ( i° )" f,8[ af cf' af]
+  <f, af cf'>2.^"F diminished  ( i° )"
 
-  <af, cf' f'>4 af,8 cf' f' cf'
+  <af, cf' f'>2.
 
-  \break
-
-  <cf f' af'>4 cf8 f' af' f'
+  <cf f' af'>2.
 
   <f, af cf'>4 <af, cf' f'> <cf f' af'>
 
   \break
 
-  <b, d' f'>4^"B diminished  ( ♯iv° )" b,8 d' f' d'
+  <b, d' f'>2.^"B diminished  ( ♯iv° )"
 
-  <d f' b'>4 d8 f' b' f'
+  <d f' b'>2.
 
-  \break
-
-  <f b' d''>4 f8 b' d'' b'
+  <f b' d''>2.
 
   <b, d' f'>4 <d f' b'> <f b' d''>
 
@@ -145,22 +129,20 @@ openChordsThree = {
 openChordsThreeTab = {
   \time 3/4
 
-  <f, af cf'>4 f,8[ af cf' af]
+  <f, af cf'>2.
 
-  <af,\6 cf'\3 f'\2>4 af,8\6 cf'\3 f'\2 cf'\3
+  <af,\6 cf'\3 f'\2>2.
 
-
-  <cf\6 f'\3 af'\2>4 cf8\6 f'\3 af'\2 f'\3
+  <cf\6 f'\3 af'\2>2.
 
   <f, af cf'>4 <af,\6 cf'\3 f'\2> <cf\6 f'\3 af'\2>
 
 
-  <b, d' f'>4 b,8 d'\2 f' d'\2
+  <b, d' f'>2.
 
-  <d\5 f'\2 b'\1>4 d8\5 f'\2 b'\1 f'\2
+  <d\5 f'\2 b'\1>2.
 
-
-  <f\5 b'\2 d''\1>4 f8\5 b'\2 d''\1 b'\2
+  <f\5 b'\2 d''\1>2.
 
   <b, d' f'>4 <d\5 f'\2 b'\1> <f\5 b'\2 d''\1>
 }
