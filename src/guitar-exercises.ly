@@ -2,9 +2,14 @@
 \language "english"
 
 \include "config.ly"
+
+\include "variations-intro.ly"
 \include "ch01.ly"
 \include "ch02.ly"
-\include "variations-intro.ly"
+\include "ch03.ly"
+\include "ch04.ly"
+\include "ch05.ly"
+\include "ch06.ly"
 
 \header {
   maintainer = "RJ Salvador"
@@ -232,11 +237,23 @@ tocSection =
 
   \include "ch02-text.ly"
 
+
+
+  \include "ch03-text.ly"
+
   \include "ch04-text.ly"
 
   \include "ch05-text.ly"
 
   \include "ch06-text.ly"
 
-  \include "ch07-text.ly"
+
+
+  \include "ref01-text.ly"
+
+  \include "ref02-text.ly"
+
+  \include "ref03-text.ly"
+
+  \include "ref04-text.ly"
 }

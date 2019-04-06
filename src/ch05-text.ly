@@ -1,10 +1,10 @@
 \bookpart {
 
-  \tocItem \markup { \bold "Chapter 5 - Open chord voicings" }
+  \tocItem \markup \bold { "Chapter 5 - Four-string chord patterns" }
 
   \header {
     title = "CHAPTER 5"
-    subtitle = "OPEN CHORD VOICINGS"
+    subtitle = "FOUR-STRING CHORD PATTERNS"
   }
 
   \paper {
@@ -18,12 +18,17 @@
       \hspace #0
       \hspace #0
       \wordwrap \abs-fontsize #13 {
-        Classical and jazz guitarists are known for playing chords with plenty of space between the notes. These are usually played fingerstyle with the right hand. The thumb would hit the bass string, and the index, middle, or ring fingers would strike the upper strings.
+        Four-string chord patterns are...
       }
       \hspace #0
       \hspace #0
       \wordwrap \abs-fontsize #13 {
-        Learning these voicings should give you the skills for playing on two areas of the fretboard at the same time. With enough practice, you can easily play a distinct bassline with a melody (plus accompaniment) all by yourself.
+        ...
+      }
+      \hspace #0
+      \hspace #0
+      \wordwrap \abs-fontsize #13 {
+        ...
       }
       \hspace #0
       \hspace #0
@@ -32,37 +37,115 @@
 }
 
 \bookpart {
-  \markup {
-    \fill-line {
-      \center-column {
-        \hspace #0
-        \hspace #0
-        \epsfile #X #93 #"images/five-string-1.eps"
-      }
-    }
+
+  \tocItem \markup { "   Exercise 5-A:  Major four-string chords" }
+
+  \header {
+    title = "Exercise 5-A"
+    subtitle = "Major four-string chords"
+    subsubtitle = "I - V - I"
   }
 
-  \pageBreak
-
-  \markup {
-    \fill-line {
-      \center-column {
-        \hspace #0
-        \hspace #0
-        \epsfile #X #93 #"images/five-string-2.eps"
-        \hspace #0
-        \epsfile #X #93 #"images/legend.eps"
-      }
-    }
+  \paper {
+    markup-system-spacing.basic-distance = #21
+    system-system-spacing.basic-distance = #18
   }
 
-  \pageBreak
+  \score {
 
-  \markup {
-    \fill-line {
-      \center-column {
-        "This page is intentionally blank."
-      }
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
     }
+
+    \new StaffGroup <<
+
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \fourStringChordsOne
+      >>
+
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \fourStringChordsOneTab
+      >>
+    >>
+
+  }
+}
+
+\bookpart {
+
+  \tocItem \markup { "   Exercise 5-B:  Minor four-string chords" }
+
+  \header {
+    title = "Exercise 5-B"
+    subtitle = "Minor four-string chords"
+    subsubtitle = "i - v - i"
+  }
+
+  \paper {
+    markup-system-spacing.basic-distance = #21
+    system-system-spacing.basic-distance = #18
+  }
+
+  \score {
+
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+
+    \new StaffGroup <<
+
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \fourStringChordsTwo
+      >>
+
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \fourStringChordsTwoTab
+      >>
+    >>
+
+  }
+}
+
+\bookpart {
+
+  \tocItem \markup { "   Exercise 5-C:  Diminished four-string chords" }
+
+  \header {
+    title = "Exercise 5-C"
+    subtitle = "Diminished four-string chords"
+    subsubtitle = "i° - ♭v° - i°"
+  }
+
+  \paper {
+    markup-system-spacing.basic-distance = #21
+    system-system-spacing.basic-distance = #18
+  }
+
+  \score {
+
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+
+    \new StaffGroup <<
+
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \fourStringChordsThree
+      >>
+
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \fourStringChordsThreeTab
+      >>
+    >>
+
   }
 }

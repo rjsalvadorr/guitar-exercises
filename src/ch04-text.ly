@@ -1,15 +1,14 @@
 \bookpart {
 
-  \tocSection \markup { Part 3: Chord voicing reference }
-  \tocItem \markup \bold { Chapter 4 - Three-string chord voicings }
+  \tocItem \markup { \bold "Chapter 4 - Open chord patterns" }
 
   \header {
     title = "CHAPTER 4"
-    subtitle = "THREE-STRING CHORD VOICINGS"
+    subtitle = "OPEN CHORD PATTERNS"
   }
 
   \paper {
-    top-markup-spacing.basic-distance = #8
+    top-markup-spacing.basic-distance = #10
     left-margin = 1.25\in
     right-margin = 1.25\in
   }
@@ -19,86 +18,126 @@
       \hspace #0
       \hspace #0
       \wordwrap \abs-fontsize #13 {
-        Three-string voicings are a great way to add some harmony
-        to a melodic passage. Technically, they're also pretty
-        efficient. Your fretting hand can form these chord shapes
-        quickly, and you can move through most chords while barely
-        moving your hand around the neck.
+        Classical and jazz guitarists are known for playing chords with plenty of space between the notes. These are usually played fingerstyle with the right hand. The thumb would hit the bass string, and the index, middle, or ring fingers would strike the upper strings.
       }
       \hspace #0
       \hspace #0
       \wordwrap \abs-fontsize #13 {
-        Learning these chord shapes can give your solos a fuller
-        sound by supporting the melody with harmony. They also make
-        it easier to transition between melodic and rhythmic
-        playing.
+        Learning these voicings should give you the skills for playing on two areas of the fretboard at the same time. With enough practice, you can easily play a distinct bassline with a melody (plus accompaniment) all by yourself.
       }
       \hspace #0
       \hspace #0
-      \hspace #0
-      \huge \bold "Exercise Format"
-      \hspace #0
-      \wordwrap \abs-fontsize #13 {
-        Each exercise shows how to play one chord type through the
-        upper, middle, and lower strings. Every given chord is
-        played in different inversions:
-      }
-      \hspace #0
-      "- root note on top"
-      "- 3rd on top"
-      "- 5th on top"
-      \hspace #0
-      \wordwrap \abs-fontsize #13 {
-        The exercises don't have any chords written on the bottom
-        three strings. Those were left out because chord patterns
-        using the 5th, 4th, and 3rd strings (or A, D, and G) can be
-        used on the three bottom strings as well.
-      }
-      \hspace #0
-      \hspace #0
-      \hspace #0
-      \huge \bold "Suggestions"
-      \hspace #0
-      \wordwrap \abs-fontsize #13 {
-        Try to make melodies with these chords, paying attention to
-        the note at the top of each chord.
-      }
     }
   }
 }
 
 \bookpart {
-  \markup {
-    \fill-line {
-      \center-column {
-        \hspace #0
-        \hspace #0
-        \epsfile #X #93 #"images/three-string-1.eps"
-      }
-    }
+
+  \tocItem \markup { "   Exercise 4-A:  Major open chords" }
+
+  \paper {
+    markup-system-spacing.basic-distance = #20
+    system-system-spacing.basic-distance = #15
   }
 
-  \pageBreak
-
-  \markup {
-    \fill-line {
-      \center-column {
-        \hspace #0
-        \hspace #0
-        \epsfile #X #93 #"images/three-string-2.eps"
-        \hspace #0
-        \epsfile #X #93 #"images/legend.eps"
-      }
-    }
+  \header {
+    title = "Exercise 4-A"
+    subtitle = "Major open chords"
+    subsubtitle = "I - V"
   }
 
-  \pageBreak
+  \score {
 
-  \markup {
-    \fill-line {
-      \center-column {
-        "This page is intentionally blank."
-      }
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
     }
+
+    \new StaffGroup <<
+
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \openChordsOne
+      >>
+
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \openChordsOneTab
+      >>
+    >>
+  }
+}
+
+\bookpart {
+
+  \tocItem \markup { "   Exercise 4-B:  Minor open chords" }
+
+  \header {
+    title = "Exercise 4-B"
+    subtitle = "Minor open chords"
+    subsubtitle = "i -v"
+  }
+
+  \paper {
+    markup-system-spacing.basic-distance = #20
+    system-system-spacing.basic-distance = #15
+  }
+
+  \score {
+
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+
+    }
+    \new StaffGroup <<
+
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \openChordsTwo
+      >>
+
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \openChordsTwoTab
+      >>
+    >>
+  }
+}
+
+\bookpart {
+
+  \tocItem \markup { "   Exercise 4-C:  Diminished open chords" }
+
+  \header {
+    title = "Exercise 4-C"
+    subtitle = "Diminished open chords"
+    subsubtitle = "i° - ♯iv°"
+  }
+
+  \paper {
+    markup-system-spacing.basic-distance = #20
+    system-system-spacing.basic-distance = #15
+  }
+
+  \score {
+
+    \layout {
+      \omit Voice.StringNumber
+      indent = 0.0\cm
+    }
+
+    \new StaffGroup <<
+
+      \new Staff <<
+        \override Score.BarNumber.transparent = ##t
+        \openChordsThree
+      >>
+
+      \new TabStaff <<
+        \set TabStaff.restrainOpenStrings = ##t
+        \openChordsThreeTab
+      >>
+    >>
   }
 }
