@@ -1,6 +1,6 @@
 \bookpart {
 
-  \tocSection \markup { Part 2: Chord Patterns & Voicings }
+  \tocSection \markup { Part 3: Chord voicing reference }
   \tocItem \markup \bold { Chapter 4 - Three-string chord voicings }
 
   \header {

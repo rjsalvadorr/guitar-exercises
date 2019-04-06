@@ -2,9 +2,9 @@
 \language "english"
 
 \include "config.ly"
-\include "guitar-exercises-ch01.ly"
-\include "guitar-exercises-ch02.ly"
-\include "guitar-exercises-ch03.ly"
+\include "ch01.ly"
+\include "ch02.ly"
+\include "variations-intro.ly"
 
 \header {
   maintainer = "RJ Salvador"
@@ -225,18 +225,18 @@ tocSection =
   
     \markuplist \table-of-contents
   }
+
+  \include "variations-intro-text.ly"
   
-  \include "guitar-exercises-ch01-text.ly"
+  \include "ch01-text.ly"
 
-  \include "guitar-exercises-ch02-text.ly"
+  \include "ch02-text.ly"
 
-  \include "guitar-exercises-ch03-text.ly"
+  \include "ch04-text.ly"
 
-  \include "guitar-exercises-ch04-text.ly"
+  \include "ch05-text.ly"
 
-  \include "guitar-exercises-ch05-text.ly"
+  \include "ch06-text.ly"
 
-  \include "guitar-exercises-ch06-text.ly"
-
-  \include "guitar-exercises-ch07-text.ly"
+  \include "ch07-text.ly"
 }

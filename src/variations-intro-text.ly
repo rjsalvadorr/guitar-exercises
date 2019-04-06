@@ -1,10 +1,10 @@
 \bookpart {
   
-  \tocItem \markup \bold { Chapter 3 - Scale & Arpeggio Variations }
+  \tocSection \markup { Part 1: Scales & Arpeggios }
+  \tocItem \markup \bold { Scale & Arpeggio Variations }
   
   \header {
-    title = "CHAPTER 3"
-    subtitle = "SCALE & ARPEGGIO VARIATIONS"
+    title = "SCALE & ARPEGGIO VARIATIONS"
   }
   
   \paper {
@@ -18,7 +18,7 @@
       \hspace #0
       \hspace #0
       \wordwrap \abs-fontsize #13 {
-        Together, scales and arpeggios form the backbone of a serious guitarist's practice regimen. But they suffer from a serious drawback. They can become real boring when practiced the same way over and over again.
+        Together, scales and arpeggios form the backbone of a guitarist's serious practice regimen. But they suffer from a serious drawback. They can become real boring when practiced the same way over and over again.
       }
       \hspace #0
       \hspace #0
@@ -33,11 +33,10 @@
 
 \bookpart {
   
-  \tocItem \markup { "   Exercise 3-A:  Exercise variations" }
+  \tocItem \markup { "   Exercise variations" }
   
   \header {
-    title = "Exercise 3-A"
-    subtitle = "Exercise variations"
+    title = "Exercise variations"
   }
 
   \markup {
@@ -79,7 +78,7 @@
     \column {
       \wordwrap \abs-fontsize #12 {
         There are many ways to play as you practice.
-        I heavily encourage you to make your own variations based on these.
+        In my opinion, every guitarist should make up their own scale variations.
       }
     }
   }

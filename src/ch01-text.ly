@@ -1,6 +1,5 @@
 \bookpart {
   
-  \tocSection \markup { Part 1: Scales & Arpeggios }
   \tocItem \markup \bold { Chapter 1 - Arpeggios }
   
   \header {
