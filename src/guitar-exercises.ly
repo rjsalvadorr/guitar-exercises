@@ -25,6 +25,7 @@
   left-margin = 0.75\in
   right-margin = 0.75\in
   bottom-margin = 0.66\in
+  ragged-right = ##f
 
   tocSectionMarkup = \markup \large \column {
     \hspace #1
