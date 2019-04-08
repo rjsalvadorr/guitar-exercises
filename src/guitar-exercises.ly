@@ -247,14 +247,4 @@ tocSection =
   \include "ch05-text.ly"
 
   \include "ch06-text.ly"
-
-
-
-  \include "ref01-text.ly"
-
-  \include "ref02-text.ly"
-
-  \include "ref03-text.ly"
-
-  \include "ref04-text.ly"
 }
