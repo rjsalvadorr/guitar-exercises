@@ -2,9 +2,14 @@
 \language "english"
 
 \include "config.ly"
+
+\include "variations-intro.ly"
 \include "ch01.ly"
 \include "ch02.ly"
-\include "variations-intro.ly"
+\include "ch03.ly"
+\include "ch04.ly"
+\include "ch05.ly"
+\include "ch06.ly"
 
 \header {
   maintainer = "RJ Salvador"
@@ -20,6 +25,7 @@
   left-margin = 0.75\in
   right-margin = 0.75\in
   bottom-margin = 0.66\in
+  ragged-right = ##f
 
   tocSectionMarkup = \markup \large \column {
     \hspace #1
@@ -232,11 +238,13 @@ tocSection =
 
   \include "ch02-text.ly"
 
+
+
+  \include "ch03-text.ly"
+
   \include "ch04-text.ly"
 
   \include "ch05-text.ly"
 
   \include "ch06-text.ly"
-
-  \include "ch07-text.ly"
 }
