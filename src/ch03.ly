@@ -5,13 +5,25 @@ threeStringChordsOne = {
   \time 3/4
   \key g \major
 
-  <b d' g'>2.^"G major  ( I )"
+  <b d' g'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;3-4;2-3;1-3;"
+  }^"G major  ( I )"
 
-  <d' g' b'>2.
+  <d' g' b'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;3-7;2-8;1-7;"
+  }
 
-  <g' b' d''>2.
+  <g' b' d''>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;3-10;2-12;1-12;"
+  }
 
-  <b d' g'>4 <d' g' b'> <g' b' d''>\break
+  <b d' g'>4
+  
+  <d' g' b'>
+  
+  <g' b' d''>
+  
+  \break
 
 
   <fs a d'>2.^"D major  ( V )"
