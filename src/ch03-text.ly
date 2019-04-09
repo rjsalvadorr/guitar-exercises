@@ -83,18 +83,15 @@
   }
 
   \score {
-
     \layout {
       \omit Voice.StringNumber
       indent = 0.0\cm
     }
-
     \new StaffGroup <<
       \new Staff <<
         \override Score.BarNumber.transparent = ##t
         \threeStringChordsOne
       >>
-
       \new TabStaff <<
         \set TabStaff.restrainOpenStrings = ##t
         \threeStringChordsOneTab

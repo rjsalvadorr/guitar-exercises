@@ -7,7 +7,7 @@ threeStringChordsOne = {
 
   <b d' g'>2.^\markup {
     \fret-diagram #"s:1.5;d:0.3;3-4;2-3;1-3;"
-  }^"G major  ( I )"
+  }^"G"
 
   <d' g' b'>2.^\markup {
     \fret-diagram #"s:1.5;d:0.3;3-7;2-8;1-7;"
@@ -17,29 +17,37 @@ threeStringChordsOne = {
     \fret-diagram #"s:1.5;d:0.3;3-10;2-12;1-12;"
   }
 
-  <b d' g'>4
-  
-  <d' g' b'>
-  
-  <g' b' d''>
+  <b d' g'>4 <d' g' b'> <g' b' d''>
   
   \break
 
 
-  <fs a d'>2.^"D major  ( V )"
+  <fs a d'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;4-3;3-4;2-3;"
+  }^"D"
 
-  <a d' fs'>2.
+  <a d' fs'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;4-3;3-4;2-3;"
+  }
 
-  <d' fs' a'>2.
+  <d' fs' a'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;4-3;3-4;2-3;"
+  }
 
   <fs a d'>4 <a d' fs'> <d' fs' a'>\break
 
 
-  <b, d g>2.^"G major  ( I )"
+  <b, d g>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;5-4;4-3;3-3;"
+  }^"G"
 
-  <d g b>2.
+  <d g b>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;5-4;4-3;3-3;"
+  }
 
-  <g b d'>2.
+  <g b d'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;5-4;4-3;3-3;"
+  }
 
   <b, d g>4 <d g b> <g b d'> \break
 
@@ -82,29 +90,47 @@ threeStringChordsTwo = {
   \time 3/4
   \key g \minor
 
-  <bf d' g'>2.^"G minor  ( i )"
+  <bf d' g'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;3-4;2-3;1-3;"
+  }^"Gm"
 
-  <d' g' bf'>2.
+  <d' g' bf'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;3-4;2-3;1-3;"
+  }
 
-  <g' bf' d''>2.
+  <g' bf' d''>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;3-4;2-3;1-3;"
+  }
 
   <bf d' g'>4 <d' g' bf'> <g' bf' d''> \break
 
 
-  <f a d'>2.^"D minor  ( v )"
+  <f a d'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;4-3;3-4;2-3;"
+  }^"Dm"
 
-  <a d' f'>2.
+  <a d' f'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;4-3;3-4;2-3;"
+  }
 
-  <d' f' a'>2.
+  <d' f' a'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;4-3;3-4;2-3;"
+  }
 
   <f a d'>4 <a d' f'> <d' f' a'> \break
 
 
-  <bf, d g>2.^"G minor  ( i )"
+  <bf, d g>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;5-4;4-3;3-3;"
+  }^"Gm"
 
-  <d g bf>2.
+  <d g bf>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;5-4;4-3;3-3;"
+  }
 
-  <g bf d'>2.
+  <g bf d'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;5-4;4-3;3-3;"
+  }
 
   <bf, d g>4 <d g bf> <g bf d'> \break
 
@@ -147,29 +173,47 @@ threeStringChordsThree = {
   \time 3/4
   \key gs \locrian
 
-  <b d' gs'>2.^"G♯ diminished  ( i° )"
+  <b d' gs'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;3-4;2-3;1-3;"
+  }^"G♯°"
 
-  <d' gs' b'>2.
+  <d' gs' b'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;3-4;2-3;1-3;"
+  }
 
-  <gs' b' d''>2.
+  <gs' b' d''>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;3-4;2-3;1-3;"
+  }
 
   <b d' gs'>4 <d' gs' b'> <gs' b' d''> \break
 
 
-  <f af d'>2.^"D diminished  ( ♭v° )"
+  <f af d'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;4-3;3-4;2-3;"
+  }^"D°"
 
-  <af d' f'>2.
+  <af d' f'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;4-3;3-4;2-3;"
+  }
 
-  <d' f' af'>2.
+  <d' f' af'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;4-3;3-4;2-3;"
+  }
 
   <f af d'>4 <af d' f'> <d' f' af'> \break
 
 
-  <b, d gs>2.^"G♯ diminished  ( i° )"
+  <b, d gs>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;5-4;4-3;3-3;"
+  }^"G♯°"
 
-  <d gs b>2.
+  <d gs b>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;5-4;4-3;3-3;"
+  }
 
-  <gs b d'>2.
+  <gs b d'>2.^\markup {
+    \fret-diagram #"s:1.5;d:0.3;5-4;4-3;3-3;"
+  }
 
   <b, d gs>4 <d gs b> <gs b d'> \break
 
